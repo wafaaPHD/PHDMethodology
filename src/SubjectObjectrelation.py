@@ -1,4 +1,4 @@
-﻿import spacy
+import spacy
 import re
 import wordninja
 import numpy as np
@@ -845,7 +845,7 @@ def SubjectObjectrelation__(tokens):
                             relation = ''
                             relIndex=[]
     return trible,rtoken1
-def SubjectObjectrelation(tokens):
+def SubjectObjectrelationOLd(tokens):
     #SUBJECTS = ["subj","nsubj", "nsubjpass", "csubj", "csubjpass", "agent", "expl"]
     #OBJECTS = ["dobj", "dative", "attr", "oprd","pobj","appos","nummod"]
     #ADJECTIVES = ['prep',"acomp", "advcl", "advmod", "amod", "nn", "nmod", "ccomp","complm", "adj","agent",
@@ -856,8 +856,8 @@ def SubjectObjectrelation(tokens):
     OBJECTS = ["dobj", "dative", "attr", "oprd","pobj","appos","nummod","compound","npadvmod","advmod","mod"]
     ADJECTIVES = ["ROOT",'prep',"acomp", "advcl",  "amod", "nn", "nmod", "ccomp","complm", "adj","agent",
                   "ccomp","advcl","relcl","hmod", "infmod", "xcomp", "rcmod", "poss","possessive","aux","neg"]#"compound","npadvmod","advmod","mod"
-    tagRelation=["VBD","VB","VBG","VBN","VBP","VBZ","MD"]
-    tagsubject=["WP","VBD","IN","WDT","WP$","WRB","VBD","VB","VBG","VBN","VBP","VBZ","DT","RB","JJ"]
+    tagRelation=["VBD","VB","VBG","VBN","VBP","VBZ","MD","RB","JJ","JJR","JJS","RBR","RBS","RP"]
+    tagsubject=["WP","VBD","IN","WDT","WP$","WRB","VBD","VB","VBG","VBN","VBP","VBZ","DT","RB","JJ","JJR","JJS","RBR","RBS","RP"]
     subject = ''
     object = ''
     relation = ''
@@ -867,9 +867,13 @@ def SubjectObjectrelation(tokens):
     subjectindex=[]
     objectindex=[]
     relIndex=[]
-    #subjectflage=False
+    subjectflageMain=False
+    mainsubject=''
+    mainsubjectindex=[]
+    mainrelation=''
+    mainrelationindex=[]
     for token in tokens:
-        #subjectflage=False
+        
         object = ''
         objectindex=[]
         rtoken=[]
@@ -883,10 +887,10 @@ def SubjectObjectrelation(tokens):
                       if (subject.lower().split(' _ ')[-1]!=token.lower_) and (token.lower_ not in subject.lower().split(' _ ')): 
                         start = token.i
                         end = token.i + 1
-                        #if(subjectflage):
-                        #    subject=appendSOChunk("", token.text)
-                        #else:                            
-                        subject=appendSOChunk(subject, token.text)
+                        if(subjectflageMain):
+                           subject=appendSOChunk("", token.text)
+                        else:                            
+                            subject=appendSOChunk(subject, token.text)
                         if token.conjuncts:
                             conjuncts = token.conjuncts             # tuple of conjuncts
                             for conj in conjuncts:
@@ -896,6 +900,12 @@ def SubjectObjectrelation(tokens):
                                     end=spanconj.i+1
            
                         subjectindex.append((start,end))
+                      else:                          
+                          if(subjectflageMain):
+                           start = token.i
+                           end = token.i + 1
+                           subject=appendSOChunk("", token.text)
+                           subjectindex.append((start,end))
                         
         if(token.dep_ in OBJECTS and token.tag_ not in tagsubject) or (token.pos_ in ["NOUN","PRON","PROPN"] and token.tag_ not in tagsubject and token.dep_ in OBJECTS):#or (xtoken.ent_type_ in ['PERCENT','CARDINAL'])
                         if(subject==""):
@@ -918,6 +928,7 @@ def SubjectObjectrelation(tokens):
            
                             subjectindex.append((start,end))
                              
+
         #Relation
         if (token.dep_ in ADJECTIVES or token.pos_ in ["VERB","ADP","ADV","PART","AUX"] or token.tag_ in tagRelation):#and token.ent_type_ not in ['PERCENT','CARDINAL']
                        if'prep' in token.dep_ or token.pos_ in ["VERB","ADP","ADV","PART","AUX"]:
@@ -964,8 +975,8 @@ def SubjectObjectrelation(tokens):
                                 relIndex.append(token.i)
                        else:
                                 relation = appendChunktoken(relation, token.text) 
-                                relIndex.append(token.i)
-                     
+                                relIndex.append(token.i)                     
+
         subtree = list(token.subtree)
         flagestree=False
         flagestree2=False
@@ -981,74 +992,52 @@ def SubjectObjectrelation(tokens):
            #if(flagestree2):  
            #    break
         
-        if(flagestree or flagestree2):
+        if(flagestree and flagestree2):
+          mainsubject=subject
+          mainsubjectindex=subjectindex
+          mainrelation=relation
+          mainrelationindex=relIndex
+          
         #if(flagestree2):
-          for xtoken in subtree:
-                    #if(xtoken.dep_ in OBJECTS and xtoken.tag_ not in tagsubject) or (xtoken.pos_ in ["NOUN","PRON","PROPN"] and xtoken.tag_ not in tagsubject and xtoken.dep_ in OBJECTS):#or (xtoken.ent_type_ in ['PERCENT','CARDINAL'])
-                    if(xtoken.dep_ in OBJECTS) or (xtoken.pos_ in ["NOUN","PRON","PROPN"] and xtoken.dep_ in OBJECTS):#or (xtoken.ent_type_ in ['PERCENT','CARDINAL'])
-                        if (object!=xtoken.text and subject!=xtoken.text and xtoken.text not in object.split()):
-                         if(xtoken.text in subject.split(' _ ')):
-                                subjectlist =subject.split(' _ ')
-                                if(len(subjectlist)>0):
-                                    objectindex=subjectlist.index(xtoken.text)
-                                    subjectindexobject=subjectindex[objectindex]
-                                    subjectindex.remove(subjectindexobject)
-                                    subject=subject.replace(xtoken.text+' _ ','')
-                         if(xtoken.text in relation.split()):
-                                relationlist =relation.replace(',','').split()
-                                if(len(relationlist)>0):
-                                    #relationindex=relationlist.index(xtoken.text)
-                                    #relationindexobject=relIndex[relationindex]
-                                    relIndex.remove(xtoken.i)
-                                    relation=relation.replace(xtoken.text,'')
-                         object = appendSOChunk(object, xtoken.text)
-                         start=xtoken.i
-                         end=xtoken.i+1
-                         if xtoken.conjuncts:
-                            conjuncts = xtoken.conjuncts             # tuple of conjuncts
-                            for conj in conjuncts:
-                                if(conj.tag_ not in tagsubject):
-                                    spanconj = conj
-                                    object = appendSOChunk(object, spanconj.text)
-                                    end=spanconj.i+1
-                         objectindex=(start,end) 
-          if((subject.strip() !='' and relation.strip() !='' and object.strip() !='') and (subject.strip() != object.strip())):
+           
+          # if((subject.strip() !='' and relation.strip() !='' and object.strip() !='') and (subject.strip() != object.strip())):
                         
-                        if ((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex) not in trible):
-                          bflage=True
-                          for x in trible:
-                              if(subject.strip() in x[0] and relation.strip()  in x[1] and object.strip()  in x[2]):
-                                  bflage=False
-                          if(bflage):
-                            trible.append((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex))
-                            print (subject.strip(), "/", relation.strip(), "/", object.strip())
-                            start=np.min(relIndex)
-                            end=np.max(relIndex)
-                            if(subjectindex[0][0]<start):
-                                start=subjectindex[0][0]
-                            if(objectindex[1]>end):
-                                 end=objectindex[1]
-                            end=start+100
-                            if(end>len(tokens)):
-                                end=len(tokens)-1
-                            start=0
-                            end=len(tokens)
-                            rtoken=[token.text for token in tokens[start:end]]
-                            rtoken1.append(rtoken)
-                            object = ''
-                            objectindex=[]
-                            rtoken=[]
-                            relation = ''
-                            relIndex=[]
-                            subject=''
-                            subjectindex=[]
+          #               if ((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex) not in trible):
+          #                 bflage=True
+          #                 for x in trible:
+          #                     if(subject.strip() in x[0] and relation.strip()  in x[1] and object.strip()  in x[2]):
+          #                         bflage=False
+          #                 if(bflage):
+          #                   trible.append((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex))
+          #                   print (subject.strip(), "/", relation.strip(), "/", object.strip())
+          #                   start=np.min(relIndex)
+          #                   end=np.max(relIndex)
+          #                   if(subjectindex[0][0]<start):
+          #                       start=subjectindex[0][0]
+          #                   if(objectindex[1]>end):
+          #                        end=objectindex[1]
+          #                   end=start+100
+          #                   if(end>len(tokens)):
+          #                       end=len(tokens)-1
+          #                   start=0
+          #                   end=len(tokens)
+          #                   rtoken=[token.text for token in tokens[start:end]]
+          #                   rtoken1.append(rtoken)
+          #                   object = ''
+          #                   objectindex=[]
+          #                   rtoken=[]
+          #                   relation = ''
+          #                   relIndex=[]
+          #                   # subject=''
+          #                   # subjectindex=[]
+          #                   subjectflageMain=True                        
                          
-                        else:
-                            object = ''
-                            objectindex=[]
-                            rtoken=[]
-                            relation = ''
-                            relIndex=[]
+          #               else:
+          #                   object = ''
+          #                   objectindex=[]
+          #                   rtoken=[]
+          #                   relation = ''
+          #                   relIndex=[]
           subjectflage=False
           for xtoken in subtree:
               #object
@@ -1085,7 +1074,7 @@ def SubjectObjectrelation(tokens):
                       if (subject.lower().split(' _ ')[-1]!=xtoken.lower_) and (xtoken.lower_ not in subject.lower().split(' _ ')): 
                         start = xtoken.i
                         end = xtoken.i + 1
-                        if(subjectflage):
+                        if(subjectflage or subjectflageMain):
                             subject=appendSOChunk("", xtoken.text)
                         
                         else:                            
@@ -1098,7 +1087,7 @@ def SubjectObjectrelation(tokens):
                                     subject = appendSOChunk(subject, spanconj.text)
                                     end=spanconj.i+1
            
-                        subjectindex.append((start,end))  
+                        subjectindex.append((start,end))
                         #Relation
                     if(relation in ['is','are','am'] and xtoken.text in ['is','are','am']):
                             relation = ''
@@ -1106,7 +1095,7 @@ def SubjectObjectrelation(tokens):
               #relation      
                     if ((xtoken.dep_ in ADJECTIVES or xtoken.pos_ in ["VERB","ADP","ADV","PART","AUX"] or xtoken.tag_ in tagRelation) and xtoken.text not in relation.split()):#and xtoken.ent_type_ not in ['PERCENT','CARDINAL']
                        if'prep' in xtoken.dep_ or xtoken.pos_ in ["VERB","ADP","ADV","PART","AUX"]:
-                         if relation == '':
+                         if relation == '' or subjectflage:
                             if(xtoken.head.text==xtoken.text):
                                 relation = appendChunk('', xtoken.text)
                                 relIndex.append(xtoken.i)
@@ -1183,25 +1172,52 @@ def SubjectObjectrelation(tokens):
                             object = ''
                             objectindex=[]
                             rtoken=[]
-                            relation = ''
-                            relIndex=[]
+                            # relation = ''
+                            # relIndex=[]
                           else:  
                             object = ''
                             objectindex=[]
                             rtoken=[]
-                            relation = ''
-                            relIndex=[]
+                            # relation = ''
+                            # relIndex=[]
                             
                          
                         else:
+                            subjectflage=True
                             object = ''
                             objectindex=[]
                             rtoken=[]
-                            relation = ''
-                            relIndex=[]          
-        #if(flagestree or flagestree2):         
+                            # relation = ''
+                            # relIndex=[]
+          subject=mainsubject
+          subjectindex=mainsubjectindex
+          relation=mainrelation
+          relIndex=mainrelationindex
+          for xtoken in subtree:
+                        if xtoken.dep_ in ["punct","cc"]  or "PUNCT" in xtoken.pos_ or xtoken.is_punct:
+                            continue
+                    # if(xtoken.dep_ in OBJECTS and xtoken.tag_ not in tagsubject) or (xtoken.pos_ in ["NOUN","PRON","PROPN"] and xtoken.tag_ not in tagsubject and xtoken.dep_ in OBJECTS):#or (xtoken.ent_type_ in ['PERCENT','CARDINAL'])
+                        if (object!=xtoken.text and subject!=xtoken.text and xtoken.text not in object.split('_') and xtoken.text not in subject.split(' _ ') and xtoken.text not in relation.split()):
+                         # if(xtoken.text in subject.split(' _ ')):
+                         #        subjectlist =subject.split(' _ ')
+                         #        if(len(subjectlist)>0):
+                         #            objectindex=subjectlist.index(xtoken.text)
+                         #            subjectindexobject=subjectindex[objectindex]
+                         #            subjectindex.remove(subjectindexobject)
+                         #            subject=subject.replace(xtoken.text+' _ ','')
+                         object = appendChunk(object, xtoken.text)
+                         start=xtoken.i
+                         end=xtoken.i+1
+                         # if xtoken.conjuncts:
+                         #    conjuncts = xtoken.conjuncts             # tuple of conjuncts
+                         #    for conj in conjuncts:
+                         #        if(conj.tag_ not in tagsubject):
+                         #            spanconj = conj
+                         #            object = appendChunk(object, spanconj.text)
+                         #            end=spanconj.i+1
+                         objectindex=(start,end)
 
-        if(object=="" and subject!="" and  (token.text not in subject)  and relation!="" and relation!=token.text):
+        if(object=="" and (token.text not in subject)  and relation!="" and relation!=token.text):
             #and token.tag_ in tagRelation
             bflage=True
             # Find all tokens before punctuation
@@ -1211,23 +1227,23 @@ def SubjectObjectrelation(tokens):
                 last_token = tokenslist[-1]
             if(token.text!=last_token):
                 bflage=False
-            #for x in trible:
-            #                  if(subject.strip() in x[0] or subject.strip() in x[2]):
-            #                      bflage=False
-            #if(len(subjectindex)<1):
-            #    for x in subjectindex:
-            #      if(token.i==x[1]):
-            #          bflage=False
-            #          break          
+            # for x in trible:
+            #                   if(subject.strip() in x[0] or subject.strip() in x[2]):
+            #                       bflage=False
+            # if(len(subjectindex)<=1):
+            #     for x in subjectindex:
+            #       if(token.i==x[1]):
+            #           bflage=False
+            #           break          
             if(bflage):
-             if(len(subjectindex)>1):
+             # if(len(subjectindex)>1):
                 
-                object = appendSOChunk(object, subject.split(' _ ')[-1])
-                objectindex=subjectindex[-1]
-                subject=subject.replace(subject.split(' _ ')[-1]+' _ ','')
-                subjectindexobject=subjectindex[objectindex]
-                subjectindex.remove(subjectindexobject)
-             else:                  
+             #    object = appendSOChunk(object, subject.split(' _ ')[-1])
+             #    objectindex=subjectindex[-1]
+             #    subject=subject.replace(subject.split(' _ ')[-1]+' _ ','')
+             #    subjectindexobject=subjectindex[objectindex]
+             #    subjectindex.remove(subjectindexobject)
+             # else:                  
               relation=relation.replace(token.text, '')
               if(token.i in relIndex):
                 relIndex.remove(token.i)
@@ -1243,28 +1259,28 @@ def SubjectObjectrelation(tokens):
                                     end=spanconj.i+1
               objectindex=(start,end)          
         
-        #if relation == '' and object!='' and subject!='':
-        #     if (token.head.dep_ in ADJECTIVES or token.head.pos_ == "VERB") and token.head.ent_type_ not in ['PERCENT','CARDINAL']:
-        #       if relation == '':
-        #        relation = appendChunk('', token.head.text)
-        #        relIndex.append(token.head.i)
-        #       else:
-        #        relation = appendChunk(relation, token.head.lower_) 
-        #        relIndex.append(token.head.i)
-        #     elif (token.head.head.dep_ in ADJECTIVES or token.head.head.pos_ == "VERB") and token.head.head.ent_type_ not in ['PERCENT','CARDINAL']:
-        #       if relation == '':
-        #        relation = appendChunk('', token.head.head.lower_)
-        #        relIndex.append(token.head.head.i)
-        #       else:
-        #        relation = appendChunk(relation, token.head.head.lower_) 
-        #        relIndex.append(token.head.head.i) 
-        #     elif (token.head.head.head.dep_ in ADJECTIVES or token.head.head.head.pos_ == "VERB") and token.head.head.head.ent_type_ not in ['PERCENT','CARDINAL']:
-        #       if relation == '':
-        #        relation = appendChunk('', token.head.head.head.lower_)
-        #        relIndex.append(token.head.head.head.i)
-        #       else:
-        #        relation = appendChunk(relation, token.head.head.head.lower_) 
-        #        relIndex.append(token.head.head.head.i) 
+        if relation == '' and object!='' and subject!='':
+             if (token.head.dep_ in ADJECTIVES or token.head.pos_ == "VERB") and token.head.ent_type_ not in ['PERCENT','CARDINAL']:
+               if relation == '':
+                relation = appendChunk('', token.head.text)
+                relIndex.append(token.head.i)
+               else:
+                relation = appendChunk(relation, token.head.lower_) 
+                relIndex.append(token.head.i)
+             elif (token.head.head.dep_ in ADJECTIVES or token.head.head.pos_ == "VERB") and token.head.head.ent_type_ not in ['PERCENT','CARDINAL']:
+               if relation == '':
+                relation = appendChunk('', token.head.head.lower_)
+                relIndex.append(token.head.head.i)
+               else:
+                relation = appendChunk(relation, token.head.head.lower_) 
+                relIndex.append(token.head.head.i) 
+             elif (token.head.head.head.dep_ in ADJECTIVES or token.head.head.head.pos_ == "VERB") and token.head.head.head.ent_type_ not in ['PERCENT','CARDINAL']:
+               if relation == '':
+                relation = appendChunk('', token.head.head.head.lower_)
+                relIndex.append(token.head.head.head.i)
+               else:
+                relation = appendChunk(relation, token.head.head.head.lower_) 
+                relIndex.append(token.head.head.head.i) 
 
         if((subject.strip() !='' and relation.strip() !='' and object.strip() !='') and (subject.strip() != object.strip())):
                         
@@ -1296,6 +1312,7 @@ def SubjectObjectrelation(tokens):
                             relIndex=[]
                             subject=''
                             subjectindex=[]
+                            subjectflageMain=True
                          
                         else:
                             object = ''
@@ -1304,6 +1321,403 @@ def SubjectObjectrelation(tokens):
                             relation = ''
                             relIndex=[]
     return trible,rtoken1
+
+def SubjectObjectrelation(tokens):
+    SUBJECTS = ["subj","nsubj", "nsubjpass", "csubj", "csubjpass", "agent", "expl"]#
+    OBJECTS = ["dobj", "dative", "attr", "oprd","pobj","appos","nummod","compound","npadvmod","advmod","mod"]
+    ADJECTIVES = ["ROOT",'prep',"acomp", "advcl",  "amod", "nn", "nmod", "ccomp","complm", "adj","agent",
+                  "ccomp","advcl","relcl","hmod", "infmod", "xcomp", "rcmod", "poss","possessive","aux","neg"]#"compound","npadvmod","advmod","mod"
+    tagRelation=["VBD","VB","VBG","VBN","VBP","VBZ","MD","RB","JJ","JJR","JJS","RBR","RBS","RP"]
+    tagsubject=["WP","VBD","IN","WDT","WP$","WRB","VBD","VB","VBG","VBN","VBP","VBZ","DT","RB","JJ","JJR","JJS","RBR","RBS","RP"]
+    subject = ''
+    object = ''
+    relation = ''
+    trible=[]
+    rtoken=[]
+    rtoken1=[]
+    subjectindex=[]
+    objectindex=[]
+    relIndex=[]
+    subjectflageMain=False
+    mainsubject=''
+    mainsubjectindex=[]
+    mainrelation=''
+    mainrelationindex=[]
+    for token in tokens:
+        
+        object = ''
+        objectindex=[]
+        rtoken=[]
+        subtree=[]
+        if "punct" in token.dep_ or "PUNCT" in token.pos_ or token.is_punct:
+            continue
+        
+        if(((token.dep_ in SUBJECTS and token.tag_ not in tagsubject) or (token.pos_ in ["NOUN","PRON","PROPN"] and token.dep_ in SUBJECTS and token.tag_ not in tagsubject)) or ("ROOT" in token.dep_ and token.tag_ not in tagsubject)):
+                      if (subject.lower().split(' _ ')[-1]!=token.lower_) and (token.lower_ not in subject.lower().split(' _ ')): 
+                        start = token.i
+                        end = token.i + 1
+                        if(subjectflageMain):
+                           subject=appendSOChunk("", token.text)
+                        else:                            
+                            subject=appendSOChunk(subject, token.text)
+                        if token.conjuncts:
+                            conjuncts = token.conjuncts             # tuple of conjuncts
+                            for conj in conjuncts:
+                                if(conj.tag_ not in tagsubject):
+                                    spanconj = conj
+                                    subject = appendSOChunk(subject, spanconj.text)
+                                    end=spanconj.i+1
+           
+                        subjectindex.append((start,end))
+                      else:                          
+                          if(subjectflageMain):
+                           start = token.i
+                           end = token.i + 1
+                           subject=appendSOChunk("", token.text)
+                           subjectindex.append((start,end))
+                        
+        if(token.dep_ in OBJECTS and token.tag_ not in tagsubject) or (token.pos_ in ["NOUN","PRON","PROPN"] and token.tag_ not in tagsubject and token.dep_ in OBJECTS):#or (xtoken.ent_type_ in ['PERCENT','CARDINAL'])
+                        if(subject==""):
+                          bflage=True
+                          for x in trible:
+                              if(token.text in x[0] or token.text in x[2]):
+                                  bflage=False
+                          if(bflage):
+                         
+                            start = token.i
+                            end = token.i + 1
+                            subject=appendSOChunk(subject, token.text)
+                            if token.conjuncts:
+                                conjuncts = token.conjuncts             # tuple of conjuncts
+                                for conj in conjuncts:
+                                    if(conj.tag_ not in tagsubject):
+                                        spanconj = conj
+                                        subject = appendSOChunk(subject, spanconj.text)
+                                        end=spanconj.i+1
+           
+                            subjectindex.append((start,end))
+                             
+
+        #Relation
+        if (token.dep_ in ADJECTIVES or token.pos_ in ["VERB","ADP","ADV","PART","AUX"] or token.tag_ in tagRelation):#and token.ent_type_ not in ['PERCENT','CARDINAL']
+                       if'prep' in token.dep_ or token.pos_ in ["VERB","ADP","ADV","PART","AUX"]:
+                         if relation == '':
+                            if(token.head.text==token.text):
+                                relation = appendChunk('', token.text)
+                                relIndex.append(token.i)
+                            elif(token.pos_ in ["VERB","ADP","ADV","PART","AUX"] and token.tag_ in tagRelation):
+                                relation = appendChunk('', token.text)
+                                relIndex.append(token.i)
+                            elif(token.pos_ in ["PART"] and token.tag_ in ["TO"]):
+                                relation = appendChunk('', token.text)
+                                relIndex.append(token.i)
+                            elif(token.head.text==subject):
+                                relation = appendChunk('', token.text)
+                                relIndex.append(token.i)
+                            else:
+                                relation = appendChunktoken(token.head.text, token.text)
+                                relIndex.append(token.head.i)
+                                relIndex.append(token.i)
+                         else:
+                           if(token.text not in relation.split(' ')):                                
+                            if(token.head.text==token.text):
+                                relation = appendChunk(relation, token.text)
+                                relIndex.append(token.i)
+                            elif(token.head.text==relation or token.head.text+' '==relation):
+                                relation = appendChunk(relation, token.text)
+                                relIndex.append(token.i)
+                            elif(token.pos_ in ["VERB","ADP","ADV","PART","AUX"] and token.tag_ in tagRelation):
+                                relation = appendChunk(relation, token.text)
+                                relIndex.append(token.i)
+                            elif(token.pos_ in ["PART"] and token.tag_ in ["TO","IN"]):
+                                relation = appendChunk(relation+', ', token.text)
+                                relIndex.append(token.i)
+                            elif(token.pos_ in ["PART"] and token.dep_ in["neg"]):    
+                                relation = appendChunk(relation, token.text)
+                                relIndex.append(token.i)                            
+                            else:
+                                relation = appendChunktoken(relation+', '+token.head.text, token.text)
+                                relIndex.append(token.head.i)
+                                relIndex.append(token.i) 
+                       elif relation == '':
+                                relation = appendChunktoken('', token.text)
+                                relIndex.append(token.i)
+                       else:
+                                relation = appendChunktoken(relation, token.text) 
+                                relIndex.append(token.i)                     
+
+        subtree = list(token.subtree)
+        flagestree=False
+        flagestree2=False
+        for xsub in subtree:
+           if(subject.split(' _ ')[-1] in xsub.text):
+                  flagestree=True  
+           if(relation.split(', ')[-1]!=''):
+            for relationtoken in relation.split():
+              if(relationtoken in xsub.text):
+                 flagestree2=True   
+           if(flagestree and flagestree2):
+                 break
+
+        if(flagestree and flagestree2):
+          mainsubject=subject
+          mainsubjectindex=subjectindex
+          mainrelation=relation
+          mainrelationindex=relIndex
+
+          subjectflage=False
+          for xtoken in subtree:
+              #object
+                    if(xtoken.dep_ in OBJECTS and xtoken.tag_ not in tagsubject) or (xtoken.pos_ in ["NOUN","PRON","PROPN"] and xtoken.tag_ not in tagsubject and xtoken.dep_ in OBJECTS):#or (xtoken.ent_type_ in ['PERCENT','CARDINAL'])
+                        if (object!=xtoken.text and subject!=xtoken.text and xtoken.text not in object.split(' _ ')):
+                         if(xtoken.text in subject.split(' _ ')):
+                                subjectlist =subject.split(' _ ')
+                                if(len(subjectlist)>0):
+                                    objectindex=subjectlist.index(xtoken.text)
+                                    subjectindexobject=subjectindex[objectindex]
+                                    subjectindex.remove(subjectindexobject)
+                                    subject=subject.replace(xtoken.text+' _ ','')
+                         if(xtoken.text in relation.split()):
+                                relationlist =relation.replace(',','').split()
+                                if(len(relationlist)>0):
+                                    #relationindex=relationlist.index(xtoken.text)
+                                    #relationindexobject=relIndex[relationindex]
+                                    relIndex.remove(xtoken.i)
+                                    relation=relation.replace(xtoken.text,'')         
+
+                         object = appendSOChunk(object, xtoken.text)
+                         start=xtoken.i
+                         end=xtoken.i+1
+                         if xtoken.conjuncts:
+                            conjuncts = xtoken.conjuncts             # tuple of conjuncts
+                            for conj in conjuncts:
+                                if(conj.tag_ not in tagsubject):
+                                    spanconj = conj
+                                    object = appendSOChunk(object, spanconj.text)
+                                    end=spanconj.i+1
+                         objectindex=(start,end) 
+              #subject      
+                    if(((xtoken.dep_ in SUBJECTS and xtoken.tag_ not in tagsubject) or (xtoken.pos_ in ["NOUN","PRON","PROPN"] and xtoken.dep_ in SUBJECTS and xtoken.tag_ not in tagsubject)) or ("ROOT" in xtoken.dep_ and xtoken.tag_ not in tagsubject)):
+                      if (subject.lower().split(' _ ')[-1]!=xtoken.lower_) and (xtoken.lower_ not in subject.lower().split(' _ ')): 
+                        start = xtoken.i
+                        end = xtoken.i + 1
+                        if(subjectflage or subjectflageMain):
+                            subject=appendSOChunk("", xtoken.text)
+                        
+                        else:                            
+                            subject=appendSOChunk(subject, xtoken.text)
+                        if xtoken.conjuncts:
+                            conjuncts = xtoken.conjuncts             # tuple of conjuncts
+                            for conj in conjuncts:
+                                if(conj.tag_ not in tagsubject):
+                                    spanconj = conj
+                                    subject = appendSOChunk(subject, spanconj.text)
+                                    end=spanconj.i+1
+           
+                        subjectindex.append((start,end))
+                        #Relation
+                    if(relation in ['is','are','am'] and xtoken.text in ['is','are','am']):
+                            relation = ''
+                            relIndex=[] 
+              #relation      
+                    if ((xtoken.dep_ in ADJECTIVES or xtoken.pos_ in ["VERB","ADP","ADV","PART","AUX"] or xtoken.tag_ in tagRelation) and xtoken.text not in relation.split()):#and xtoken.ent_type_ not in ['PERCENT','CARDINAL']
+                       if'prep' in xtoken.dep_ or xtoken.pos_ in ["VERB","ADP","ADV","PART","AUX"]:
+                         if relation == '' or subjectflage:
+                            if(xtoken.head.text==xtoken.text):
+                                relation = appendChunk('', xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.pos_ in ["VERB","ADP","ADV","PART","AUX"] and xtoken.tag_ in tagRelation):
+                                relation = appendChunk('', xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.pos_ in ["PART"] and xtoken.tag_ in ["TO"]):
+                                relation = appendChunk('', xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.head.text==subject):
+                                relation = appendChunk('', xtoken.text)
+                                relIndex.append(xtoken.i)
+                            else:
+                                relation = appendChunktoken(xtoken.head.text, xtoken.text)
+                                relIndex.append(xtoken.head.i)
+                                relIndex.append(xtoken.i)
+                         else:
+                           if(token.text not in relation.split(' ')):
+                            if(xtoken.head.text==xtoken.text):
+                                relation = appendChunk(relation, xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.head.text==relation or xtoken.head.text+' '==relation):
+                                relation = appendChunk(relation, xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.pos_ in ["VERB","ADP","ADV","PART","AUX"] and xtoken.tag_ in tagRelation):
+                                relation = appendChunk(relation, xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.pos_ in ["PART"] and xtoken.tag_ in ["TO","IN"]):
+                                relation = appendChunk(relation+', ', xtoken.text)
+                                relIndex.append(xtoken.i)
+                            elif(xtoken.pos_ in ["PART"] and xtoken.dep_ in["neg"]):    
+                                relation = appendChunk(relation, xtoken.text)
+                                relIndex.append(xtoken.i)
+                            else:
+                                relation = appendChunktoken(relation+', '+xtoken.head.text, xtoken.text)
+                                relIndex.append(xtoken.head.i)
+                                relIndex.append(xtoken.i) 
+                       elif relation == '':
+                                relation = appendChunktoken('', xtoken.text)
+                                relIndex.append(xtoken.i)
+                       else:
+                                relation = appendChunktoken(relation, xtoken.text) 
+                                relIndex.append(xtoken.i)
+                    
+                    if((subject.strip() !='' and relation.strip() !='' and object.strip() !='') and (subject.strip() != object.strip())):
+                        
+                        if ((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex) not in trible):
+                          bflage=True
+                          for x in trible:
+                              if(subject.strip() in x[0] and relation.strip()  in x[1] and object.strip() in x[2]):
+                                  bflage=False
+                              for xc in subject.split(' _ '):
+                                   if(xc in x[0] and relation.strip() in x[1] and object.strip() in x[2]):
+                                        bflage=False
+                                   
+                              
+                          if(bflage):
+                            subjectflage=True
+                            trible.append((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex))
+                            print (subject.strip(), "/", relation.strip(), "/", object.strip())
+                            start=np.min(relIndex)
+                            end=np.max(relIndex)
+                            if(subjectindex[0][0]<start):
+                                start=subjectindex[0][0]
+                            if(objectindex[1]>end):
+                                 end=objectindex[1]
+                            end=start+100
+                            if(end>len(tokens)):
+                                end=len(tokens)-1
+                            start=0
+                            end=len(tokens)
+                            rtoken=[token.text for token in tokens[start:end]]
+                            rtoken1.append(rtoken)
+                            object = ''
+                            objectindex=[]
+                            rtoken=[]
+                            
+                          else:  
+                            object = ''
+                            objectindex=[]
+                            rtoken=[]
+                           
+                        else:
+                            subjectflage=True
+                            object = ''
+                            objectindex=[]
+                            rtoken=[]
+                           
+          subject=mainsubject
+          subjectindex=mainsubjectindex
+          relation=mainrelation
+          relIndex=mainrelationindex
+          for xtoken in subtree:
+                        if xtoken.dep_ in ["punct","cc"]  or "PUNCT" in xtoken.pos_ or xtoken.is_punct:
+                            continue
+                        if (object!=xtoken.text and subject!=xtoken.text and xtoken.text not in object.split('_') and xtoken.text not in subject.split(' _ ') and xtoken.text not in relation.split()):
+                        
+                         object = appendChunk(object, xtoken.text)
+                         start=xtoken.i
+                         end=xtoken.i+1
+                         objectindex=(start,end)
+
+        if(object=="" and (token.text not in subject)  and relation!="" and relation!=token.text):
+            #
+            bflage=True
+            # Find all tokens before punctuation
+            tokenslist = re.findall(r'\b\w+\b(?=\W)', tokens.text)
+            if tokenslist:
+            # Get the last token
+                last_token = tokenslist[-1]
+            if(token.text!=last_token):
+                bflage=False
+            
+            if(bflage):
+            
+              relation=relation.replace(token.text, '')
+              if(token.i in relIndex):
+                relIndex.remove(token.i)
+              object = appendSOChunk(object, token.text)
+              start=token.i
+              end=token.i+1
+              if token.conjuncts:
+                            conjuncts = token.conjuncts             # tuple of conjuncts
+                            for conj in conjuncts:
+                                if(conj.tag_ in tagRelation):
+                                    spanconj = conj
+                                    object = appendSOChunk(object, spanconj.text)
+                                    end=spanconj.i+1
+              objectindex=(start,end)          
+        
+        if relation == '' and object!='' and subject!='':
+             if (token.head.dep_ in ADJECTIVES or token.head.pos_ == "VERB") and token.head.ent_type_ not in ['PERCENT','CARDINAL']:
+               if relation == '':
+                relation = appendChunk('', token.head.text)
+                relIndex.append(token.head.i)
+               else:
+                relation = appendChunk(relation, token.head.lower_) 
+                relIndex.append(token.head.i)
+             elif (token.head.head.dep_ in ADJECTIVES or token.head.head.pos_ == "VERB") and token.head.head.ent_type_ not in ['PERCENT','CARDINAL']:
+               if relation == '':
+                relation = appendChunk('', token.head.head.lower_)
+                relIndex.append(token.head.head.i)
+               else:
+                relation = appendChunk(relation, token.head.head.lower_) 
+                relIndex.append(token.head.head.i) 
+             elif (token.head.head.head.dep_ in ADJECTIVES or token.head.head.head.pos_ == "VERB") and token.head.head.head.ent_type_ not in ['PERCENT','CARDINAL']:
+               if relation == '':
+                relation = appendChunk('', token.head.head.head.lower_)
+                relIndex.append(token.head.head.head.i)
+               else:
+                relation = appendChunk(relation, token.head.head.head.lower_) 
+                relIndex.append(token.head.head.head.i) 
+
+        if((subject.strip() !='' and relation.strip() !='' and object.strip() !='') and (subject.strip() != object.strip())):
+                        
+                        if ((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex) not in trible):
+                          bflage=True
+                          for x in trible:
+                              if(subject.strip() in x[0] and relation.strip()  in x[1] and object.strip()  in x[2]):
+                                  bflage=False
+                          if(bflage):
+                            trible.append((subject.strip(), relation.strip(), object.strip(),subjectindex[:],objectindex,relIndex))
+                            print (subject.strip(), "/", relation.strip(), "/", object.strip())
+                            start=np.min(relIndex)
+                            end=np.max(relIndex)
+                            if(subjectindex[0][0]<start):
+                                start=subjectindex[0][0]
+                            if(objectindex[1]>end):
+                                 end=objectindex[1]
+                            end=start+100
+                            if(end>len(tokens)):
+                                end=len(tokens)-1
+                            start=0
+                            end=len(tokens)
+                            rtoken=[token.text for token in tokens[start:end]]
+                            rtoken1.append(rtoken)
+                            object = ''
+                            objectindex=[]
+                            rtoken=[]
+                            relation = ''
+                            relIndex=[]
+                            subject=''
+                            subjectindex=[]
+                            subjectflageMain=True
+                         
+                        else:
+                            object = ''
+                            objectindex=[]
+                            rtoken=[]
+                            relation = ''
+                            relIndex=[]
+    return trible,rtoken1
+
+
+
 def splitMergeSentences(tokens,nlp):
    
     sents_doc = nlp(tokens)
@@ -1461,28 +1875,34 @@ if __name__ == "__main__":
                 #nlp.tokenizer = Tokenizer(nlp.vocab, infix_finditer=infix_re.finditer)
                 from spacy.tokenizer import Tokenizer
                 from spacy.symbols import ORTH
-                 # Add the special case rule
-                special_case = [{ORTH: "1-0"}]
-                special_case1 = [{ORTH: "3-0"}]
-                special_case2 = [{ORTH: "0-0"}]
-                nlp.tokenizer.add_special_case("1-0", special_case)
-                nlp.tokenizer.add_special_case("3-0", special_case1)
-                nlp.tokenizer.add_special_case("0-0", special_case2)
-                linesen=["Few people in the advertising business have raised as many hackles as Alvin A. Achenbaum ."
-                         ,"Meanwhile , the Mason City Division continued to operate as usual .",
-                         "Mr. Stoll suspected the intruder was one of those precocious students who has fun breaking into computers .",
-                    "Because of this association , St. Michael was considered to be the patron saint of colonial Maryland , and as such was honored by the river being named for him .",
-                    "Graner handcuffed him to the bars of a cell window and left him there , feet dangling off the floor , for nearly five hours .",
+                # Add the special case rule
+                special_case = [{ORTH: "Milligan 1-0"}]
+                special_case1 = [{ORTH: "Grand View 3-0"}]
+                special_case4 = [{ORTH: "Webber International 1-0"}]
+                special_case2 = [{ORTH: "Azusa Pacific 0-0"}]
+                special_case3=[{ORTH:"step-by-step"}]
+                nlp.tokenizer.add_special_case("Milligan 1-0", special_case)
+                nlp.tokenizer.add_special_case("Grand View 3-0", special_case1)
+                nlp.tokenizer.add_special_case("Azusa Pacific 0-0", special_case2)
+                nlp.tokenizer.add_special_case("Webber International 1-0", special_case4)
+                nlp.tokenizer.add_special_case("step-by-step",special_case3)
+                linesen=["32.7 % of all households were made up of individuals and 15.7 % had someone living alone who was 65 years of age or older .",
+                    "They beat Milligan 1-0 , Grand View 3-0 , Webber International 1-0 and Azusa Pacific 0-0 to win the NAIA National Championships .",
+                    "The three existing plants and their land will be sold .",
+                    "Mr. Stoll suspected the intruder was one of those precocious students who has fun breaking into computers .",
+                         "One major difference between the two models is that the Photographic Model follows more of a step-by-step process in the development of flashbulb accounts , whereas the Comprehensive Model demonstrates an interconnected relationship between the variables .",
+                         "Few people in the advertising business have raised as many hackles as Alvin A. Achenbaum .",
+                         "Meanwhile , the Mason City Division continued to operate as usual .",
+                         "Because of this association , St. Michael was considered to be the patron saint of colonial Maryland , and as such was honored by the river being named for him .",
                          "It deals with cases of fraud in relation to direct taxes and indirect taxes , tax credits , drug smuggling , and money laundering , cases involving United Nations trade sanctions , conflict diamonds and CITES .",
                          "The show was designed to appear as if the viewer was channel surfing through a multi-channel wasteland , happening upon spoof adverts , short sketches , and recurring show elements .",
                          "Several years later the remaining trackage at Charles City was abandoned .",
-                         "They beat Milligan 1-0 , Grand View 3-0 , Webber International 1-0 and Azusa Pacific 0-0 to win the NAIA National Championships ."
+                         "They beat Milligan 1-0 , Grand View 3-0 , Webber International 1-0 and Azusa Pacific 0-0 to win the NAIA National Championships .",
                          "The three existing plants and their land will be sold .",
                          "He served as the first Prime Minister of Australia and became a founding justice of the High Court of Australia .",
                          "Graner handcuffed him to the bars of a cell window and left him there , feet dangling off the floor , for nearly five hours .",
                          "Nobody told us ; nobody called us , '' says an official close to the case who asked not to be named ."]
-             
-                #line=preprocessMyDataSet(linesen,nlp)
+                      #line=preprocessMyDataSet(linesen,nlp)
                 #text1=line
                 from misc import processSubjectObjectPairs2
                 if linesen not in [" ", "\n", ""]:
@@ -1501,32 +1921,32 @@ if __name__ == "__main__":
                            
 
 
-                            with open('dataset/'+'oie.txt', 't+a') as f:
-                                f.write('sent_id:'+(index+1).__str__())
-                                f.write('\t')
-                            with open('dataset/'+'oie.txt', 'a') as f:    
-                                f.write(doc.text)
-                                f.write('\n')
-                            for indexcluster, x in enumerate(list1):
-                                doc1 = nlp(x[0]+" "+x[1]+" "+x[2])
-                                doc2 = nlp(doc.text)
-                                ratiosim=doc1.similarity(doc2)
-                                if(ratiosim>0.90):
-                                    print (doc1.similarity(doc2))
-                                with open('dataset/'+'oie.txt', 'a') as f:
-                                    f.write((index+1).__str__()+'--> Cluster '+(indexcluster+1).__str__()+':')
-                                    f.write('\n')
-                                with open('dataset/'+'oie.txt', 'a') as f:
-                                    f.write(x[0]+' --> '+x[1]+' --> '+x[2])
-                                    f.write('\n')                       
-                                relation=x[0]+' --> '+x[1]+' --> '+x[2]+"\n"  
-                                if(len(x[0].split(' _ ')) >1 or len(x[1].split(', '))>1 or len(x[2].split(' _ '))>1):
-                                  for s in x[0].split(' _ '):
-                                    for r in x[1].split(', '):
-                                        for o in x[2].split(' _ '):
-                                            strrela=s+' --> '+r+' --> '+o+"\n"
-                                            if(strrela not in relation):
-                                                with open('dataset/'+'oie.txt', 'a') as f:
-                                                    f.write(s+' --> '+r+' --> '+o)
-                                                    f.write('\n')
-                                                relation+=s+' --> '+r+' --> '+o+"\n"
+                            # with open('dataset/'+'oie.txt', 't+a') as f:
+                            #     f.write('sent_id:'+(index+1).__str__())
+                            #     f.write('\t')
+                            # with open('dataset/'+'oie.txt', 'a') as f:    
+                            #     f.write(doc.text)
+                            #     f.write('\n')
+                            # for indexcluster, x in enumerate(list1):
+                            #     doc1 = nlp(x[0]+" "+x[1]+" "+x[2])
+                            #     doc2 = nlp(doc.text)
+                            #     ratiosim=doc1.similarity(doc2)
+                            #     if(ratiosim>0.90):
+                            #         print (doc1.similarity(doc2))
+                            #     with open('dataset/'+'oie.txt', 'a') as f:
+                            #         f.write((index+1).__str__()+'--> Cluster '+(indexcluster+1).__str__()+':')
+                            #         f.write('\n')
+                            #     with open('dataset/'+'oie.txt', 'a') as f:
+                            #         f.write(x[0]+' --> '+x[1]+' --> '+x[2])
+                            #         f.write('\n')                       
+                            #     relation=x[0]+' --> '+x[1]+' --> '+x[2]+"\n"  
+                            #     if(len(x[0].split(' _ ')) >1 or len(x[1].split(', '))>1 or len(x[2].split(' _ '))>1):
+                            #       for s in x[0].split(' _ '):
+                            #         for r in x[1].split(', '):
+                            #             for o in x[2].split(' _ '):
+                            #                 strrela=s+' --> '+r+' --> '+o+"\n"
+                            #                 if(strrela not in relation):
+                            #                     with open('dataset/'+'oie.txt', 'a') as f:
+                            #                         f.write(s+' --> '+r+' --> '+o)
+                            #                         f.write('\n')
+                            #                     relation+=s+' --> '+r+' --> '+o+"\n"
