@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 26 18:12:22 2019
-
-@author: weetee
-"""
 from asyncio.windows_events import NULL
 import os
 import re
@@ -601,13 +594,17 @@ def load_dataloaders(args, max_length=50000):
         nlp.add_pipe("merge_noun_chunks")
         from spacy.tokenizer import Tokenizer
         from spacy.symbols import ORTH
-        # Add the special case rule
-        special_case = [{ORTH: "1-0"}]
-        special_case1 = [{ORTH: "3-0"}]
-        special_case2 = [{ORTH: "0-0"}]
-        nlp.tokenizer.add_special_case("1-0", special_case)
-        nlp.tokenizer.add_special_case("3-0", special_case1)
-        nlp.tokenizer.add_special_case("0-0", special_case2)
+       # Add the special case rule
+        special_case = [{ORTH: "Milligan 1-0"}]
+        special_case1 = [{ORTH: "Grand View 3-0"}]
+        special_case4 = [{ORTH: "Webber International 1-0"}]
+        special_case2 = [{ORTH: "Azusa Pacific 0-0"}]
+        special_case3=[{ORTH:"step-by-step"}]
+        nlp.tokenizer.add_special_case("Milligan 1-0", special_case)
+        nlp.tokenizer.add_special_case("Grand View 3-0", special_case1)
+        nlp.tokenizer.add_special_case("Azusa Pacific 0-0", special_case2)
+        nlp.tokenizer.add_special_case("Webber International 1-0", special_case4)
+        nlp.tokenizer.add_special_case("step-by-step",special_case3)
         
         predictor=Predictor.from_path("./allenepi/coref-spanbert-large-2021.03.10.tar.gz")#("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")#
 
