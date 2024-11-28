@@ -1,7 +1,0 @@
-"\nEpoch finished, took 12123.96 seconds.\nLosses at Epoch 1: 5.7577382\nAccuracy at Epoch 1: 0.2970520"
-"\nEpoch finished, took 17290.98 seconds.\nLosses at Epoch 2: 2.9976109\nAccuracy at Epoch 2: 0.6785791"
-"\nEpoch finished, took 8004.27 seconds.\nLosses at Epoch 3: 2.2888147\nAccuracy at Epoch 3: 0.8183674"
-"\nEpoch finished, took 7839.47 seconds.\nLosses at Epoch 4: 2.1529911\nAccuracy at Epoch 4: 0.8523346"
-"\nEpoch finished, took 7787.12 seconds.\nLosses at Epoch 5: 2.1756126\nAccuracy at Epoch 5: 0.8587735"
-"\nEpoch finished, took 8223.78 seconds.\nLosses at Epoch 6: 2.8724784\nAccuracy at Epoch 6: 0.8476569"
-"\nEpoch finished, took 25719.98 seconds.\nLosses at Epoch 7: 2.6910512\nAccuracy at Epoch 7: 0.8564660"
