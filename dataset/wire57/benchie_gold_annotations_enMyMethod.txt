@@ -1,0 +1,513 @@
+1	Tokyo ˈtoʊkioʊ officially Tokyo Metropolis	is the capital city, the capital city of	Japan
+1	Tokyo ˈtoʊkioʊ officially Tokyo Metropolis	one of	its 47prefectures
+1	Japanese : toːkʲoː	is	the capital city Japan and
+1	the capital city	of	Japan
+1	one	of	its 47prefectures
+2	The Greater Tokyo Area	is the most populous metropolitan area, the most populous metropolitan area in	the world
+2	The Greater Tokyo Area	is	the most populous metropolitan area
+2	The Greater Tokyo Area	the most populous metropolitan area in	the world
+3	It	is the seat, the seat of	the Emperor
+3	It	the Emperor of	Japan
+3	It	is	the seat the Emperor Japan
+3	It	the seat of	the Emperor
+3	It	the seat of	the Emperor of Japan and the Japanese government
+3	the Emperor	of	Japan
+4	Tokyo	is, is in	the Kantō region
+4	Tokyo	the Kantō region on	the southeastern side
+4	Tokyo	the southeastern side of	the main island
+4	Tokyo	is includes	Honshu
+4	Tokyo	is	the Izu Islands Ogasawara Islands
+4	Tokyo	is in	the Kantō region on the southeastern side of the main island Honshu
+4	Tokyo	the Kantō region on	the southeastern side of the main island Honshu
+4	Tokyo	the southeastern side of	the main island Honshu
+4	Tokyo	the southeastern side of includes	the Izu Islands & Ogasawara Islands
+4	the Kantō region	on	the southeastern side of the main island Honshu
+4	the Kantō region	the southeastern side of	the main island
+4	the Kantō region	the southeastern side of	the main island Honshu
+4	the southeastern side	of	the main island Honshu
+5	it	been the de facto seat, the de facto seat of	government
+5	it	the de facto seat since	1603
+5	Shogun Tokugawa Ieyasu	made	the city
+5	it	known has been	the de facto seat government
+5	it	known has been	the de facto seat
+5	the de facto seat	of	government
+5	the de facto seat	of since	1603
+5	the city	made his	headquarters
+6	Emperor Meiji	became officially moved	his seat
+6	Emperor Meiji	moved to	the city
+6	Emperor Meiji	moved from	the old capital
+6	Emperor Meiji	the old capital of	Kyoto
+6	Emperor Meiji	moved in	1868
+6	Emperor Meiji	renamed at	that time
+6	It	became	the capital
+6	Emperor Meiji	moved	his seat
+6	Emperor Meiji	moved from	the old capital of Kyoto
+6	the old capital	of	Kyoto
+6	the old capital	moved in	1868
+6	Emperor Meiji	of	Kyoto
+6	the old capital	renamed at	that time
+6	It	was renamed	Tokyo
+7	Tokyo Metropolis	formed, formed in	1943
+7	Tokyo Metropolis	formed from	the merger
+7	Tokyo Metropolis	the merger of	the former Tokyo Prefecture
+7	Tokyo Metropolis	was formed in	1943
+7	Tokyo Metropolis	formed from	the merger of the former Tokyo Prefecture
+7	the merger	of	the former Tokyo Prefecture
+8	Tokyo	referred often referred, referred to, referred as	a city
+8	Tokyo	known officially, referred known, known governed, governed as	a metropolitan prefecture
+8	Tokyo	differs, differs from, differs combines	elements
+8	Tokyo	elements of	a city
+8	Tokyo	is	often
+8	Tokyo	is referred to as	a city
+8	Tokyo	is	officially
+8	Tokyo	is known governed as	a metropolitan prefecture, which differs from and combines elements of a city and a prefecture, a characteristic unique to Tokyo
+8	Tokyo	differs from combines	elements
+8	Tokyo	elements of	a city and a prefecture
+8	Tokyo	governed as	a metropolitan prefecture
+8	elements	of	a city and a prefecture
+9	The Tokyo metropolitan government	administers	the 23Special Wards of Tokyo
+9	The Tokyo metropolitan government	the 23Special Wards of Tokyo governed, governed as	an individual city
+9	The Tokyo metropolitan government	cover	the area
+9	The Tokyo metropolitan government	was the City of Tokyo	it
+9	The Tokyo metropolitan government	merged, merged became the metropolitan prefecture, became in	1943
+9	The Tokyo metropolitan government	governed as	an individual city, which cover the area that was the City of Tokyo before it merged and became the metropolitan prefecture in 1943
+9	an individual city	cover	the area
+9	the area	was	the City of Tokyo
+9	it	merged became	the metropolitan prefecture
+9	it	became in	1943
+9	it	became in	the metropolitan prefecture
+9	the 23Special Wards of Tokyo	governed as	an individual city, which cover the area that was the City of Tokyo before it merged and became the metropolitan prefecture in 1943
+10	The metropolitan government	administers, administers also administers	39municipalities
+10	The metropolitan government	administers in	the western part
+10	The metropolitan government	the western part of	the prefecture
+10	The metropolitan government	administers	39municipalities
+10	The metropolitan government	administers in	the western part of the prefecture and the two outlying island chains
+10	the western part	of	the prefecture
+11	The population	is, The population of	the special wards
+11	The population	is over 9million people, is with	the total population
+11	The population	the total population of	the prefecture
+11	The population	with exceeding	13million
+11	The population	of	the special wards
+11	The population	is	over 9million people
+11	The population	is with	the total population
+11	The population	is with	over 9million people
+11	the total population	of	the prefecture
+11	the total population	of exceeding	13million
+12	The prefecture	is part, part of	the world's most populous metropolitan area
+12	The prefecture	the world's most populous metropolitan area with	upwards of 37.8million people
+12	The prefecture	is	part the world's most populous metropolitan area upwards of 37.8million people and the world's largest urban agglomeration economy
+12	The prefecture	part of	the world's most populous metropolitan area
+12	The prefecture	part of	the world's most populous metropolitan area with upwards of 37.8million people and the world's largest urban agglomeration economy
+12	The prefecture	the world's most populous metropolitan area with	upwards of 37.8million people and the world's largest urban agglomeration economy
+12	the world's most populous metropolitan area	with	upwards of 37.8million people and the world's largest urban agglomeration economy
+13	the city	hosted	51
+13	the city	51 of	the Fortune Global 500companies
+13	the city	the highest number of	the highest number
+13	the city	any city in	any city
+13	the city	hosted at	the world
+13	In 2011	hosted In	51
+13	In 2011	51 of	the Fortune Global 500companies
+13	In 2011	51 of	the Fortune Global 500companies, the highest number of any city in the world
+13	In 2011	51 of of in	the highest number any city
+13	In 2011	the highest number of	any city in the world
+13	In 2011	any city in	the world
+13	In 2011	hosted at	that time
+13	51	of	the Fortune Global 500companies, the highest number of any city in the world
+13	51	of of in	the highest number any city
+13	51	the highest number of	any city in the world
+13	51	any city in	the world
+13	the highest number	of	any city in the world
+13	the highest number	any city in	the world
+13	the highest number	of in	any city
+13	any city	in	the world
+14	Tokyo	ranked, ranked third, ranked twice, ranked in	the International Financial Centres Development IndexEdit
+14	Tokyo	ranked	third
+14	Tokyo	ranked	twice
+14	Tokyo	ranked in	the International Financial Centres Development IndexEdit
+15	The city	is, is also, is home, home to	various television networks
+15	The city	such, various television networks as	Fuji TV Tokyo MX TV Asahi TV Tokyo Nippon Television NHK the Tokyo Broadcasting System
+15	The city	is	also
+15	The city	is	home
+15	The city	home to	various television networks
+15	The city	home to	various television networks such as Fuji TV, Tokyo MX, TV Tokyo, TV Asahi, Nippon Television, NHK and the Tokyo Broadcasting System
+15	The city	such various television networks as	Fuji TV
+15	The city	such various television networks as	as Fuji TV, Tokyo MX, TV Tokyo, TV Asahi, Nippon Television, NHK and the Tokyo Broadcasting System
+15	various television networks	such as	as Fuji TV, Tokyo MX, TV Tokyo, TV Asahi, Nippon Television, NHK and the Tokyo Broadcasting System
+16	Finnish police	reprimanded	a man
+16	Finnish police	reprimanded for, for traveling, traveling in	a car boot
+16	Finnish police	hide to hide	his meeting
+16	Finnish police	his meeting with	Prime Minister Juha Sipila
+16	Finnish police	hide during	a government crisis
+16	Finnish police	hide saying	this
+16	Finnish police	was breach, breach of	the traffic code
+16	Finnish police	reprimanded for traveling in	a car boot
+16	Finnish police	to hide	his meeting
+16	his meeting	with	Prime Minister Juha Sipila
+16	his meeting	during	a government crisis
+16	his meeting	during	last summer
+16	this	was	breach the traffic code
+16	this	was	breach
+16	breach	of	the traffic code
+16	a car boot	to hide	his meeting
+17	A police statement	name, name not name	the man
+17	A police statement	the man in	the boot
+17	A police statement	indicated in	effect
+17	A police statement	name indicated	the traveler
+17	A police statement	was State Secretary Samuli Virtanen is, is also the deputy, the deputy to	Foreign Minister Timo Soini
+17	A police statement	did not name	the man
+17	the traveler	was	State Secretary Samuli Virtanen ,
+17	the traveler	was	State Secretary Samuli Virtanen
+17	State Secretary Samuli Virtanen	is	the deputy
+17	State Secretary Samuli Virtanen	is	also
+17	State Secretary Samuli Virtanen	is	the deputy Foreign Minister Timo Soini
+17	the deputy	to	Foreign Minister Timo Soini
+17	the man	in	the boot
+17	effect	indicated in	the traveler
+18	The meeting	took	place
+18	The meeting	took in	June
+18	The meeting	elected	Virtanen ’s co-ruling Finns party
+18	The meeting	elected	anti-immigration hardliners
+18	The meeting	elected as	its new leaders
+18	The meeting	took in	a day
+18	a day	had elected	anti-immigration hardliners
+18	a day	elected as	its new leaders
+18	a day _ Virtanen ’s co-ruling Finns party	after had elected	anti-immigration hardliners
+18	a day _ Virtanen ’s co-ruling Finns party	elected as	its new leaders
+19	The government	was, collapse to, close collapse	a group
+19	The government	a group of	politicians
+19	The government	a group including	Virtanen Soini
+19	The government	walked in	the following week
+19	The government	walked, walked out, out of	the Finns party
+19	The government	walked announced	they
+19	The government	form	a new group
+19	The government	was close to	collapse
+19	a group	of	politicians
+19	a group	including	Virtanen & Soini
+19	a group	walked in	the following week
+19	a group	walked out of	the Finns party
+19	a group	walked out of announced	they
+19	they	would form	a new group
+19	a group	would form	a new group
+20	The Finns party	thrown, thrown out, out of	the government
+20	The Finns party	thrown kept	the new “ Blue Reform ” group
+20	The Finns party	was thrown out of	the government
+20	the new “ Blue Reform ” group	kept	its cabinet seat
+21	Virtanen	commented, commented not commented, commented on	the case
+21	lawmaker Tiina Elovaara	lawmaker Tiina Elovaara from	Blue Reform
+21	lawmaker Tiina Elovaara	commented said, said in	a blog
+21	Virtanen	climbed, climbed into	the boot
+21	Virtanen	keep to keep	the meeting
+21	Virtanen	keep at	a critical moment
+21	Virtanen	has not commented on	the case
+21	lawmaker Tiina Elovaara	from	Blue Reform
+21	lawmaker Tiina Elovaara	said in	a blog that Virtanen climbed into the boot to keep the meeting secret at a critical moment
+21	Virtanen	climbed into	the boot
+21	Virtanen	to keep	the meeting
+21	Virtanen	to keep	secret
+21	the meeting	at	a critical moment
+22	the situation	was, serious most	the risk
+22	the situation	the risk of	leakage
+22	the situation	leakage about	the parliamentarians ’ transition
+22	He	avoided	media attention
+22	the situation	when was most serious	the risk
+22	the risk	of	leakage about the parliamentarians ’ transition
+22	leakage	about	the parliamentarians ’ transition
+22	the risk	was	too
+22	the risk _ the situation	of	leakage about the parliamentarians ’ transition
+22	the risk	was big	Elovaara
+23	Chilly Gonzales	is born	Jason Charles Beck
+23	Chilly Gonzales	is a Grammy-winning Canadian musician resided, resided in	Paris
+23	Chilly Gonzales	resided	France
+23	Chilly Gonzales	resided for	several years
+23	Chilly Gonzales	lives now, is lives, lives in	Cologne
+23	Chilly Gonzales	born	Jason Charles Beck
+23	Chilly Gonzales	is	a Grammy-winning Canadian musician
+23	a Grammy-winning Canadian musician	resided	France
+23	a Grammy-winning Canadian musician	resided in	Paris,
+23	a Grammy-winning Canadian musician	resided for	several years
+23	a Grammy-winning Canadian musician	resided for	now
+23	Chilly Gonzales	resided for lives in	Cologne, Germany
+23	Chilly Gonzales	resided for lives in	a Grammy-winning Canadian musician
+23	Chilly Gonzales	lives in	now
+23	a Grammy-winning Canadian musician	lives in	Cologne, Germany
+24	his albums	Known for of	classical piano compositions
+24	his albums	with	a pop music sensibility
+24	Solo Piano I & Solo Piano II & his MC and electro albums _ he	is	also
+24	Solo Piano I & Solo Piano II & his MC and electro albums _ he	is	a producer and songwriter
+24	Solo Piano I & Solo Piano II & his MC and electro albums _ he	is	a producer
+25	Gonzales	broadcasts	a web series
+25	Gonzales	broadcasts	Pop Music Masterclass
+25	Gonzales	broadcasts on	WDR
+25	Gonzales	the documentary Classical Connections on	the documentary Classical Connections
+25	Gonzales	Music's Cool with Chilly Gonzales on	The History of Music on Arte Music's Cool with Chilly Gonzales The History of Music on Arte
+25	Gonzales	broadcasts on	Apple Music's Beats 1 radio show
+25	Gonzales	broadcasts on	WDR, the documentary Classical Connections on BBC Radio 1, The History of Music on Arte, and Music's Cool with Chilly Gonzales on Apple Music's Beats 1 radio show
+25	Gonzales	broadcasts on on on	the documentary Classical Connections BBC Radio 1 The History of Music on Arte Music's Cool with Chilly Gonzales
+25	the documentary Classical Connections	on	Apple Music's Beats 1 radio show
+25	the documentary Classical Connections	on	BBC Radio 1, The History of Music on Arte, and Music's Cool with Chilly Gonzales on Apple Music's Beats 1 radio show
+25	the documentary Classical Connections	on on	The History of Music on Arte Music's Cool with Chilly Gonzales
+25	Music's Cool with Chilly Gonzales	on	Apple Music's Beats 1 radio show
+25	The History of Music on Arte	on	Music's Cool with Chilly Gonzales
+26	He	written	several newspaper and magazine opinion pieces
+26	He	written in	The Guardian
+26	He	has written	several newspaper and magazine opinion pieces
+26	He	written in	The Guardian, Vice, Billboard, and others
+26	He	written in	Vice Billboard
+27	He	is the younger brother, the younger brother of	the prolific film composer Christophe Beck
+27	He	is	the younger brother the prolific film composer Christophe Beck
+27	the younger brother	of	the prolific film composer Christophe Beck
+28	Gonzales	born, born on	20March 1972
+28	Gonzales	was born on	20March 1972
+29	His parents	are Ashkenazi Jews had, flee to, had flee, flee from	Hungary
+29	His parents	flee during	World War II
+29	His parents	are	Ashkenazi Jews
+29	His parents	to flee	World War II
+29	His parents	flee from	Hungary
+29	Hungary	flee during	World War II
+30	Gonzales	began, began teaching	piano
+30	Gonzales	teaching at	age three
+30	Gonzales	began	his older brother
+30	his older brother Chris	began, began taking	lessons
+30	Gonzales	began teaching	piano
+30	Gonzales	began teaching	himself
+30	Gonzales	teaching at	age three,
+30	his older brother _ Chris	began taking	lessons
+31	Gonzales	graduated, graduated from	Crescent School
+31	Gonzales	Crescent School in	Toronto Ontario
+31	Gonzales	graduated from	Crescent School in Toronto, Ontario, Canada
+31	Gonzales	Crescent School in	Toronto, Ontario, Canada
+31	Crescent School	in	Toronto, Ontario, Canada
+32	He	trained, trained classically trained, trained as	a pianist
+32	He	a pianist at	McGill University
+32	He	began	he
+32	He	began	both his composing career
+32	He	co - authoring	several musicals
+32	He	authoring with	his brother
+32	He	his performing career as	a jazz virtuoso
+32	He	was	classically
+32	He	was trained as	a pianist at McGill University, where he began both his composing career
+32	He	a pianist at	McGill University, where he began both his composing career
+32	McGill University	began	both his composing career
+32	He	co authoring	several musicals
+32	He	-authoring with	his brother
+32	his performing career	as	a jazz virtuoso
+32	a pianist	at	McGill University, where he began both his composing career
+33	maximization EM algorithm	is an iterative method, find to find	maximum likelihood
+33	maximization EM algorithm	a posteriori MAP estimates of	a posteriori MAP estimates
+33	maximization EM algorithm	parameters in	parameters
+33	maximization EM algorithm	depends	statistical models
+33	maximization EM algorithm	depends	the model
+33	maximization EM algorithm	depends on	unobserved latent variables
+33	statistics _ an expectation _ maximization EM algorithm	is In	an iterative method maximum likelihood
+33	statistics _ an expectation _ maximization EM algorithm	is In	an iterative method
+33	an iterative method	to find	a posteriori MAP estimates
+33	an iterative method	a posteriori MAP estimates of	parameters
+33	an iterative method	a posteriori MAP estimates of	parameters in statistical models, where the model depends on unobserved latent variables
+33	an iterative method	parameters in	statistical models, where the model depends on unobserved latent variables
+33	the model	depends on	unobserved latent variables
+33	an iterative method	to find	maximum likelihood & maximum
+33	a posteriori MAP estimates	of	parameters in statistical models, where the model depends on unobserved latent variables
+33	parameters	in	statistical models, where the model depends on unobserved latent variables
+33	statistical models	where	the model
+34	The EM iteration	alternates, alternates between, between performing	an expectation E step
+34	The EM iteration	creates	a function
+34	The EM iteration	a function for	the expectation
+34	The EM iteration	the expectation of	the log-likelihood
+34	The EM iteration	the log-likelihood evaluated, the expectation using	the current estimate
+34	The EM iteration	using for	the parameters
+34	The EM iteration	computes	parameters
+34	The EM iteration	parameters maximizing	the expected log-likelihood
+34	The EM iteration	the expected log-likelihood found, found on	the E step
+34	The EM iteration	alternates between performing	an expectation E step
+34	an expectation E step	creates	a function
+34	a function	for	the parameters
+34	a function	for	the expectation of the log-likelihood evaluated using the current estimate for the parameters
+34	a function	the expectation of	the log-likelihood
+34	a function	the expectation of	the log-likelihood evaluated
+34	a function	evaluated using	the current estimate
+34	a maximization M step	computes	parameters
+34	a maximization M step	maximizing	the expected log-likelihood
+34	a maximization M step	found on	the E step
+34	the expectation	of	the log-likelihood evaluated
+34	an expectation E step	evaluated using	the current estimate
+34	an expectation E step	evaluated using for	the parameters
+34	the current estimate	for	the parameters
+34	parameters	maximizing	the expected log-likelihood
+34	the expected log-likelihood	found on	the E step
+35	These parameter-estimates	used, used then used, determine to, used determine	the distribution
+35	These parameter-estimates	the distribution of	the latent variables
+35	These parameter-estimates	the distribution in	the next E step
+35	These parameter-estimates	are	then
+35	These parameter-estimates	are used to determine	the distribution
+35	the distribution	of	the latent variables
+35	the distribution	in	the next E step
+36	The EM algorithm	explained, explained given	its name
+36	The EM algorithm	given in	a classic 1977paper
+36	The EM algorithm	a classic 1977paper by	Arthur Dempster
+36	The EM algorithm	was explained given	its name
+36	The EM algorithm	given in	a classic 1977paper by Arthur Dempster, Nan Laird, and Donald Rubin
+36	The EM algorithm	a classic 1977paper by	Arthur Dempster, Nan Laird, and Donald Rubin
+36	The EM algorithm	a classic 1977paper by	Nan Laird
+36	a classic 1977paper	by	Arthur Dempster, Nan Laird, and Donald Rubin
+36	a classic 1977paper	by	Nan Laird
+37	the method	pointed, pointed out proposed many, proposed in	special circumstances
+37	the method	by	earlier authors
+37	They	pointed out that	the method
+37	the method	that had been proposed many	times
+37	the method	proposed in	special circumstances
+37	the method	proposed by	earlier authors
+38	A very detailed treatment	published, A very detailed treatment of	the EM method
+38	A very detailed treatment	A very detailed treatment for	exponential families
+38	A very detailed treatment	published by	Rolf Sundberg
+38	A very detailed treatment	published in	his thesis
+38	A very detailed treatment	following	his collaboration
+38	A very detailed treatment	his collaboration with	Per Martin-Löf Anders Martin-Löf
+38	A very detailed treatment	of	the EM method
+38	A very detailed treatment	for	exponential families
+38	A very detailed treatment	was published by	Rolf Sundberg
+38	A very detailed treatment	published in	his thesis and several papers
+38	A very detailed treatment	published in following	his collaboration
+38	A very detailed treatment	his collaboration with	Per Martin-Löf
+38	A very detailed treatment	his collaboration with	Per Martin-Löf and Anders Martin-Löf
+38	his collaboration	with	Per Martin-Löf and Anders Martin-Löf
+39	The Dempster – Laird–Rubin paper	generalized, generalized in	1977
+39	The Dempster – Laird–Rubin paper	generalized	the method
+39	The Dempster – Laird–Rubin paper	generalized sketched	a convergence analysis
+39	The Dempster – Laird–Rubin paper	a convergence analysis for	a wider class
+39	The Dempster – Laird–Rubin paper	a wider class of	problems
+39	The Dempster – Laird–Rubin paper	generalized in	1977
+39	The Dempster – Laird–Rubin paper	generalized in	the method
+39	The Dempster – Laird–Rubin paper	generalized in sketched	a convergence analysis
+39	The Dempster – Laird–Rubin paper	a convergence analysis for	a wider class of problems
+39	a wider class	of	problems
+39	a convergence analysis	for	a wider class of problems
+40	the innovative Dempster – Laird	received Regardless, Regardless of	Rubin paper
+40	the innovative Dempster – Laird	Rubin paper in	the Journal of the Royal Statistical Society
+40	the innovative Dempster – Laird	received	an enthusiastic discussion
+40	the innovative Dempster – Laird	an enthusiastic discussion at	the Royal Statistical Society meeting
+40	the innovative Dempster – Laird	the Royal Statistical Society meeting with	Sundberg
+40	the innovative Dempster – Laird	an enthusiastic discussion calling	the paper
+40	the innovative Dempster – Laird – Rubin paper	Rubin paper in	the Journal of the Royal Statistical Society
+40	Regardless of earlier inventions	received	an enthusiastic discussion
+40	the innovative Dempster – Laird – Rubin paper	an enthusiastic discussion at	the Royal Statistical Society meeting
+40	the innovative Dempster – Laird – Rubin paper	an enthusiastic discussion at	the Royal Statistical Society meeting with Sundberg
+40	the Royal Statistical Society meeting	with	Sundberg
+40	the Royal Statistical Society meeting	calling	the paper
+40	the Royal Statistical Society meeting	brilliant	calling
+40	an enthusiastic discussion	at	the Royal Statistical Society meeting with Sundberg
+41	Rubin paper	established	the EM method
+41	Rubin paper	established as	an important tool
+41	Rubin paper	an important tool of	statistical analysis
+41	The Dempster – Laird –	established	the EM method
+41	The Dempster – Laird –	established as	an important tool
+41	The Dempster – Laird –	established as	an important tool of statistical analysis
+41	an important tool	of	statistical analysis
+42	economists	predicting, much pretty, predicting much, predicting for	2018--a
+42	economists	hot too hot, cold too	Goldilocks scenario
+42	economists	predicting with	little sight
+42	economists	little sight of	the three bears
+42	a year	predicting After of	a year relatively healthy global economic growth
+42	economists	After are predicting	pretty
+42	economists	After are predicting	much
+42	economists	After are predicting same for	2018--a neither too-hot nor too-cold
+42	economists	After are predicting same for	too
+42	economists	hot	too
+42	After a year of relatively healthy global economic growth	cold	Goldilocks scenario
+42	After a year of relatively healthy global economic growth	predicting with	little sight
+42	After a year of relatively healthy global economic growth	predicting with	little sight of the three bears
+42	little sight	of	the three bears
+42	2018--a	hot	too
+43	The idea	is	all
+43	The idea	is, much pretty, is much, is on	track
+43	The idea	track for	growth
+43	The idea	be, stronger than, than in	2017
+43	The idea	is that	all
+43	all	is	pretty
+43	all	is	much
+43	all	is on	track
+43	all	is on	track for growth
+43	track	for	growth
+43	track	that will be stronger than in	2017
+43	all	for	growth
+43	all	that will be stronger than in	2017
+44	Part	come, Part of	this
+44	Part	come, come from	the fact
+44	Part	got generally	forecasters
+44	Part	the fact got	it
+44	Part	wrong underclubbing	this year ’s economic performance
+44	Part	for particularly, this year ’s economic performance for	the euro zone
+44	Part	of	this
+44	Part	may come from	the fact that forecasters generally got it wrong last year, underclubbing this year ’s economic performance, particularly for the euro zone and Japan
+44	forecasters	got	it
+44	forecasters	got wrong	last year
+44	forecasters	got wrong underclubbing	this year ’s economic performance
+44	forecasters	got wrong underclubbing	particularly
+44	forecasters	this year ’s economic performance for	the euro zone
+44	forecasters	this year ’s economic performance for	for the euro zone and Japan
+44	this year ’s economic performance	for	particularly
+44	this year ’s economic performance	for	for the euro zone and Japan
+45	The International Monetary Fund	saw for	example
+45	The International Monetary Fund	saw	2017 global growth
+45	The International Monetary Fund	saw at	3.4percent
+45	The International Monetary Fund	saw with	advanced economies
+45	The International Monetary Fund	advanced economies advancing	1.8percent
+45	The International Monetary Fund	saw for	2017 global growth
+45	The International Monetary Fund	saw with	advanced economies advancing 1.8percent
+45	The International Monetary Fund	advancing	1.8percent
+45	advanced economies	advancing	1.8percent
+46	It	reckons, reckons now reckons	them
+46	It	reckons at	3.6percent and 2.2percent
+46	It	reckons	them
+47	It	had	the euro zone
+47	Japan	growing	1.5percent & 0.6percent
+47	Japan	growing	respectively
+48	It	has, has now has	them
+48	It	has at	2.1percent 1.5percent
+48	It	has	them
+48	It	has at	2.1percent
+48	It	has at	2.1percent and 1.5percent
+49	Faster growth	reaching	roughly two-thirds
+49	Faster growth	roughly two-thirds of	the world ’s population
+49	the IMF	said, said in	a December blog post
+49	Faster growth	is reaching	roughly two-thirds
+49	roughly two-thirds	of	the world ’s population
+49	the IMF	said in	a December blog post
+49	the IMF	said	Faster growth is reaching roughly two-thirds of the world ’s population in a December blog post
+50	This performance	made	some economists
+50	This performance	has made	some economists
+51	Nomura	is, is among, bullish more	bullish
+51	Global growth	has	far more self-reinforcing characteristics
+51	Global growth	far more self-reinforcing characteristics at	present
+51	Global growth	far more self-reinforcing characteristics than, than at	any time
+51	Global growth	any time over	the last 20-30 years
+51	Nomura	is among more bullish	Global growth
+51	Nomura	is among more bullish has	far more self-reinforcing characteristics
+51	far more self-reinforcing characteristics	at	present
+51	far more self-reinforcing characteristics	than at	any time over the last 20-30 years
+51	any time	over	the last 20-30 years
+52	Goldilock u2019s bears	have	a habit
+52	But	do have	a habit
+52	But	a habit of showing	up
+52	a habit	of showing	up
+53	There	are	huge numbers potential political and economic risks the status quo
+53	huge numbers	of	potential political and economic risks
+53	huge numbers	to	the status quo
+54	the fairy tale	let as in	’s
+54	’s	let as in go with	just three : central banks, trade, and bubbles
+55	the danger	is be a policy mistake squeezing	debtors
+55	there	will be	a policy mistake
+55	there	will be squeezing	debtors
+55	there	will be squeezing	a policy mistake
+56	The second	relates, relates to	renewed U.S. protectionism
+56	The second	renewed U.S. protectionism over	Chinese exports
+56	The second	Chinese exports triggering	tit-for-tat, growth-stifling trade barriers
+56	The second	relates to	renewed U.S. protectionism or anger over Chinese exports triggering tit-for-tat, growth-stifling trade barriers
+56	The second	renewed U.S. protectionism over	Chinese exports triggering tit-for-tat, growth-stifling trade barriers
+56	The second	triggering	tit-for-tat, growth-stifling trade barriers
+56	renewed U.S. protectionism & anger	over	Chinese exports triggering tit-for-tat, growth-stifling trade barriers
+56	renewed U.S. protectionism & anger	triggering	tit-for-tat, growth-stifling trade barriers
+56	Chinese exports	triggering	tit-for-tat, growth-stifling trade barriers
+57	The third	is about sudden market losses dry, dry up	spending
+57	The third	is	about sudden market losses spending
+57	about sudden market losses	dry	spending
+57	about sudden market losses	dry up	spending & demand
