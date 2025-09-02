@@ -1,12 +1,11 @@
 to run graph4nlp
-C:\Users\lenovo>d:
+stanford-corenlp-4.5.3\stanford-corenlp-4.5.3
 
-D:\>cd D:\Private\PHD\OldMyCodeUntil10-1-2024\13-3-2023\CoreIO\stanford-corenlp-4.5.3\stanford-corenlp-4.5.3
-
-D:\Private\PHD\OldMyCodeUntil10-1-2024\13-3-2023\CoreIO\stanford-corenlp-4.5.3\stanford-corenlp-4.5.3>java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000000000000000000
+stanford-corenlp-4.5.3\stanford-corenlp-4.5.3>java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000000000000000000
 
 to run coref
 coref-spanbert-large-2021.03.10.tar.gz
 
 graph4nlp
+
 
