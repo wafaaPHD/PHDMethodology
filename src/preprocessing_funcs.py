@@ -1,4 +1,4 @@
-from allennlp.predictors.predictor import Predictor
+#from allennlp.predictors.predictor import Predictor
 import os
 import re
 import spacy
@@ -10,9 +10,13 @@ from torch.nn.utils.rnn import pad_sequence
 from .misc import save_as_pickle, load_pickle, get_subject_objects,processSubjectObjectPairs2
 from tqdm import tqdm
 import logging
-from .SubjectObjectrelation import SubjectObjectrelation,splitMergeSentences,chunktext
+from .SubjectObjectrelation import splitMergeSentences,chunktext,SubjectObjectrelation
 import contractions
-from .graph4nlpEvaluation import extract_triples,evaluate_extraction
+from .AdaptiveTripleFilter  import AdaptiveTripleFilter
+from .triple_extractor import TripleExtractor
+import sys
+
+#from .graph4nlpEvaluation import extract_triples,evaluate_extraction
 
 
 tqdm.pandas(desc="prog_bar")
@@ -66,7 +70,7 @@ def print_clusters(prediction):
     for cluster in clusters:
         print(get_span_words(cluster[0], document) + ': ', end='')
         print(f"[{'; '.join([get_span_words(span, document) for span in cluster])}]")
-def create_pretraining_corpus(raw_text, nlp,predictor, window_size=500):
+def create_pretraining_corpus(raw_text, nlp,predictor=None, window_size=500):
     '''
     Input: Chunk of raw text
     Output: modified corpus of triplets (relation statement, entity1, entity2)
@@ -74,19 +78,20 @@ def create_pretraining_corpus(raw_text, nlp,predictor, window_size=500):
     logger.info("Processing sentences...")
     
     cluster = []
-    try:
-        prediction = predictor.predict(document= raw_text)  # get prediction
-        #updated_document = replace_coreferences(prediction['document'], prediction['clusters'])
-        print("Clsuters:-")
-        for clusterPredict in prediction['clusters']:
-            coref_w_spans=(get_span_words(clusterPredict[0], prediction['document']),f"[{'; '.join([get_span_words(span, prediction['document']) for span in clusterPredict])}]",clusterPredict)
-            if (coref_w_spans) not in cluster:
-                cluster.append(coref_w_spans)
+    analysisList=[]
+    #try:
+    #    prediction = predictor.predict(document= raw_text)  # get prediction
+    #    #updated_document = replace_coreferences(prediction['document'], prediction['clusters'])
+    #    print("Clsuters:-")
+    #    for clusterPredict in prediction['clusters']:
+    #        coref_w_spans=(get_span_words(clusterPredict[0], prediction['document']),f"[{'; '.join([get_span_words(span, prediction['document']) for span in clusterPredict])}]",clusterPredict)
+    #        if (coref_w_spans) not in cluster:
+    #            cluster.append(coref_w_spans)
             
-        print(cluster)  # list of clusters (the indices of spaCy tokens)
-        print('\n') #Newline
-    except :
-        pass  
+    #    print(cluster)  # list of clusters (the indices of spaCy tokens)
+    #    print('\n') #Newline
+    #except :
+    #    pass  
     #updated_text = ' '.join(updated_document)
     #sents_doc = nlp(updated_text)
     sents_doc = nlp(raw_text)
@@ -130,6 +135,31 @@ def create_pretraining_corpus(raw_text, nlp,predictor, window_size=500):
         
     left_r=sent_[0].i   
     all_sent_triples,tokensarr=processSubjectObjectPairs2(sent_)#sents_doc
+    converted = [item[:3] for item in all_sent_triples]
+    filter_engine = AdaptiveTripleFilter(z_threshold=1.2, min_similarity=0.0)
+    AllSentTriplesAdaptiveTripleFilter, analysis1 = filter_engine.filter_and_analyze(sent_.text, converted)
+    all_sent_triples[:] = [triple for triple in all_sent_triples if tuple(triple[:3]) in AllSentTriplesAdaptiveTripleFilter]
+    if 'error' not in analysis1:
+        print("\n" + "=" * 60)
+        print("ERROR ANALYSIS:")
+        print(f"Total: {analysis1['total_triples']}")
+        print(f"Kept: {analysis1['kept_triples']}")
+        print(f"Filtered out: {analysis1['filtered_out']}")
+        print(f"Precision: {analysis1['precision']:.2f}")
+        print("\nError breakdown:")
+        for err, count in analysis1['error_breakdown'].items():
+            print(f"   - {err}: {count}")
+    
+        print("\n" + "=" * 60)
+        print("DETAILED SCORES (first 4 triples):")
+        for item in analysis1['per_triple_scores'][:4]:
+            print(f"\n{item['triple']}")
+            print(f"  → Kept: {item['kept']}")
+            if item['error_type']:
+                print(f"  → Error: {item['error_type']}")
+            print(f"  → Relevance: {item['relevance']:.2f}")
+            print(f"  → Consistency: {item['consistency']:.2f}")
+            print(f"  → Combined: {item['combined']:.2f}")
     for graphdata_e in all_sent_triples:
             
             e1, e2 = graphdata_e[0], graphdata_e[2]
@@ -177,7 +207,111 @@ def create_pretraining_corpus(raw_text, nlp,predictor, window_size=500):
                     if(change==False):
                         if ((e1text,rel, e2text)) not in extracted_triples:
                             extracted_triples.append((e1text, rel, e2text))
+    extractor = TripleExtractor(nlp)
+    all_sent_triples,tokensarr=extractor.extract(sent_)
+    converted = [item[:3] for item in all_sent_triples]
+    AllSentTriplesAdaptiveTripleFilter, analysis = filter_engine.filter_and_analyze(sent_.text, converted)
+    all_sent_triples[:] = [triple for triple in all_sent_triples if tuple(triple[:3]) in AllSentTriplesAdaptiveTripleFilter]
+    if 'error' in analysis:
+        print("")
+    if 'error' not in analysis:
+        print("\n" + "=" * 60)
+        print("ERROR ANALYSIS:")
+        print(f"Total: {analysis['total_triples']}")
+        print(f"Kept: {analysis['kept_triples']}")
+        print(f"Filtered out: {analysis['filtered_out']}")
+        print(f"Precision: {analysis['precision']:.2f}")
+        print("\nError breakdown:")
+        for err, count in analysis['error_breakdown'].items():
+            print(f"   - {err}: {count}")
+    
+        print("\n" + "=" * 60)
+        print("DETAILED SCORES (first 4 triples):")
+        for item in analysis['per_triple_scores'][:4]:
+            print(f"\n{item['triple']}")
+            print(f"  → Kept: {item['kept']}")
+            if item['error_type']:
+                print(f"  → Error: {item['error_type']}")
+            print(f"  → Relevance: {item['relevance']:.2f}")
+            print(f"  → Consistency: {item['consistency']:.2f}")
+            print(f"  → Combined: {item['combined']:.2f}")
+    
+    for graphdata_e,tokensarr_row in zip(all_sent_triples,tokensarr):
+                e1, e2 = graphdata_e[0], graphdata_e[2]
+                rel = graphdata_e[1]
+                triple_dict=graphdata_e[3]
+                triple_dictsub=graphdata_e[4]
+                #if (len(e1) > 5) or (len(e2) > 5): # don't want entities that are too long
+                #    continue
+                e1text, e2text = " ".join(w.text for w in e1) if isinstance(e1, list) else e1,\
+                                    " ".join(w.text for w in e2) if isinstance(e2, list) else e2
+                if all(isinstance(triple_dictitem, tuple) for triple_dictitem in triple_dict):
+                    e1start, e1end =triple_dict[len(triple_dict)-1][0],triple_dict[len(triple_dict)-1][1] 
+                else:
+                    e1start, e1end =triple_dict[0],triple_dict[len(triple_dict)-1] 
+                e2start, e2end = triple_dictsub[0],triple_dictsub[1]
+                relindex=graphdata_e[5]
+                relindex[:] = [number - left_r for number in relindex]
+                
+                if (e1end < e2start and e1start != e1end and e2start != e2end and (e2start - e1end) > 0) : #and ((e1text, e2text) not in ents_list)
+                    assert e1start != e1end
+                    assert e2start != e2end
+                    assert (e2start - e1end) > 0
+                    r = ([w.text for w in sent_], (e1start - left_r, e1end - left_r), (e2start - left_r, e2end - left_r),rel,relindex)
+                    if ((r, e1text, e2text) not in D):
+                        D.append((r, e1text.split(' _ ')[-1], e2text))
+                        ents_list.append((e1text, e2text))
+                        relationstring+=rel+'('+e1+','+e2+')'+'|'
+                        entityindex.append((e1text,e2text,(e1start - left_r, e1end - left_r), (e2start - left_r, e2end - left_r)))
+                    if ((e1text, e1start - left_r,e1end - left_r)) not in entities_pos:
+                        entities_pos.append((e1text, e1start - left_r,e1end - left_r))
+                    if ((e2text,e2start - left_r, e2end - left_r)) not in entities_pos:
+                        entities_pos.append((e2text,e2start - left_r, e2end - left_r))
+
+                    change=False
+                    for x in cluster:        
+                        if(e1text.split(' _ ')[-1] in x[1] and [e1start,e1end] in x[2]):
+                            e1text=x[0]
+                            change=True
+                        if(e2text in x[1] and [e2start,e2end] in x[2]):
+                            e2text=x[0]
+                            change=True
+                        if(change and e1text!=e2text):
+                            if ((e1text.split(' _ ')[-1],rel, e2text)) not in extracted_triples:
+                                extracted_triples.append((e1text.split(' _ ')[-1], rel, e2text))
+                    if(change==False):
+                        # if ((e1text.split(' _ ')[-1],rel, e2text)) not in extracted_triples:
+                            # extracted_triples.append((e1text.split(' _ ')[-1], rel, e2text))
+                        extracted_triples.append((e1text, rel, e2text))
+    
     all_sent_triples,tokensarr=SubjectObjectrelation(sent_)
+    converted = [item[:3] for item in all_sent_triples]
+    AllSentTriplesAdaptiveTripleFilter, analysis = filter_engine.filter_and_analyze(sent_.text, converted)
+    all_sent_triples[:] = [triple for triple in all_sent_triples if tuple(triple[:3]) in AllSentTriplesAdaptiveTripleFilter]
+    if 'error' in analysis:
+        print("")
+    if 'error' not in analysis:
+        print("\n" + "=" * 60)
+        print("ERROR ANALYSIS:")
+        print(f"Total: {analysis['total_triples']}")
+        print(f"Kept: {analysis['kept_triples']}")
+        print(f"Filtered out: {analysis['filtered_out']}")
+        print(f"Precision: {analysis['precision']:.2f}")
+        print("\nError breakdown:")
+        for err, count in analysis['error_breakdown'].items():
+            print(f"   - {err}: {count}")
+    
+        print("\n" + "=" * 60)
+        print("DETAILED SCORES (first 4 triples):")
+        for item in analysis['per_triple_scores'][:4]:
+            print(f"\n{item['triple']}")
+            print(f"  → Kept: {item['kept']}")
+            if item['error_type']:
+                print(f"  → Error: {item['error_type']}")
+            print(f"  → Relevance: {item['relevance']:.2f}")
+            print(f"  → Consistency: {item['consistency']:.2f}")
+            print(f"  → Combined: {item['combined']:.2f}")
+    
     for graphdata_e,tokensarr_row in zip(all_sent_triples,tokensarr):
                 e1, e2 = graphdata_e[0], graphdata_e[2]
                 rel = graphdata_e[1]
@@ -222,7 +356,6 @@ def create_pretraining_corpus(raw_text, nlp,predictor, window_size=500):
                         # if ((e1text.split(' _ ')[-1],rel, e2text)) not in extracted_triples:
                             # extracted_triples.append((e1text.split(' _ ')[-1], rel, e2text))
                         extracted_triples.append((e1text, rel, e2text))
-
     pairs = get_subject_objects(sent_)        
     if len(pairs) > 0:
             for pair in pairs:
@@ -325,10 +458,10 @@ def create_pretraining_corpus(raw_text, nlp,predictor, window_size=500):
 
 
     ents_list_Position.append(entityindex)
-    relations.append(relationstring)
-
-    return D,sents,relations,ents_list_Position,cluster,entities_pos,reference_triples,extracted_triples
-def create_pretraining_corpus_(raw_text, nlp,predictor, window_size=500):
+    relations.append(relationstring)  
+    analysisList.append((raw_text,analysis1,analysis))
+    return D,sents,relations,ents_list_Position,cluster,entities_pos,reference_triples,extracted_triples,analysisList
+def create_pretraining_corpus_(raw_text, nlp,predictor=None, window_size=500):
     '''
     Input: Chunk of raw text
     Output: modified corpus of triplets (relation statement, entity1, entity2)
@@ -336,19 +469,19 @@ def create_pretraining_corpus_(raw_text, nlp,predictor, window_size=500):
     logger.info("Processing sentences...")
     
     cluster = []
-    try:
-        prediction = predictor.predict(document= raw_text)  # get prediction
-        #updated_document = replace_coreferences(prediction['document'], prediction['clusters'])
-        print("Clsuters:-")
-        for clusterPredict in prediction['clusters']:
-            coref_w_spans=(get_span_words(clusterPredict[0], prediction['document']),f"[{'; '.join([get_span_words(span, prediction['document']) for span in clusterPredict])}]",clusterPredict)
-            if (coref_w_spans) not in cluster:
-                cluster.append(coref_w_spans)
+    #try:
+    #    prediction = predictor.predict(document= raw_text)  # get prediction
+    #    #updated_document = replace_coreferences(prediction['document'], prediction['clusters'])
+    #    print("Clsuters:-")
+    #    for clusterPredict in prediction['clusters']:
+    #        coref_w_spans=(get_span_words(clusterPredict[0], prediction['document']),f"[{'; '.join([get_span_words(span, prediction['document']) for span in clusterPredict])}]",clusterPredict)
+    #        if (coref_w_spans) not in cluster:
+    #            cluster.append(coref_w_spans)
             
-        print(cluster)  # list of clusters (the indices of spaCy tokens)
-        print('\n') #Newline
-    except :
-        pass  
+    #    print(cluster)  # list of clusters (the indices of spaCy tokens)
+    #    print('\n') #Newline
+    #except :
+    #    pass  
     #updated_text = ' '.join(updated_document)
     #sents_doc = nlp(updated_text)
     sents_doc = nlp(raw_text)
@@ -870,8 +1003,10 @@ class Pad_Sequence():
 def load_dataloaders(args, max_length=50000):
    
     if not os.path.isfile(args.PathDataset+args.pretrain_data+'_'+'D.pkl'):
-        nlp = spacy.load("en_core_web_lg")#
-       
+        model = "en_coreference_web_trf" if "--coref" in sys.argv else "en_core_web_trf"
+        print(f"Loading '{model}' …")
+        nlp = spacy.load(model)
+        #nlp = spacy.load("en_core_web_lg")#       
         nlp.add_pipe("merge_entities")
         nlp.add_pipe("merge_noun_chunks")
         from spacy.tokenizer import Tokenizer
@@ -888,12 +1023,13 @@ def load_dataloaders(args, max_length=50000):
         nlp.tokenizer.add_special_case("Webber International 1-0", special_case4)
         nlp.tokenizer.add_special_case("step-by-step",special_case3)
         
-        predictor=Predictor.from_path("./allenepi/coref-spanbert-large-2021.03.10.tar.gz")#("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")#("./allenepi/coref-spanbert-large-2021.03.10.tar.gz")#("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")#
-
+        #predictor=Predictor.from_path("./allenepi/coref-spanbert-large-2021.03.10.tar.gz")#("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")#("./allenepi/coref-spanbert-large-2021.03.10.tar.gz")#("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz")#
+        predictor=None
         logger.info("\nLoading pre-training data...")
         logger.info("\nLoading Spacy NLP...")
         D = []
         Allsents,relations,ents_list_Position,cluster,entities_pos,reference_triples, extracted_triples=[],[],[],[],[],[],[]
+        analysislist=[]
         if(args.pretrain_data=='NYT_Dataset.csv'):
             df = pd.read_csv(args.PathDataset+args.pretrain_data)
             print(df)
@@ -981,8 +1117,9 @@ def load_dataloaders(args, max_length=50000):
                linesen=line
                if linesen not in [" ", "\n", ""]:
                 index=len(Allsents)
-                D1,sents1,relations1,ents_list_Position1,cluster1,entities_pos1,referse_triples1,extract_triples1=LoadDataPreprocess(linesen,nlp,args,index,predictor)
+                D1,sents1,relations1,ents_list_Position1,cluster1,entities_pos1,referse_triples1,extract_triples1,analysislist1=LoadDataPreprocess(linesen,nlp,args,index,predictor)
                 D.extend(D1)
+                analysislist.extend(analysislist1)
                 Allsents.append(sents1)
                 relations.extend(relations1)
                 ents_list_Position.extend(ents_list_Position1)
@@ -1130,8 +1267,11 @@ def load_dataloaders(args, max_length=50000):
 
         logger.info("\nTotal number of relation statements in pre-training corpus: %d" % len(D))
         
-        evaluate_extraction(reference_triples, extracted_triples,args,Allsents,nlp,ev1="2")
-        
+        #evaluate_extraction(reference_triples, extracted_triples,args,Allsents,nlp,ev1="2")
+        print(analysislist)
+        with open(args.PathDataset+'analysislist.txt', 'a', encoding="utf-8") as f:
+                                    f.write(str(analysislist))
+                                    f.write('\n')     
         dfClustre = pd.DataFrame(cluster)
         df_train = pd.DataFrame(data={'sents': Allsents, 'relations': relations})
         df_train1 = pd.DataFrame(data={'sents': Allsents, 'relations': relations,'ents_list_Position':ents_list_Position,'Cluster':cluster,'Entities_pos':entities_pos})
@@ -1147,6 +1287,7 @@ def load_dataloaders(args, max_length=50000):
         save_as_pickle(args.pretrain_data+'_'+'df_train.pkl', df_train,args)
         save_as_pickle(args.pretrain_data+'_'+'df_train1.pkl', df_train1,args)
         save_as_pickle(args.pretrain_data+'_'+'D.pkl', D,args)
+
         logger.info("\nSaved pre-training corpus to %s" % args.PathDataset+"D.pkl")
     else:
         logger.info("\nLoaded pre-training data from saved file")
@@ -1298,7 +1439,7 @@ def LoadDataPreprocess(linesen,nlp,args,index,predictor):
                    text_chunks=chunktext(500,text1)
             
                    for text_chunk in tqdm(text_chunks, total=len(text_chunks)):
-                      D1,sents1,relations1,ents_list_Position1,cluster1,entities_pos1,referse_triples1,extract_triples1=create_pretraining_corpus(text_chunk, nlp,predictor, window_size=500)
+                      D1,sents1,relations1,ents_list_Position1,cluster1,entities_pos1,referse_triples1,extract_triples1,analysislist1=create_pretraining_corpus(text_chunk, nlp,predictor, window_size=500)
                       index+=1#len(sents1)
                       with open(args.PathDataset+'benchie_gold_annotations_en.txt', 'a' , encoding="utf-8") as f:
                                 f.write('sent_id:'+(index).__str__())
@@ -1367,4 +1508,4 @@ def LoadDataPreprocess(linesen,nlp,args,index,predictor):
                                  #                relation+=s+' --> '+r+' --> '+o+"\n"
                       with open(args.PathDataset+'benchie_gold_annotations_en.txt', 'a', encoding="utf-8") as f:    
                                f.write('\n')
-                return D1,sents1,relations1,ents_list_Position1,cluster1,entities_pos1,referse_triples1,extract_triples1
+                return D1,sents1,relations1,ents_list_Position1,cluster1,entities_pos1,referse_triples1,extract_triples1,analysislist1
