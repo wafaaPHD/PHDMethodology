@@ -1,0 +1,4 @@
+metric,micro,macro
+Precision,20.23,22.81
+Recall,27.26,32.94
+F1,23.22,25.09

@@ -1,0 +1,6 @@
+criterion,avg_score_%
+Correctness,35.21
+Completeness,0.05
+Minimality,0.05
+Overall Judged Accuracy,11.77
+% System Triples Matched to Gold (sim>=90),0.05

@@ -1,0 +1,4 @@
+metric,micro,macro
+Precision (Correctness/Faithfulness),97.76,97.54
+Recall (Completeness/Coverage),97.57,97.57
+F1,97.66,97.34

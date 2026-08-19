@@ -1,0 +1,3103 @@
+sent_id:1	With a runway length of 2194.0, Abilene regional airport serves Abiliene, part of Jones County, Texas, in the United States.
+
+1--> Cluster 1:
+Abilene regional airport --> serves With in --> Abiliene, part of Jones County, Texas,
+
+sent_id:2	Abilene Regional Airport has a runway length of 2194.0 and serves Abilene, Jones County, Texas in the United States.
+
+2--> Cluster 1:
+Abilene Regional Airport --> has --> a runway length of 2194.0
+
+sent_id:3	Serving the city of Abilene in Texas, is Abilene Regional Airport. It has the ICAO location identifier KABI and the runway name 17R/35L. The airport is 546 metres above sea level and has a runway length of 2194.0.
+
+3--> Cluster 1:
+It --> has --> the ICAO location identifier KABI and the runway name
+
+sent_id:4	Abilene, Texas is served by Abilene Regional Airport which has the ICAO location identifier of KABI. It is located 546 metres above sea level and has a runway 2194 metres long with the name of 17R/35L.
+
+4--> Cluster 1:
+Abilene, Texas --> is served by --> Abilene Regional Airport
+
+sent_id:5	Abilene Regional Airport serves the city of Abilene in Texas, its ICAO identifier is KABI, its runway length is 2194.0 and is 546 metres above sea level, the name of the runway is 17R/35L.
+
+5--> Cluster 1:
+Abilene Regional Airport --> serves --> the city of Abilene in Texas
+
+sent_id:6	The Adolfo Suárez Madrid–Barajas Airport is operated by ENAIRE and can be found in Madrid. The airport is situated 610.0 meters above sea level and has a 4,349 kilometers long runway whose name is 14L/32R.
+
+6--> Cluster 1:
+The Adolfo Suárez Madrid–Barajas Airport --> is operated by --> ENAIRE
+
+sent_id:7	Adolfo Suárez Madrid-Barajas Airport, which lies 610 metres above sea level, is located in Madrid and operated by ENAIRE. The airport's runway, named 14L/32R, has a length of 4349.0.
+
+7--> Cluster 1:
+Adolfo Suárez Madrid-Barajas Airport --> lies in --> sea level
+
+sent_id:8	Agra Airport is in Uttar Pradesh, which is part of Bundelkhand and Awadh. Its ICAO location identifier is VIAG. The leader of Uttar Pradesh is Ram Naik.
+
+8--> Cluster 1:
+Agra Airport --> is in --> Uttar Pradesh, which is part of Bundelkhand and Awadh
+
+sent_id:9	Agra Airport is located in Uttar Pradesh. Uttar Pradesh is part of both Awadh ad Bundelkhand. The Airport's ICAO location identifier is "VIAG". The leader of Uttar Pradesh is called Ram Naik.
+
+9--> Cluster 1:
+Agra Airport --> located in --> Uttar Pradesh
+
+sent_id:10	Ram Naik is the leader of Uttar Pradesh which is part of Awadh and Bundelkhand. It is the location of Agra airport which has the native name of Kheria Air Force Station.
+
+10--> Cluster 1:
+Ram Naik --> is --> the leader of Uttar Pradesh which is part of Awadh and Bundelkhand
+
+sent_id:11	Agra Airport, which has the native name of Kheria Air Force Station, is in Uttar Pradesh, part of Awadh and Bundelkhand, where Ram Naik is the leader.
+
+11--> Cluster 1:
+Agra Airport --> has --> the native name of Kheria Air Force Station
+
+sent_id:12	Agra Airport is located in Uttar Pradesh which is part of Awadh and Bundelkhand. Kheria Air Force Station is its native name. Ram Naik is the leader in Uttar Pradesh.
+
+12--> Cluster 1:
+Agra Airport --> located in --> Uttar Pradesh which is part of Awadh and Bundelkhand
+
+sent_id:13	Al Asad airbase is operated by the United States Air Force. Some of its aircraft include the Boeing C-17 Globemaster III (transport aircraft), General Dynamics F-16 Fighting Falcon (aircraft fighter), and the Lockheed AC-130 which can be found on USAF aircraft carriers. The USAF was involved in the Invasion of Panama.
+
+13--> Cluster 1:
+Al Asad airbase --> is operated by --> the United States Air Force
+
+sent_id:14	Al Asad airbase is operated by the United States Air Force which was involved in battles at the invasion of Panama. They deploy the Lockheed AC-130 on their aircraft carriers, the Boeing C-17 Globemaster III as transport aircraft and the General Dynamics F-16 Fighting Falcon as fighter aircraft.
+
+14--> Cluster 1:
+Al Asad airbase --> is operated by --> the United States Air Force
+
+sent_id:15	The United States Air Force, which was involved in the Invasion of Panama, are the operators of Al Asad airbase. The USAF have aircraft including: the Lockheed AC-130 attack aircraft, the Boeing C-17 Globemaster III transporter and the General Dynamics F-16 Fighting Falcon fighter plane.
+
+15--> Cluster 1:
+The United States Air Force --> was involved --> which
+
+sent_id:16	The United States Air Force has fought in the Korean War. It is the operating organisation for Al Asad airbase. It has a Boeing C-17 Globemaster III transport aircraft and additionally, the Lockheed AC-130 can be found on USAF aircraft carriers. McDonnell Douglas F-15 Eagle was a Fighter Aircraft of the United States Air Force.
+
+16--> Cluster 1:
+The United States Air Force --> has fought in --> the Korean War
+
+sent_id:17	The United States Air Force, which fought battles in the Korean war, is the operating organisation for Al Asad airbase. The US Airforce has a Boeing C-17 Globemaster III transport aircraft, an aircraft fighter called the McDonnell Douglas F-15 Eagle and an attack aircraft named The Lockheed AC-130.
+
+17--> Cluster 1:
+The United States Air Force --> fought --> battles in the Korean war
+
+sent_id:18	The transport aircraft for the United States Air Force is the Lockheed C-130 Hercules. And Lockheed AC-130 can be found on USAF aircraft carriers. Both the Korean War and the Invasion of Grenada involved the United States Air Force which currently operates the Al Asad Airbase.
+
+18--> Cluster 1:
+The transport aircraft --> is --> the Lockheed C-130 Hercules
+
+sent_id:19	The USAF which fought in the Korean War and invaded Grenada, operates the Al Asad airbase. Among the aircraft found on USAF carriers are Lockheed AC-130 which is an attack aircraft and the Lockheed C-130 Hercules which is a transport plane.
+
+19--> Cluster 1:
+The USAF --> fought in --> the Korean War
+
+sent_id:20	Al Asad Airbase is operated by the United States Air Force and uses Lockheed AC-130 attack aircraft and Lockheed C-130 Hercules transport aircraft. The USAF participated in the Korean War and the Invasion of Grenada.
+
+20--> Cluster 1:
+Al Asad Airbase --> is operated by --> the United States Air Force
+
+sent_id:21	The Invasions of Grenada and Panama in involved the United States Air Force which now operates the Al Asad airbase. The Air Force has several types of aircraft such as the Boeing C-17 Globemaster III transport aircraft and the Lockheed AC-130 which can be found on USAF aircraft carriers.
+
+21--> Cluster 1:
+The Invasions of Grenada --> in involved --> the United States Air Force which now operates the Al Asad airbase
+
+sent_id:22	Al Asad airbase is operated by The United States Air Force. The USAF is equipped with the attack aircraft, Lockheed AC-130 and Boeing C-17 Globemaster III transport aircraft. The USAF has been involved in the Invasion of Grenada and invasion of Panama.
+
+22--> Cluster 1:
+Al Asad airbase --> is operated by --> The United States Air Force
+
+sent_id:23	Allama Iqbal International airport is located in Punjab Pakistan and serves Lahore, Pakistan. The Pakistan Civil Aviation Authority governs the Allama Iqbal International Airport. The country is led by Anwar Zaheer Jamali.
+
+23--> Cluster 1:
+Allama Iqbal International airport --> located in --> Punjab Pakistan
+
+sent_id:24	Allama Iqbal International Airport, which serves the city of Lahore, is located in Punjab, Pakistan and is operated by the Pakistan Civil Aviation Authority. Pakistan is led by Anwar Zaheer Jamali.
+
+24--> Cluster 1:
+Allama Iqbal International Airport --> serves --> the city of Lahore
+
+sent_id:25	In the city of Lahore, Punjab, Pakistan, there is an airport called Allama Iqbal International Airport. It is operated by the Pakistan Civil Aviation Authority, in Punjab Pakistan, which is led by Anwar Zaheer Jamali.
+
+25--> Cluster 1:
+there --> is In --> an airport called Allama Iqbal International Airport
+
+sent_id:26	The Pakistan Civil Aviation Authority is the operating organisation of the Allama Iqbal International Airport. The airport serves the city of Lahore, in Pakistan where Shehbaz Sharif is the leader. It is also where the Allama Iqbal International Airport is found, in Punjab, Pakistan.
+
+26--> Cluster 1:
+The Pakistan Civil Aviation Authority --> is --> the operating organisation of the Allama Iqbal International Airport
+
+sent_id:27	The Pakistan Civil Aviation Authority is the operating organisation of the Allama Iqbal International Airport located in Punjab, Pakistan, which is led by Shehbaz Sharif. The airport serves Lahore in Pakistan.
+
+27--> Cluster 1:
+The Pakistan Civil Aviation Authority --> is --> the operating organisation of the Allama Iqbal International Airport located in Punjab, Pakistan, which is led by Shehbaz Sharif
+
+sent_id:28	Located in Texas, and serving Andrews, is Andrews County Airport. The airport is 973.0 above sea level, has a runway length of 896, and a runway with the name 11/29.
+
+28--> Cluster 1:
+The airport --> is --> 973.0 above sea level
+
+sent_id:29	Andrews County Airport in Texas has a runway length of 896 and serves the city of Andrews. It is located 973 metres below sea level and has the runway name 11/29.
+
+29--> Cluster 1:
+Andrews County Airport --> has --> a runway length of 896
+
+sent_id:30	Andrews County Airport is located in Texas. It serves the city of Andrews and is 973 metres above sea level. Its runway length is named 11/29 and is 896 long.
+
+30--> Cluster 1:
+Andrews County Airport --> located in --> Texas
+
+sent_id:31	Andrews County Airport is in Texas in the U.S.A. where Spanish is one of the languages spoken. Houston is the largest city in the state and its capital is Austin.
+
+31--> Cluster 1:
+Andrews County Airport --> is in --> Texas
+
+sent_id:32	Andrews County Airport is located in Texas, United States. The largest city in Texas is Houston, the state capital is Austin and Spanish is one of the languages spoken there.
+
+32--> Cluster 1:
+Andrews County Airport --> located in --> Texas, United States
+
+sent_id:33	Houston is the largest city in Texas, where Austin is the Capital city. Andrews County Airport is located in Texas and Some texans can speak Spanish.
+
+33--> Cluster 1:
+Houston --> is --> the largest city in Texas, where Austin is the Capital city
+
+sent_id:34	Andrews County Airport is located in Texas, a state where Spanish is spoken and the people are called Texans. Houston is the largest city in Texas and Austin is the state's capital.
+
+34--> Cluster 1:
+Andrews County Airport --> located in --> Texas, a state where Spanish is spoken
+
+sent_id:35	Andrews County Airport is located in Texas where the Spanish language is spoken and the people are known as Texans. The capital city is Austin but the largest city is Houston.
+
+35--> Cluster 1:
+Andrews County Airport --> located in --> Texas where the Spanish language is spoken and the people are known as Texans
+
+sent_id:36	The Angola International Airport is in Ícolo e Bengo, (Luanda Province), The airport serves Luanda, and is 159 metres above sea level.
+
+36--> Cluster 1:
+The Angola International Airport --> serves to is in --> Ícolo e Bengo, (Luanda Province)
+
+sent_id:37	Angola International Airport is located at Ícolo e Bengo in Luanda province, Angola. The Airport is situated 159 meters above sea level and serves the city of Luanda.
+
+37--> Cluster 1:
+Angola International Airport --> located at --> Ícolo e Bengo in Luanda province, Angola
+
+sent_id:38	Angola International Airport, which is located in Ícolo e Bengo in the Luanda Province in Angola, serves Luanda. The airport lies 159 metres above sea level.
+
+38--> Cluster 1:
+Angola International Airport --> is located in --> which
+
+sent_id:39	Angola International Airport is located in Ícolo e Bengo, Luanda Province, Angola. The runway is 4000ft long and is 159m a.s.l.
+
+39--> Cluster 1:
+Angola International Airport --> located in --> Ícolo e Bengo, Luanda Province, Angola
+
+sent_id:40	Angola International airport is located in Icolo e Bengo, which is a part of Luanda Province, located in Angola. The airport is 159 meters above sea level and its runway has a length of 4000.0.
+
+40--> Cluster 1:
+Angola International airport --> located in --> Icolo
+
+sent_id:41	Angola International Airport is located in Icolo e Bengo, which is located in the Luanda Province, Angola. The airport is situated 159 meters above sea level and it has a runway that measures a length of 4000.0.
+
+41--> Cluster 1:
+Angola International Airport --> located in --> Icolo
+
+sent_id:42	The Flemish department of Mobility and Public Works is the operating organisation of Antwerp International Airport which is owned by the Flemish Region. The airport serves the city of Antwerp, is 12.0 metres above sea level, and has a runway length of 600.0.
+
+42--> Cluster 1:
+The Flemish department --> is --> the operating organisation of Antwerp International Airport which is owned by the Flemish Region
+
+sent_id:43	The Flemish Region owns Antwerp International Airport which is operated by the Flemish Department of Mobility and Public Works and serves the city of Antwerp. The runway length is 600.0 and the airport is 12 metres above sea level.
+
+43--> Cluster 1:
+The Flemish Region --> owns --> Antwerp International Airport which is operated by the Flemish Department of Mobility and Public Works and serves the city of Antwerp
+
+sent_id:44	Antwerp International Airport is owned by the Flemish Region and located in the city of Antwerp. The airport has a runway length of 600.0, elevation of 12.0 metres above sea level and the Flemish department of Mobility and Public Works is the operating organisation.
+
+44--> Cluster 1:
+Antwerp International Airport --> is owned by --> the Flemish Region
+
+sent_id:45	The city of Appleton is served by Appleton International Airport located 280 metres above sea level in Greenville, Wisconsin. The runway at the airport is 3/21 and is 2439 in length.
+
+45--> Cluster 1:
+The city of Appleton --> is served by --> Appleton International Airport
+
+sent_id:46	Appleton International Airport can be found in Greenville, Wisconsin and serves the city of Appleton. It is situated 280 meters above sea level and has a 2,439 kilometers long runway called 3/21.
+
+46--> Cluster 1:
+Appleton International Airport --> found in --> Greenville, Wisconsin
+
+sent_id:47	Appleton International Airport, which serves the city of Appleton is located in Greenville, Wisconsin. It is elevated 2801 meters above sea level. The airport's runway, which is named 3/21 measures a length of 2439 units.
+
+47--> Cluster 1:
+Appleton International Airport --> serves --> the city of Appleton
+
+sent_id:48	The city of Appleton is served by Appleton International Airport in Greenville (part of Menasha), Clayton Winnebago County, Wisconsin, United States.
+
+48--> Cluster 1:
+The city of Appleton --> is served by --> Appleton International Airport
+
+sent_id:49	Appleton, Wisconsin is served by Appleton International Airport which is located in Greenville (part of Menasha town), Clayton Winnebago County, Wisconsin, USA.
+
+49--> Cluster 1:
+Wisconsin --> is served by --> Appleton International Airport
+
+sent_id:50	Ardmore Airport in New Zealand is operated by the Civil Aviation Authority of New Zealand and is 34 metres above sea level. It has a runway named 03R/21L which is 1,411 long and its third runway has a poaceae surface.
+
+50--> Cluster 1:
+Ardmore Airport in New Zealand --> is operated by --> the Civil Aviation Authority of New Zealand
+
+sent_id:51	Ardmore Airport (New Zealand) is operated by the Civil Aviation Authority of New Zealand. Its 3rd runway is made of Poaceae and its name is 03R/21L. It is 1411 m long and the airport is 34 m above sea level.
+
+51--> Cluster 1:
+Ardmore Airport (New Zealand) --> is operated by --> the Civil Aviation Authority of New Zealand
+
+sent_id:52	The Civil Aviation Authority of New Zealand is the operating organisation for Ardmore Airport, New Zealand and is situated 34 meters above sea level. The airport's 3rd runway is surfaced with Poaceae and has a 1,411 meter long runway called "03R/21L".
+
+52--> Cluster 1:
+The Civil Aviation Authority of New Zealand --> is --> the operating organisation for Ardmore Airport, New Zealand
+
+sent_id:53	Turkmenistan Airlines operates Ashgabat International Airport in Ashgabat. The airport is 211 metres above sea level, has the runway length of 2989.0 and 12R/30L is the runway name.
+
+53--> Cluster 1:
+Turkmenistan Airlines --> operates --> Ashgabat International Airport in Ashgabat
+
+sent_id:54	Ashgabat International Airport is operated by Turkmenistan Airlines. The runway 12R/30L is 2989m long and is 211m a.s.l.
+
+54--> Cluster 1:
+Ashgabat International Airport --> is operated by --> Turkmenistan Airlines
+
+sent_id:55	Ashgabat International Airport is located in Ashgabat and is operated byTurkmenistan Airlines. It is 211 metres above sea level and has a runway length of 2989.0. It has a runway named 12R/30L.
+
+55--> Cluster 1:
+Ashgabat International Airport --> located in --> Ashgabat
+
+sent_id:56	Atlantic City International Airport has a runway length of 1,873 and is operated by the Port Authority of New York and New Jersey. It is situated 23 metres above sea level, has the runway name of 4/22 and is known by the ICAO location identifier KACY.
+
+56--> Cluster 1:
+Atlantic City International Airport --> has --> a runway length of 1,873
+
+sent_id:57	Runway 4/22 at Atlantic City International Airport has an elevation of 23m above sea level and its length is 1873. It is operated by Port Authority of New York and New Jersey under the location Identifier of KACY.
+
+57--> Cluster 1:
+Runway 4/22 --> has --> an elevation of 23m above sea level
+
+sent_id:58	The Port Authority of New York and New Jersey is the operating organisation of Atlantic City International airport, which lies 23.0 meters above sea level. The airport's ICAO Location Identifier is KACY. The 4/22 is the name of the runway in Atlantic City International Airport and it measures 1873.
+
+58--> Cluster 1:
+The Port Authority of New York --> is --> the operating organisation of Atlantic City International airport, which lies 23.0 meters above sea level
+
+sent_id:59	Antwerp International Airport serves the city of Antwerp which is Belgium. Two of the leaders of which, are Charles Michel and Philippe of Belgium. In Belgium, one of the languages is German.
+
+59--> Cluster 1:
+Antwerp International Airport --> serves --> the city of Antwerp which is Belgium
+
+sent_id:60	Antwerp International Airport serves Antwerp in Belgium. Philippe of Belgium and Charles Michel are leaders of Belgium, where German is the language spoken.
+
+60--> Cluster 1:
+Antwerp International Airport --> serves --> Antwerp in Belgium
+
+sent_id:61	Atlantic City International Airport is 23 metres above sea level and is located in Egg Harbor Township, Atlantic County, New Jersey, United States.
+
+61--> Cluster 1:
+Atlantic City International Airport --> is in --> sea level
+
+sent_id:62	Atlantic City International Airport is located at 23 metres above sea level in Egg Harbor Township, Atlantic County, New Jersey, United States.
+
+62--> Cluster 1:
+Atlantic City International Airport --> located in --> sea level in Egg Harbor Township, Atlantic County, New Jersey, United States
+
+sent_id:63	Atlantic City International Airport, which lies 23 metres above sea level, is located in Egg Harbor Township, New Jersey, United States. The Egg Harbor Township is a part of Atlantic County, New Jersey.
+
+63--> Cluster 1:
+Atlantic City International Airport --> lies in --> sea level
+
+sent_id:64	The runway length at Adolfo Suarez Madrid-Barajas airport located in Madrid, part of the community of Madrid in Spain, is 3500.0 . The airport is 610 metres above sea level.
+
+64--> Cluster 1:
+Adolfo Suarez Madrid-Barajas airport --> located in in --> Madrid
+
+sent_id:65	Adolfo Suárez Madrid–Barajas Airport is found in Madrid, Spain, Madrid is part of the community of Madrid. The airport has a runway length of 3500 and is 610 metres above sea level.
+
+
+sent_id:66	Adolfo Suárez Madrid–Barajas Airport is located in Madrid, which is part of the Community of Madrid, in Spain. The airport has a runway length of 3,500 and is located 610 metres above sea level.
+
+
+sent_id:67	Aaron Bertram is a ska punk musician, a genre that originated from punk rock. He is an artist with Kids Imagine Nation and also plays for Suburban Legends Band. Brian Robertson plays the trombone for Suburban Legends.
+
+67--> Cluster 1:
+Aaron Bertram --> is --> a ska punk musician, a genre that originated from punk rock
+
+sent_id:68	Aaron Bertram plays for the Kids Imagine Nation and the Suburban Legends bands, where he performs ska punk music, a form of punk rock. Brian Robertson, a trombonist, is a band member of Suburban Legends.
+
+68--> Cluster 1:
+Aaron Bertram --> plays for --> the Kids Imagine Nation and the Suburban Legends bands, where he performs ska punk music, a form of punk rock
+
+sent_id:69	Aaron Bertram plays for the Kids Imagine Nation and for the Suburban Legends, where Brian Robertson is a trombonist. Aaron Bertram's musical genre is ska, which has its origins in punk rock.
+
+69--> Cluster 1:
+Aaron Bertram --> plays --> the Kids Imagine Nation
+
+sent_id:70	American Aaron Deer is an Indie rock musician from Indiana. He has a background as a solo singer and was part of the band Wee Giant.
+
+70--> Cluster 1:
+American Aaron Deer --> is --> an Indie rock musician from Indiana
+
+sent_id:71	Aaron Deer comes from Indiana, having been born in the United States. He is a solo singer/ performer of the musical genre indie rock, and is an artist for the Wee Giant band.
+
+71--> Cluster 1:
+Aaron Deer --> comes from --> Indiana
+
+sent_id:72	Aaron Deer is an Indie rock soloist, formerly a member of Wee Giant. He was born in Indiana, USA.
+
+72--> Cluster 1:
+Aaron Deer --> is --> an Indie rock soloist, formerly a member of Wee Giant
+
+sent_id:73	Aaron Turner is an electric guitar player for the black metal genre who has performed for House of Low Culture and Mamiffer. Death metal is a musical fusion of black metal.
+
+73--> Cluster 1:
+Aaron Turner --> is --> an electric guitar player for the black metal genre who has performed for House of Low Culture and Mamiffer
+
+sent_id:74	Aaron Turner is a black metal musician that plays electric guitar and who performs with Mamiffer and has performed for the House of Low Culture and death metal is a musical fusion of black metal.
+
+74--> Cluster 1:
+Aaron Turner --> is --> a black metal musician that plays electric guitar and who performs with Mamiffer and has performed for the House of Low Culture and death metal
+
+sent_id:75	Black metal electric guitar player Aaron Turner performs for Mamiffer and House of Low Culture. Death metal is a fusion of black metal.
+
+75--> Cluster 1:
+Black metal electric guitar player Aaron Turner --> performs --> Mamiffer and House of Low Culture
+
+sent_id:76	Black metal musician Aaron Turner, who plays the electric guitar, has been part of the bands Twilight and Greymachine. Black metal has a musical fusion called Death metal.
+
+76--> Cluster 1:
+Black metal musician Aaron Turner --> plays --> the electric guitar
+
+sent_id:77	Aaron Turner plays electric guitar black metal of which death metal is a musical fusion. He played with Twilight and is associated with Greymachine.
+
+77--> Cluster 1:
+Aaron Turner --> plays --> electric guitar black metal
+
+sent_id:78	Black metal music and electric guitarist Aaron Turner is associated with the bands Twilight and Greymachine. Death metal is a fusion of black metal.
+
+78--> Cluster 1:
+Black metal music and electric guitarist Aaron Turner --> associated --> the bands Twilight and Greymachine
+
+sent_id:79	Aaron Turner was born in Massachusetts and started performing in 1995. He formerly played with the band Twilight and is now in the Lotus Eaters. He is is closely associated with the sludge metal genre.
+
+79--> Cluster 1:
+Aaron Turner --> born in --> Massachusetts
+
+sent_id:80	Aaron Turner is from Massachusetts. He is a musician who loves Sludge metal and played with the band Twilight as well as the Lotus Eaters Band, in 1995.
+
+80--> Cluster 1:
+Aaron Turner --> is from --> Massachusetts
+
+sent_id:81	Massachusetts born Sludge metal musician, Aaron Turner, began performing in 1995. He has played with Twilight and has been with the Lotus Eaters band.
+
+81--> Cluster 1:
+Massachusetts --> born --> Sludge metal musician
+
+sent_id:82	The musician Abradab originates from Katowice, Poland, and he started performing in 1994. He played with the band Kaliber 44 and is associated with the rapper Magik.
+
+82--> Cluster 1:
+The musician --> originates from --> Katowice, Poland
+
+sent_id:83	Abradab came from Katowice, Poland and started peforming in 1994. He played with Kaliber 44 and is associated with the rapper Magik.
+
+83--> Cluster 1:
+Abradab --> came from --> Katowice, Poland
+
+sent_id:84	Katowice, Poland born Abradab began performing in 1994 and is associated with Magik and Kaliber 44.
+
+84--> Cluster 1:
+Katowice --> born --> Abradab
+
+sent_id:85	Ace Wilder has a musical background as a solo singer was born on July 23rd, 1982, in Sweden.
+
+85--> Cluster 1:
+Ace Wilder --> has --> a musical background as a solo singer
+
+sent_id:86	Solo singer Ace Wilder was born on July 23, 1982 in the country of Sweden.
+
+86--> Cluster 1:
+Solo singer Ace Wilder --> born on --> July 23, 1982
+
+sent_id:87	Ace Wilder's occupation is a solo singer. He was born in Sweden on 23 July 1982.
+
+87--> Cluster 1:
+Ace Wilder's occupation --> is --> a solo singer
+
+sent_id:88	Agustin Barboza was born in Asuncion, Paraguay and he is ethnic mestizo. Spanish is the official language of Paraguay and Juan Afara is the leader of the country.
+
+88--> Cluster 1:
+Agustin Barboza --> born in --> Asuncion, Paraguay
+
+sent_id:89	Agustin Barboza was born in Asuncion, Paraguay where the ethnic group are called Mestizo. The country's leader is Juan Afara and uses the Spanish language.
+
+89--> Cluster 1:
+Agustin Barboza --> born in --> Asuncion, Paraguay where the ethnic group are called Mestizo
+
+sent_id:90	Agustin Barboza was born in, Spanish speaking, Asuncion, Paraguay. Paraguay is also home to the Mestizo people and is led by Juan Afara.
+
+90--> Cluster 1:
+Agustin Barboza --> speaking --> Spanish speaking, Asuncion, Paraguay
+
+sent_id:91	Disco derives from rhythm and blues which originated from the blues. Rhythm and blues is the musical genre of Ahmet Ertegun who died in the United States where the African Americans are an ethnic group.
+
+91--> Cluster 1:
+Disco --> derives from --> rhythm and blues which originated from the blues
+
+sent_id:92	Ahmet Ertegun in a rhythm and blues musician who died in the US where African Americans are an ethnic group. Disco is a derivative of rhythm and blues which was itself derived from blues music.
+
+92--> Cluster 1:
+a rhythm and blues musician --> died in --> the US
+
+sent_id:93	Ahmet Ertegun is a rhythm and blues artist whose background is non performing personnel, and was born 1923, in Washington D.C., the United States.
+
+93--> Cluster 1:
+Ahmet Ertegun --> is --> a rhythm and blues artist whose background is non performing personnel
+
+sent_id:94	Born in 1923, Ahmet Ertegun is from Washington D.C., in the United States. Ertegun has a background as a non performing personnel and his musical genre is Rhythm and Blues.
+
+94--> Cluster 1:
+Ahmet Ertegun --> is from in --> Washington D.C.
+
+sent_id:95	Born in Washington, DC, U.S.A. (1923), Ahmet Ertegun genre is rhythm and blues, although his background is non performing.
+
+95--> Cluster 1:
+Ahmet Ertegun genre --> is --> rhythm and blues
+
+sent_id:96	Alan Frew, whose musical genre is Rock music, has a background as a solo singer. Rock music originated from country music and has its stylistic origins in the Blues. A musical fusion of rock music is bhangra music.
+
+96--> Cluster 1:
+whose musical genre --> is --> Rock music
+
+sent_id:97	Singer Alan Frew is a rock musician. Rock originates from the blues and country music while lending itself to Bhangra fusion.
+
+97--> Cluster 1:
+Singer Alan Frew --> is --> a rock musician
+
+sent_id:98	Singer Alan Frew is a rock musician. Rock has its origins in country and blues while influencing bhangra.
+
+98--> Cluster 1:
+Singer Alan Frew --> is --> a rock musician
+
+sent_id:99	Alan Frew, who is from Newmarket, Ontario, Canada, was born in Coatbridge. He is a musician and solo singer.
+
+99--> Cluster 1:
+Alan Frew --> is from --> Newmarket, Ontario, Canada,
+
+sent_id:100	Alan Frew is from Coatbridge, Newmarket, Ontario, Canada and he is a musician and solo singer.
+
+100--> Cluster 1:
+Alan Frew --> is from --> Coatbridge, Newmarket, Ontario, Canada
+
+sent_id:101	Singer Alan Frew was born in Coatbridge but is from Newmarket, Ontario, Canada.
+
+101--> Cluster 1:
+Singer Alan Frew --> born in --> Coatbridge
+
+sent_id:102	Born in the London Borough of Havering, Alex Day, started performing in 2006. He plays with the band Chameleon Circuit and performs electronic music. Alex Day is associated with the musical artist Charlie McDonnell.
+
+102--> Cluster 1:
+He --> plays --> the band Chameleon Circuit
+
+sent_id:103	Alex Day was born in the London Borough of Havering and became active in electronic music in 2006. He plays with Chameleon circuit and is associated with Charlie McDonnell.
+
+103--> Cluster 1:
+Alex Day --> born in --> the London Borough of Havering
+
+sent_id:104	Electronic musician Alex Day was born in the London Borough of Havering. He began his active career in 2006 and is associated with artists Charlie McDonnell and the Chameleon Circuit.
+
+104--> Cluster 1:
+Electronic musician Alex Day --> born in --> the London Borough of Havering
+
+sent_id:105	Alfred Garth Jones was born in Manchester and died in Sidcup, London. The leader of London is the European Parliament, and the leader of Manchester is The Labour Party (UK).
+
+105--> Cluster 1:
+Alfred Garth Jones --> born in --> Manchester
+
+sent_id:106	Alfred Garth Jones was born in Manchester and passed away in Sidcup, London. The Labour Party is the leader of Manchester. The European parliament is the leader of London.
+
+106--> Cluster 1:
+Alfred Garth Jones --> born in --> Manchester
+
+sent_id:107	Alfred Garth Jones was born in Manchester and died in Sidcup, London (led by the European Parliament). Manchester is led the Labour Party.
+
+107--> Cluster 1:
+Alfred Garth Jones --> born in --> Manchester
+
+sent_id:108	Alfredo Zitarrosa performs Zamba music and has a background as a solo singer. He was signed to the RCA Records label, and has been associated with the musicians Ciro Pérez and Héctor Numa Moraes.
+
+108--> Cluster 1:
+Alfredo Zitarrosa --> performs --> Zamba music
+
+sent_id:109	Alfredo Zitarrosa recorded his songs with the RCA Records Label. Alfredo's background is solo singing in the zamba style. Ciro Perez and Hector Numa Moraes are musicians associated with Alfredo Zitarrosa.
+
+109--> Cluster 1:
+Alfredo Zitarrosa --> recorded --> his songs
+
+sent_id:110	Alfredo Zitarrosa is a Zamba solo singer associated with Ciro Perez and Hector Numa Moraes. He is signed to RCA records.
+
+110--> Cluster 1:
+Alfredo Zitarrosa --> is --> a Zamba solo singer associated with Ciro Perez and Hector Numa Moraes
+
+sent_id:111	Alison O'Donnell began her music career in 1963. She has been a member of Flibbertigibbet and Mellow Candle Bands. She is a Irish folk singer signed to the Static Caravan record label.
+
+111--> Cluster 1:
+Alison O'Donnell --> began in --> her music career
+
+sent_id:112	Alison O'Donnell played Irish folk music with the Flibbertigibbet band and Mellow Candle. She became active in 1963 and is signed to Static Caravan Recordings.
+
+112--> Cluster 1:
+Alison O'Donnell --> played --> Irish folk music
+
+sent_id:113	Anders Osborne's musical career began in 1989. His genre is Rhythm and blues and he is associated with the musical artists Billy Iuso and Tab Benoit. Anders Osborne is also associated with the band, Voice of the Wetlands All-Stars.
+
+113--> Cluster 1:
+Anders Osborne's musical career --> began in --> 1989
+
+sent_id:114	Anders Osborne started his musical performing in 1989, where he met musical artists Tab Benoit and Billy Iuso, with the band Voice of the Wetlands All-Stars. A. Osborne performs in the rhythm and blues style.
+
+114--> Cluster 1:
+Anders Osborne --> started in --> his musical performing
+
+sent_id:115	Anders Osborne started performing in 1989. His genre is rhythm and blues. He has worked with Tab Benoit and is associated with the musical artist Billy Iuso and with Voice of the Wetlands All-Stars.
+
+115--> Cluster 1:
+Anders Osborne --> started to performing in --> 1989
+
+sent_id:116	Anders Osborne is a rock guitarist associated with Johnny Sansone and signed to Okeh records. Bhangra is a musical fusion of rock music.
+
+116--> Cluster 1:
+Anders Osborne --> is --> a rock guitarist associated with Johnny Sansone
+
+sent_id:117	Rock guitarist Anders Osborne is signed with Okeh Records and is associated with musician Johnny Sansone. Bhangra is a fusion of rock music.
+
+117--> Cluster 1:
+Rock guitarist Anders Osborne --> signed --> Okeh Records
+
+sent_id:118	Rock guitarist Anders Osborne is signed with Okeh Records and is associated with artist Johnny Sansone. Bhangra is fusion of rock.
+
+118--> Cluster 1:
+Rock guitarist Anders Osborne --> signed --> Okeh Records
+
+sent_id:119	Solo singer, Andra, was born in 1986, in Romania. Andra is a rhythm and blues singer whose occupation is singing.
+
+
+sent_id:120	The singer Andra was born in Romania in 1986 and performs rhythm and blues as a solo artist.
+
+
+sent_id:121	The Rhythm and blues solo singer musician Andra, was born 1986, in Romania.
+
+
+sent_id:122	Singer, Andra, in Câmpia, Turzii, in 1986. With a carrer in singing, Andra is a solo singer, who performs rhythm and blues music.
+
+122--> Cluster 1:
+Singer --> is --> Andra
+
+sent_id:123	Andra was born in Campia Turzii in 1986. She began her career as a solo singer and sings for a living in the genre Rhythm and blues.
+
+123--> Cluster 1:
+Andra --> born in --> Campia Turzii
+
+sent_id:124	Andra is a solo rhythm and blues singer who was born in 1986 in Campia Turzii.
+
+124--> Cluster 1:
+Andra --> is --> a solo rhythm and blues singer who was born in 1986 in Campia Turzii
+
+sent_id:125	Andrew Rayel, who was born in Chisinau, Moldova, started his career in 2009 and his musical genre is trance music. He is associated with Christian Burns and Armin van Buuren.
+
+125--> Cluster 1:
+Andrew Rayel --> was born in --> who
+
+sent_id:126	Andrew Rayel was born in Chisinau, Moldova. He is an associate of Armin van Buuren and Christian Burns. Mr Rayel's musical genre is Trance which he started in 2009.
+
+126--> Cluster 1:
+Andrew Rayel --> born in --> Chisinau, Moldova
+
+sent_id:127	Andrew Rayel was born in Chisinau, Moldova. He began his musical career in 2009 and has performed the genre of Trance music. He is associated with the musical artist Armin van Buuren and with Christian Burns.
+
+127--> Cluster 1:
+Andrew Rayel --> born in --> Chisinau, Moldova
+
+sent_id:128	The musician Andrew White is part of the Kaiser Chiefs and is signed to the record label B-Unique Records and Polydor Records. He started his musical career in 2003 and was associated with Marry Banilow.
+
+128--> Cluster 1:
+The musician --> is --> part of the Kaiser Chiefs
+
+sent_id:129	B-Unique Records and Polydor Records artist Andrew White began in 2003 and is associated with the Kaiser Chiefs and artist Marry Banilow.
+
+129--> Cluster 1:
+B-Unique Records --> began in --> 2003
+
+sent_id:130	B-Unique Records and Polydor Recording artist Andrew White began his career in 2003. He is associated with the Kaiser Chiefs and Marry Banilow.
+
+130--> Cluster 1:
+B-Unique Records --> began in --> his career
+
+sent_id:131	Andrew Rayel wad a string instrumentalist who is associated with Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, house musician Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi.
+
+131--> Cluster 1:
+Andrew Rayel --> wad --> a string instrumentalist who is associated with Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, house musician Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi
+
+sent_id:132	String instrumentalist Andrew Rayel is associated with the musical artists: Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns (house music), Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, and Alexandra Badoi.
+
+132--> Cluster 1:
+String instrumentalist Andrew Rayel --> associated --> the musical artists: Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns (house music), Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, and Alexandra Badoi
+
+sent_id:133	String instrumentalist Andrew Rayel is associated with: Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns (House music), Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi.
+
+133--> Cluster 1:
+String instrumentalist Andrew Rayel --> associated --> Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns (House music), Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi
+
+sent_id:134	Allen Forrest is a hip hop artist who was born on February 4, 1981. Hip hop music originated from disco and funk music, and Drum and bass derives its sounds from hip hop music.
+
+134--> Cluster 1:
+Allen Forrest --> is --> a hip hop artist who was born on February 4, 1981
+
+sent_id:135	Allen Forrest, whose musical genre is hip hop music, date of birth is 04th February 1981. Hip Hop music has its origins in Funk and Disco. Drum and bass derives its sounds from hip hop music.
+
+135--> Cluster 1:
+whose musical genre --> is --> hip hop music, date of birth
+
+sent_id:136	Allen Forrest was born on February 4, 1981 and plays Hip Hop music which has its origins in Disco music. Hip hop came from funk music and Drum and Bass music is derived from Hip Hop.
+
+136--> Cluster 1:
+Allen Forrest --> born on --> February 4, 1981
+
+sent_id:137	Agustin Barboza was born in Asuncion, in Paraguay. The country which has an ethnic group called the Mestizo. it is also the country where Spanish is spoken and which is led by Juan Afara.
+
+137--> Cluster 1:
+Agustin Barboza --> born in --> Asuncion, in Paraguay
+
+sent_id:138	Agustin Barboza was born in Asuncion, Paraguay where the people speak Spanish. Juan Afara leads the country and an ethnic group in Paraguay are the Mestizo people.
+
+138--> Cluster 1:
+Agustin Barboza --> born in --> Asuncion, Paraguay where the people speak Spanish
+
+sent_id:139	Agustin Barboza was born in Spanish speaking Asuncion, Paraguay, home of the Mestizo. Paraguay is led by Juan Afara.
+
+139--> Cluster 1:
+Agustin Barboza --> born in --> Spanish speaking Asuncion, Paraguay, home of the Mestizo
+
+sent_id:140	The leader of Paraguay is called Juan Afara, and one ethnic group is the Mestizo people. Agustin Barboza was born in Paraguay and died in Asunción, a part of Gran Asunción.
+
+140--> Cluster 1:
+The leader --> is called --> Juan Afara
+
+sent_id:141	Agustin Barboza was born in Paraguay and died in Asuncion which is part of Gran Asunción. Juan Afara is the country's leader and the Mestizo are among the ethnic groups in Paraguay.
+
+141--> Cluster 1:
+Agustin Barboza --> born in --> Paraguay
+
+sent_id:142	Agustin Barboza was born in Paraguay, led by Juan Afara. The Mestizo ethnic group is one of the ethnic groups in Paraguay. Agustin died in Asuncion, Gran Asunción.
+
+142--> Cluster 1:
+Agustin Barboza --> born in --> Paraguay, led by Juan Afara
+
+sent_id:143	Al Anderson plays the guitar in the rock music band NRBQ. Rock music originated from country music, which originated from blues music; The music Bhangra is part of the fusion genre, partly coming from Rock music.
+
+143--> Cluster 1:
+Al Anderson --> plays in --> the guitar
+
+sent_id:144	Al Anderson plays the guitar for rock band NRBQ. Rock comes from country music which originates from blues. Bhangra music is a musical fusion of rock music.
+
+144--> Cluster 1:
+Al Anderson --> plays --> the guitar for rock band NRBQ
+
+sent_id:145	Rock guitarist AI Anderson is a member of NRBQ. Rock originates from rock which has its origins in country which derives from the blues. Bhangra is a rock fusion.
+
+145--> Cluster 1:
+Rock guitarist AI Anderson --> is --> a member of NRBQ
+
+sent_id:146	Aaron Turner plays the electric guitar and performed with Twilight, a black metal band, and House of Low Culture. Black metal is an element of the fusion genre death metal.
+
+146--> Cluster 1:
+Aaron Turner --> plays --> the electric guitar
+
+sent_id:147	Aaron Turner is an electric guitarist who has performed with House of Low Culture and the black metal band Twilight. Black metal is an element of the fusion genre death metal.
+
+147--> Cluster 1:
+Aaron Turner --> is --> an electric guitarist who has performed with House of Low Culture and the black metal band Twilight
+
+sent_id:148	Electric guitarist Aaron Turner has played with black metal band Twilight and with House of Low Culture. Death metal is a fusion of black metal.
+
+148--> Cluster 1:
+Electric guitarist Aaron Turner --> has played --> black metal band Twilight
+
+sent_id:149	Alfredo Zitarrosa died in Montevideo, Uruguay. Daniel Martinez is a political leader in Montevideo, and Raul Fernando Sendic Rodriguez is a leader in Uruguay, where Spanish is spoken.
+
+149--> Cluster 1:
+Alfredo Zitarrosa --> died in --> Montevideo, Uruguay
+
+sent_id:150	Alfredo Zitarrosa died in Montevideo, the leader of which, is Daniel Martinez. Montevideo is in Uruguay, where Spanish is the language and where Raúl Fernando Sendic Rodríguez is the leader.
+
+150--> Cluster 1:
+Alfredo Zitarrosa --> is to died in --> Montevideo, the leader of which
+
+sent_id:151	Raúl Fernando Sendic Rodríguez is the leader of Spanish speaking, Uruguay. Daniel Martinez is the leader of Montevideo, the final resting place of Alfredo Zitarrosa.
+
+151--> Cluster 1:
+Raúl Fernando Sendic Rodríguez --> is --> the leader of Spanish speaking, Uruguay
+
+sent_id:152	Alfredo Zitarrosa died in Montevideo in Uruguay whose leader is Tabare Vazquez. Another politician in Montevideo is Daniel Martinez. Uruguayans live in Uruguay.
+
+152--> Cluster 1:
+Alfredo Zitarrosa --> died in --> Montevideo in Uruguay
+
+sent_id:153	Montevideo, Uruguay is the final resting place of Alfredo Zitarrosa. Montevideo is led by Daniel Martínez and Tabaré Vázquez. It is home to the Uruguayans.
+
+153--> Cluster 1:
+Uruguay --> is --> the final resting place of Alfredo Zitarrosa
+
+sent_id:154	Montevideo, Uruguay is led by Daniel Martinez and Tabaré Vázquez. It is the home to Uruguayans and the place of death for Alfredo Zitarrosa.
+
+154--> Cluster 1:
+Montevideo --> is led by --> Daniel Martinez
+
+sent_id:155	Alan Bean was an American born in Wheeler, Texas. He served as a test pilot and became a crew member of Apollo 12, which was operated by NASA.
+
+155--> Cluster 1:
+Alan Bean --> was --> an American born in Wheeler, Texas
+
+sent_id:156	Apollo 12 was operated by NASA and its crew members included American national Alan Bean. He was born in Wheeler, Texas and served as a test pilot.
+
+156--> Cluster 1:
+Apollo 12 --> was operated by --> NASA
+
+sent_id:157	Alan Bean, a US national, was born in Wheeler, Texas. He served as a test pilot before becoming part of the NASA operated Apollo 12 mission as a crew member.
+
+
+sent_id:158	Alan Shepard, born in New Hampshire on November 18, 1923, graduated from NWC in 1957 with an M.A. He died in California on July 21, 1998.
+
+158--> Cluster 1:
+Alan Shepard --> born in on in --> New Hampshire
+
+sent_id:159	Alan Shepard was born in New Hampshire on the 18th of November, 1923. He graduated from NWC in 1957 with an M.A. On the 21st of July, 1998, he passed away in California.
+
+159--> Cluster 1:
+Alan Shepard --> born in --> New Hampshire
+
+sent_id:160	Alan Shepard was born on the 18th of November, 1923 in New Hampshire and passed away on the 21st of July, 1998 in California. He graduated with an M.A. from NWC in 1957.
+
+160--> Cluster 1:
+Alan Shepard --> born on --> the 18th of November, 1923 in New Hampshire
+
+sent_id:161	Alan Shepard, born in New Hampshire, has died in California. After graduating from NWC, MA in 1957 he served as a test pilot.
+
+161--> Cluster 1:
+Alan Shepard --> born in in --> New Hampshire
+
+sent_id:162	Alan Shepard has died in California. He was born in New Hampshire and went to school at NWC, graduating with an MA in 1957, He served as a test pilot.
+
+162--> Cluster 1:
+Alan Shepard --> has died in --> California
+
+sent_id:163	Alan Shepard has died in California. He was born in New Hampshire and graduated from NWC MA in 1957. He served as a test pilot.
+
+163--> Cluster 1:
+Alan Shepard --> has died in --> California
+
+sent_id:164	The late Alan Shepard was born in New Hampshire, and chosen by NASA in 1959 as a crew member of Apollo 14.
+
+164--> Cluster 1:
+The late Alan Shepard --> born in --> New Hampshire
+
+sent_id:165	The late Alan Shepard was born in New Hampshire. He was selected by NASA in 1959 and served as a crew member of NASA operated Apollo 14.
+
+165--> Cluster 1:
+The late Alan Shepard --> born in --> New Hampshire
+
+sent_id:166	Alan Shepard was originally from New Hampshire and joined NASA in 1959 where he became a member of the Apollo 14 crew. Mr Shepard passed away.
+
+166--> Cluster 1:
+Alan Shepard --> was from --> New Hampshire
+
+sent_id:167	Alan Bean (born in Wheeler, Texas) was a crew member of Apollo 12 operated by NASA and was in space 100305 minutes. Apollo 12 was commanded by David Scott and Alfred Worden was a backup pilot.
+
+167--> Cluster 1:
+Alan Bean --> born in in --> Wheeler, Texas)
+
+sent_id:168	Alfred Worden was a backup pilot on the NASA operated Apollo 12 on which David Scott the commander and Alan Bean, who spent a total of 100305 minutes in space, was a crewman.
+
+168--> Cluster 1:
+Alfred Worden --> was --> a backup pilot on the NASA
+
+sent_id:169	Alan Shepard (born November 18th, 1923, New Hampshire) was awarded the United States Navy Distinguished Service Medal which is higher than the department of commerce gold medal has died in California.
+
+169--> Cluster 1:
+Alan Shepard --> was awarded --> the United States Navy Distinguished Service Medal which is higher than
+
+sent_id:170	Alan Shepard was born on 18 November 1923 in New Hampshire. He was awarded the Distinguished Service Medal, which is higher than the Department of Commerce Gold Medal, by the US Navy. He died in California.
+
+170--> Cluster 1:
+Alan Shepard --> born on --> 18 November 1923
+
+sent_id:171	Alan Shepard was born in New Hampshire on 18 November 1923. Before his death in California he had been awarded the Distinguished Service Medal by the US Navy an award higher than the Department of Commerce Gold Medal.
+
+171--> Cluster 1:
+Alan Shepard --> born in --> New Hampshire
+
+sent_id:172	Elliot See was born in Dallas and later attended the University of Texas at Austin. The University of Texas at Austin is affiliated with University of Texas System and is competing in the Big 12 Conference. Nowadays, Gregory L. Fenves is the President of the University.
+
+172--> Cluster 1:
+Elliot See --> born in --> Dallas
+
+sent_id:173	Elliot See was born in Dallas and attended the University of Texas at Austin which is affiliated with the University of Texas System and competed in the Big 12 Conference in Austin. Gregory L. Fenves is the appointed president of the University of Texas at Austin.
+
+173--> Cluster 1:
+Elliot See --> born in --> Dallas
+
+sent_id:174	Elliot See was born in Dallas and was a student at University of Texas at Austin. This University, whose president is Gregory L. Fenves, is affiliated with the University of Texas System. The University of Texas at Austin competes in the Big 12 Conference.
+
+174--> Cluster 1:
+Elliot See --> born in --> Dallas
+
+sent_id:175	Elliot See, a graduate of the University of Texas at Austin, passed away on 28th February 1966 in St. Louis. He was born in Dallas.
+
+175--> Cluster 1:
+Elliot See --> passed on in --> 28th February 1966
+
+sent_id:176	Elliot See was born in Dallas and attended the University of Texas at Austin. He died in St Louis on 28 February 1966.
+
+176--> Cluster 1:
+Elliot See --> born in --> Dallas
+
+sent_id:177	Elliot See, who was born on the 28th February 1966 in Dallas, has died in St Louis. He will be remembered as a great student at University of Texas at Austin.
+
+177--> Cluster 1:
+Elliot See --> was born on --> who
+
+sent_id:178	Elliot See was born in Dallas, which is a county in Texas. He attended the University of Texas at Austin, which is affiliated to the University of Texas system. The University of Texas at Austin will be part of the Big 12 Conference competition.
+
+178--> Cluster 1:
+Elliot See --> born in --> Dallas, which is a county in Texas
+
+sent_id:179	Elliot See was born in Dallas county, Texas and attended the University of Texas at Austin (affiliated to the University of Texas system) which competed in the Big 12 conference.
+
+179--> Cluster 1:
+Elliot See --> born in --> Dallas county, Texas
+
+sent_id:180	Elliot See, who was born in Dallas county, Texas, attended the University of Texas at Austin (affiliated to the University of Texas system) which will compete in the big 12 conference.
+
+180--> Cluster 1:
+Elliot See --> was born in --> who
+
+sent_id:181	Elliot See was born in Dallas and studied at the University of Texas in Austin (which is affiliated to the university of Texas system). He died in St. Louis.
+
+181--> Cluster 1:
+Elliot See --> born in --> Dallas
+
+sent_id:182	Elliot See was born in Dallas and studied at Austin University (part of the university of Texas system). He died in St. Louis.
+
+182--> Cluster 1:
+Elliot See --> born in --> Dallas
+
+sent_id:183	Elliot See, who was born in Dallas, has died in St Louis. He graduated from the University of Texas at Austin which is affiliated to the University of Texas system.
+
+183--> Cluster 1:
+Elliot See --> was born in --> who
+
+sent_id:184	William Anders was a member of the Apollo 8 crew (operated by NASA) and he retired on September 1st, 1969. Frank Borman was the commander of Apollo 8 and Buzz Aldrin was a back up pilot.
+
+184--> Cluster 1:
+William Anders --> was --> a member of the Apollo 8 crew (operated by NASA
+
+sent_id:185	William Anders, who retired on September 1st, 1969, was a crew member on Apollo 8 and served under commander Frank Borman. Apollo 8 was operated by NASA with Buzz Aldrin as backup pilot.
+
+185--> Cluster 1:
+William Anders --> retired on --> September 1st, 1969
+
+sent_id:186	William Anders joined NASA and was a member of Apollo 8 along with Frank Borman as Commander and Buzz Aldrin as back up pilot. William Anders retired on September 1st 1969.
+
+186--> Cluster 1:
+William Anders --> joined --> NASA
+
+sent_id:187	Akeem Dent made his debut with the Atlanta Falcons who play in Atlanta and are owned by Arthur Blank. He used to play in Houston for the Houston Texans.
+
+187--> Cluster 1:
+Akeem Dent --> made --> his debut
+
+sent_id:188	Akeem Dent's debut team was the Atlanta Falcons in Atlanta and whose team owner is Arthur Blank. He also played for Houston Texans out of Houston.
+
+188--> Cluster 1:
+Akeem Dent's debut team --> was --> the Atlanta Falcons in Atlanta and
+
+sent_id:189	The Atlanta Falcons of Atlanta was Akeem Dent's debut team. They are owned by Arthur Blank. Mr. Dent also played with the Houston Texans out of Houston.
+
+189--> Cluster 1:
+The Atlanta Falcons of Atlanta --> was --> Akeem Dent's debut team
+
+sent_id:190	Alaa Abdul-Zahra's plays for the Shabab Al-Ordon Club and the AL Kharaitiyat SC. Al Kharaitiyat SC (home ground Al Khor) play in the Qatar Stars League and is managed by Amar Osim.
+
+190--> Cluster 1:
+Al Kharaitiyat SC (home ground Al Khor) --> is managed by --> Amar Osim
+
+sent_id:191	Alaa Abdul-Zahra's clubs are Shabab Al-Ordon Club and Al Kharaitiyat SC. The latter team have their ground at Al Khor, are managed by Amar Osim and play in the Qatar Stars League.
+
+191--> Cluster 1:
+Alaa Abdul-Zahra's clubs --> are --> Shabab Al-Ordon Club and Al Kharaitiyat SC
+
+sent_id:192	Alaa Abdul Zahra's club is Shabab Al-Ordon and he also plays for Al Kharaitiyat SC. This latter club plays in the Qatar Stars league, is located in Al Khor and is managed by Amar Osim.
+
+192--> Cluster 1:
+Alaa Abdul Zahra's club --> is --> Shabab Al-Ordon
+
+sent_id:193	Aleksandr Chumakov, who died in Russia, belonged to FC Torpedo Moscow and the Soviet Union national football team. FC Torpedo is managed by Valery Petrakov. Valentina Matviyenko is a Russian leader.
+
+193--> Cluster 1:
+Aleksandr Chumakov --> died in --> Russia
+
+sent_id:194	Former Soviet Union international footballer Aleksandr Chumakov died in Russia, where the leader is Valentina Matviyenko. FC Torpedo Moscow, managed by Valery Petrakov, once signed Aleksandr Chumakov.
+
+194--> Cluster 1:
+Former Soviet Union international footballer Aleksandr Chumakov --> died in --> Russia, where the leader is Valentina Matviyenko
+
+sent_id:195	Aleksandr Chumakov died in Russia where Valentina Matviyenko is a leader. He belongs to the Soviet Union national football team and has played for FC Torpedo Moscow under the manager Valery Petrakov.
+
+195--> Cluster 1:
+Aleksandr Chumakov --> died in --> Russia where Valentina Matviyenko is a leader
+
+sent_id:196	Aleksandr Prudnikov is an associate of the youth side of FC Spartak Moscow. He plays for the Amkar Perm football club and the Terek Grozny FC which is managed by Rashid Rakhimov. The latter football club is in Grozny.
+
+196--> Cluster 1:
+Aleksandr Prudnikov --> is --> an associate of the youth side of FC Spartak Moscow
+
+sent_id:197	Aleksandr Prudnikov once played for FC Spartak Moscow's youth team. He plays with the FC Amkar Perm and the FC Terek Grozny which is managed by Rashid Rakhimov and has its home territory in Grozny.
+
+197--> Cluster 1:
+Aleksandr Prudnikov --> played --> FC Spartak Moscow's youth team
+
+sent_id:198	Aleksandr Prudnikov, who represented FC Spartak Moscow at youth level, later played for Grozny based FC Terek Grozny - managed by Rashid Rakhimov - and FC Amkar Perm football club.
+
+198--> Cluster 1:
+Aleksandr Prudnikov --> represented at --> FC Spartak Moscow
+
+sent_id:199	Alessio Romagnoli is connected to UC Sampdoria and plays for the club A.C. Milan. AC Milan, which is in Serie A league, is managed by Siniša Mihajlović and chaired by, Silvio Berlusconi.
+
+199--> Cluster 1:
+Alessio Romagnoli --> connected --> UC Sampdoria
+
+sent_id:200	Alessio Romagnoli has played for UC Sampdoria and more recently for Serie A side AC Milan, which is managed by Siniša Mihajlović and has the chairman Silvio Berlusconi.
+
+200--> Cluster 1:
+Alessio Romagnoli --> has played for --> for UC Sampdoria
+
+sent_id:201	Alessio Romagnoli is connected to UC Sampdoria and also plays for the AC Milan who are in the Serie A league. AC Milan is managed by Sinisa Mihajlovic and chaired by Silvio Berlusconi.
+
+201--> Cluster 1:
+Alessio Romagnoli --> connected --> UC Sampdoria
+
+sent_id:202	Alessio Romagnoli belongs to A.C. Milan and plays for U.C. Sampdoria and Italy's national under-17 football team. A C Milan is managed by Siniša Mihajlović and includes chairman Silvio Berlusconi.
+
+202--> Cluster 1:
+Alessio Romagnoli --> belongs --> A.C. Milan
+
+sent_id:203	Alessio Romagnoli is a member of the Italian national under 17 football team and has represented the club U.C. Sampdoria. He is presently with the AC Milan that is managed by Siniša Mihajlović and whose chairman is Silvio Berlusconi.
+
+203--> Cluster 1:
+Alessio Romagnoli --> is --> a member of the Italian national under 17 football team
+
+sent_id:204	Aleksandr Prudnikov played for FC Spartak Moscow's youth team and later for FC Dynamo Moscow. He has also been signed to Grozy based FC Terek Grozny, who are managed by Rashid Rakhimov.
+
+204--> Cluster 1:
+Aleksandr Prudnikov --> played --> FC Spartak Moscow's youth team
+
+sent_id:205	Aleksandr Prudnikov once played for FC Spartak Moscow's youth team but now plays for the FC Dynamo Moscow and the FC Terek Grozny out of Grozny. The FC Terek Grozny sees a manager in Rashid Rakhimov.
+
+205--> Cluster 1:
+Aleksandr Prudnikov --> played --> FC Spartak Moscow's youth team
+
+sent_id:206	Aleksandr Prudnikov's club is FC Dynamo Moscow although he previously played for FC Spartak Moscow's youth team. He is currently in the Grozny based FC Terek Grozny club under their manager, Rashid Rakhimov.
+
+206--> Cluster 1:
+Aleksandr Prudnikov's club --> is --> FC Dynamo Moscow
+
+sent_id:207	Akeem Adams' former clubs include United Petrotrin FC, who play at Palo Seco, and Ferencvarosi TC, where Thomas Doll is the manager and Gabor Kubatov is the chairman.
+
+207--> Cluster 1:
+Akeem Adams' former clubs --> include --> United Petrotrin FC, who play at Palo Seco, and Ferencvarosi TC, where Thomas Doll is the manager and Gabor Kubatov
+
+sent_id:208	Akeem Adams is a member of the United Petrotrin F.C. club and also Ferencvarosi TC. The latter club, whose ground is Palo Seco, is chaired by Gabor Kubatov and managed by Thomas Doll.
+
+208--> Cluster 1:
+Akeem Adams --> is --> a member of the United Petrotrin F.C. club and also Ferencvarosi TC
+
+sent_id:209	Akeem Adams is a member of the United Petrotrin F.C. club who have their ground at Palo Seco. He plays for Ferencvarosi TC which is managed by Thomas Doll and chaired by Gabor Kubatov.
+
+209--> Cluster 1:
+Akeem Adams --> is --> a member of the United Petrotrin F.C. club who have their ground at Palo Seco
+
+sent_id:210	Akeem Ayers' former team was the Los Angeles Rams who are based in LA and play their home matches at the Los Angeles Memorial Coliseum. His debut team were the Tennessee Titans who are coached by Mike Mularkey.
+
+210--> Cluster 1:
+Akeem Ayers' former team --> was --> the Los Angeles Rams who are based in LA and play their home matches at the Los Angeles Memorial Coliseum
+
+sent_id:211	Akeem Ayers debuted with the Tennessee Titans and played with, Los Angeles based, Los Angeles Rams, who play at the Los Angeles Memorial Coliseum. The Titans are coached by Mike Mularkey.
+
+211--> Cluster 1:
+Akeem Ayers --> debuted --> the Tennessee Titans
+
+sent_id:212	The debut team of Akeem Ayers was the Tennessee Titans (Mike Mularkey coach) and also played for the L.A. based Los Angeles Rams. The LA Memorial Coliseum is the Rams home grounds.
+
+212--> Cluster 1:
+The debut team --> was --> the Tennessee Titans (Mike Mularkey coach
+
+sent_id:213	20 Fenchurch Street is located within the United Kingdom, where London is the capital, and the currency is pounds sterling. Boris Johnson is the leader in London, and one of the leaders of the United Kingdom is Elizabeth II.
+
+213--> Cluster 1:
+20 Fenchurch Street --> located in --> the United Kingdom, where London is the capital
+
+sent_id:214	The United Kingdom uses the currency of the pound sterling and is led by Elizabeth II along with Boris Johnson. The capital city is London and the country is also the location of 20 Fenchurch Street.
+
+214--> Cluster 1:
+The United Kingdom --> uses --> the currency of the pound sterling
+
+sent_id:215	250 Delaware Avenue was built in Buffalo New York at a cost of 110 million dollars. Construction began in January 2014 and the building has 12 floors with an area of 30843.8 square metres.
+
+215--> Cluster 1:
+250 Delaware Avenue --> built in --> Buffalo New York
+
+sent_id:216	There are 12 floors at 250 Delaware Avenue in Buffalo, New York. Construction, which began in January 2014 cost 110 million dollars for a floor area of 30843.8 square metres.
+
+216--> Cluster 1:
+There --> are --> 12 floors at 250 Delaware Avenue in Buffalo, New York
+
+sent_id:217	Rahm Emanuel is the leader of Chicago, DuPage County, Illinois, United States which is the location of the building at 300 North LaSalle which has 60 floors.
+
+217--> Cluster 1:
+Rahm Emanuel --> is --> the leader of Chicago, DuPage County, Illinois, United States which is the location of the building at 300 North LaSalle which has 60 floors
+
+sent_id:218	300 North LaSalle has 60 floors and is located in Chicago, DuPage County, Illinois, United States. The leader of Chicago is Rahm Emanuel.
+
+218--> Cluster 1:
+300 North LaSalle --> has --> 60 floors
+
+sent_id:219	300 North LaSalle, which has 60 floors, is located in Chicago which is part of DuPage County in Illinois, United States. The leader of Chicago is Rahm Emanuel.
+
+219--> Cluster 1:
+300 North LaSalle --> has --> 60 floors
+
+sent_id:220	3Arena (owned by Live Nation Entertainment) is located in Dublin, Republic of Ireland. Dáil Éireann is a leader in Dublin, which is part of Leinster.
+
+
+sent_id:221	3Arena, owned by Live Nation Entertainment, is located in Dublin, which is part of Leinster in the Republic of Ireland. Dáil Éireann is a leader in Dublin.
+
+
+sent_id:222	Located in Dublin, Leinster, 3Arena is owned by Live Nation Entertainment. Dublin is also part of the Republic of Ireland and is led by Dáil Éireann.
+
+222--> Cluster 1:
+Located --> owned to Located in --> Dublin, Leinster, 3Arena
+
+sent_id:223	Adisham Hall in Sri Lanka was constructed between 1927 and 1931 at St Benedict's Monastery, Adisham, Haputhale, Sri Lanka in the Tudor and Jacobean style of architecture.
+
+
+sent_id:224	Construction of Adisham Hall took place between 1927 and 1931 in the architectural style of Tudor and Jacobean. It is located at St Benedict's Monastery, Adisham, Haputhale, Sri Lanka.
+
+224--> Cluster 1:
+Construction --> took in --> place
+
+sent_id:225	Adisham Hall is located in Haputale, Sri Lanka. The capital of Sri Lanka is Sri Jayawardenepura Kotte, the language used in the country is Tamil and the currency is the Sri Lankan Rupee.
+
+225--> Cluster 1:
+Adisham Hall --> located in --> Haputale, Sri Lanka
+
+sent_id:226	Adisham Hall is in Haputale, Sri Lanka. The capital of Sri Lanka is Sri Jayawardenepura Kotte, the language spoken there is Tamil and the currency is the Sri Lankan Rupee.
+
+226--> Cluster 1:
+Adisham Hall --> is in --> Haputale, Sri Lanka
+
+sent_id:227	Adisham Hall is located at Haputale, Sri Lanka. Sri Jayawardenepura Kotte is the capital of Sri Lanka, where the currency is the Sri Lankan Rupee and the language used is Tamil.
+
+227--> Cluster 1:
+Adisham Hall --> located at --> Haputale, Sri Lanka
+
+sent_id:228	Ranil Wickremesinghe is the leader of Sri Lanka where the capital city is Sri Jayawardenepura Kotte and the currency is the Sri Lankan rupee. Adisham Hall is located in the country at Haputale.
+
+228--> Cluster 1:
+Ranil Wickremesinghe --> is --> the leader of Sri Lanka where the capital city is Sri Jayawardenepura Kotte and the currency
+
+sent_id:229	Adisham Hall is located in Haputale, Sri Lanka. The capital of Sri Lanka is Sri Jayawardenepura Kotte with Ranil Wickremesinghe as its leader and the Rupee as its currency.
+
+229--> Cluster 1:
+Adisham Hall --> located in --> Haputale, Sri Lanka
+
+sent_id:230	Adisham Hall is located in Haputale, Sri Lanka, where the capital is called Sri Jayawardenepura Kotte. Ranil Wickremesinghe is a leader of Sri Lanka, and the currency is the Sri Lankan rupee.
+
+230--> Cluster 1:
+Adisham Hall --> located in --> Haputale, Sri Lanka, where the capital is called Sri Jayawardenepura Kotte
+
+sent_id:231	The main ethnic group in Japan are the Japanese and the leader is Tarō Asō. Akita Museum of Art is in Akita, Akita which is part of Japan and the Akita Prefecture.
+
+231--> Cluster 1:
+The main ethnic group --> are --> the Japanese
+
+sent_id:232	The Akita Museum of Art is located in Akita, Akita which is located in Japan. The leader of Japan is Taro Aso and the main ethnic group in Japan is the Japanese. Akita, Akita is part of Akita Prefecture.
+
+232--> Cluster 1:
+The Akita Museum of Art --> located in --> Akita, Akita which is located in Japan
+
+sent_id:233	Akita Museum of Art is in the city of Akita, Japan. The main ethnic group in Japan are the Japanese, the leader is Taro Aso and Akita, Akita is part of Akita Prefecture.
+
+233--> Cluster 1:
+Akita Museum of Art --> is in --> the city of Akita, Japan
+
+sent_id:234	Amdavad ni Gufa is located in Gujarat, Ahmedabad, India. Gujarat's leader is known as the Gujarat Legislative Assembly, and the leader of India is Narendra Modi.
+
+234--> Cluster 1:
+Amdavad ni Gufa --> located in --> Gujarat, Ahmedabad, India
+
+sent_id:235	Amdavad ni Gufa is located in Gujarat, Ahmedabad which is in India. The leader of India is Narendra Modi but the leader of Gujarat is the Gujarat Legislative Assembly.
+
+235--> Cluster 1:
+Amdavad ni Gufa --> located in --> Gujarat, Ahmedabad which is in India
+
+sent_id:236	Amdavad ni Gufa is in Gujarat, Ahmedabad which is in India. Gujarat's leader is the Gujarat Legislative Assembly and Narendra Modi is the prime minister of India.
+
+236--> Cluster 1:
+Amdavad ni Gufa --> is in --> Gujarat, Ahmedabad which is in India
+
+sent_id:237	Amdavad ni Gufa is located in Ahmedabad, Gujarat, India; led by the Gujarat Legislative Assembly, including leader T S Thakur.
+
+237--> Cluster 1:
+Amdavad ni Gufa --> located in --> Ahmedabad, Gujarat, India;
+
+sent_id:238	The 476 bed Ampara Hospital is situated in the Eastern Province state of Sri Lanka where Austin Fernando is the leader. The country's leader is Ranil Wickremesinghe.
+
+
+sent_id:239	Ampara Hospital, which has 476 beds, is located in the Eastern Province of Sri Lanka led by Austin Fernando. The leader of Sri Lanka is Ranil Wickremesinghe.
+
+239--> Cluster 1:
+Ampara Hospital --> has --> 476 beds
+
+sent_id:240	There are 476 beds at Ampara Hospital in the Eastern Province of Sri Lanka where Austin Fernando is the leader. Another leader within the country is Ranil Wickremesinghe.
+
+240--> Cluster 1:
+There --> are --> 476 beds at Ampara Hospital in the Eastern Province of Sri Lanka where Austin Fernando is the leader
+
+sent_id:241	Julia Morgan, who was born in California, designed the Asilomar Conference Grounds, the Los Angeles Herald examiner building, The Riverside Art Museum and Hearst Castle.
+
+241--> Cluster 1:
+Julia Morgan --> was born in --> who
+
+sent_id:242	Julia Morgan was an architect born in California. She designed Asilomar Conference Grounds, The Riverside Art Museum, Hearst Castle and the Los Angeles Herald Examiner building.
+
+242--> Cluster 1:
+Julia Morgan --> was --> an architect born in California
+
+sent_id:243	Asilomar Conference Grounds were designed by Julia Morgan (born in California), who is known for a number of buildings, including Hearst Castle and The Riverside Art Museum, and her work in San Francisco's Chinatown.
+
+243--> Cluster 1:
+Asilomar Conference Grounds --> were designed by --> Julia Morgan
+
+sent_id:244	Julia Morgan, the architect, was born in California and some of her significant projects include: the Asilomar Conference Grounds, The Riverside Art Museum, Hearst Castle and some buildings in Chinatown, San Francisco.
+
+
+sent_id:245	Julia Morgan, born in California, was the architect behind the grounds of Asilomar Conference, the Riverside Art Museum, Hearst Castle and Chinatown in San Francisco.
+
+245--> Cluster 1:
+Julia Morgan --> born in in --> California
+
+sent_id:246	The Asilomar Conference Grounds were constructed in 1913. They are located in Pacific Grove, California and they were added to the National Register of Historic Places on February 27th 1987 (with reference number 87000823). The grounds are in the architectural style of the Arts and Crafts Movement.
+
+246--> Cluster 1:
+The Asilomar Conference Grounds --> constructed in --> 1913
+
+sent_id:247	Asilomar Conference Grounds are located in Pacific Grove, California. They were constructed in 1913 with the architectural style of the Arts and Crafts Movement. They were added to the National Register of Historic Places on 27 February 1987 with reference number "87000823".
+
+247--> Cluster 1:
+Asilomar Conference Grounds --> located in --> Pacific Grove, California
+
+sent_id:248	The Asilomar Conference Grounds were constructed in 1913 and are in Pacific Grove, California. They have an Arts and Crafts movement style architecture and were added to the National Register of Historic Places on 27 February 1987 with the reference number 87000823.
+
+248--> Cluster 1:
+The Asilomar Conference Grounds --> constructed in --> 1913
+
+sent_id:249	Asser Levy Public Baths, built in 1904 in a Romanesque Revival style, is located at 23rd Street (Manhattan). The site was added to the National Register of Historic Places on 1980-04-23, with Reference Number 80002709.
+
+249--> Cluster 1:
+Asser Levy Public Baths --> built in in --> 1904
+
+sent_id:250	The Asser Levy Public baths are located on 23rd Street in Manhattan and have the Romanesque Revival style of architecture. They were built in 1904 and added to the National Register of Historic Places with the reference number 80002709 on 23 April 1980.
+
+250--> Cluster 1:
+The Asser Levy Public baths --> located on --> 23rd Street in Manhattan
+
+sent_id:251	The Asser Levy Public Baths was built in 1904 in the architectural style of Romanesque Revival, and is located on 23rd Street, Manhattan. The site was added to the National Register of Historic Places on "1980-04-23", with reference number 80002709.
+
+251--> Cluster 1:
+The Asser Levy Public Baths --> built in --> 1904
+
+sent_id:252	The Asser Levy Public Baths are found in New York City, New York, United States. Another part of New York City is Manhattan where Gale Brewer is the leader.
+
+252--> Cluster 1:
+The Asser Levy Public Baths --> found in --> New York City, New York, United States
+
+sent_id:253	Gale Brewer is the leader of Manhattan which is part of New York City, New York, United States. New York City is the location of Asser Levy Public Baths.
+
+253--> Cluster 1:
+Gale Brewer --> is --> the leader of Manhattan which is part of New York City, New York, United States
+
+sent_id:254	The location of Asser Levy Public Baths are New York City, US.New York City and Manhattan are part of New York. The leader of Manhattan is Gale Brewer.
+
+254--> Cluster 1:
+The location --> are --> New York City, US.New York City and Manhattan
+
+sent_id:255	103 Colmore Row was designed by the architect John Madin, who was born in Birmingham, where the postal code is 'B'. Andrew Mitchell is the leader of the city and Birmingham City Council is the governing body.
+
+255--> Cluster 1:
+103 Colmore Row --> was designed by --> the architect
+
+sent_id:256	The City Council is the governing body for Birmingham where Andrew Mitchell is a leader. The city has the B postcode and is the birthplace of the Architect John Madin who designed 103 Colmore Row.
+
+256--> Cluster 1:
+The City Council --> is --> the governing body for Birmingham where Andrew Mitchell is a leader
+
+sent_id:257	Birmingham is led by Andrew Mitchell and the Birmingham City Council. The town, which has the B postcode, is the birthplace of architect John Madin who designed 103 Colmore Row.
+
+257--> Cluster 1:
+Birmingham --> is led by --> Andrew Mitchell
+
+sent_id:258	Hailemariam Desalegn and Mulatu Teshome are leaders within Ethiopia. The Addis Ababa Stadium and the Addis Ababa City Hall are both located within the country in Addis Ababa.
+
+258--> Cluster 1:
+Hailemariam Desalegn --> are --> leaders within Ethiopia
+
+sent_id:259	Addis Ababa Stadium and Addis Ababa City Hall are located in Addis Ababa, Ethiopia. The country is led by Mulatu Teshome and Hailemariam Desalegn.
+
+
+sent_id:260	Addis Ababa Stadium and Addis Ababa City Hall are both located in Addis Ababa, Ethiopia. Mulatu Teshome and Hailemariam Desalegn are leaders in the country.
+
+
+sent_id:261	The President is the primary leader of English language speaking United States, (includes leader John Roberts), has the ethnic African American group and is home to 250 Delaware Avenue.
+
+261--> Cluster 1:
+The President --> is --> the primary leader of English language speaking United States
+
+sent_id:262	250 Delaware Avenue is located in the United States, where the leader is known as the President of the United States, supported by the United States of America`s Chief Justice, John Roberts. The main language is English, and one of the ethnic groups is the African Americans.
+
+262--> Cluster 1:
+250 Delaware Avenue --> located in --> the United States, where the leader is known as the President of the United States, supported by the United States of America`s Chief Justice, John Roberts
+
+sent_id:263	Joe Biden is a leader of the United States which is led by a President. The White Americans are one of the ethnic groups of the country which uses the English language and is where 250 Delaware Avenue is located.
+
+263--> Cluster 1:
+Joe Biden --> is --> a leader of the United States which is led by a President
+
+sent_id:264	250 Delaware Avenue is located in the United States, where English is spoken. The President of the United States is the main leader, alongside Joe Biden, and an ethnic group in the country is White Americans.
+
+264--> Cluster 1:
+250 Delaware Avenue --> located in --> the United States, where English is spoken
+
+sent_id:265	The celestial body known as (66063) 1998 RO1, which has the epoch date 13 January 2016, was formerly called 1999 SN5 and has an orbital period of 360.29 days. Its apoapsis measurement is 254989570.60815 kms and the escape velocity is 0.0999 km per sec.
+
+265--> Cluster 1:
+The celestial body --> known as as --> 66063
+
+sent_id:266	The asteroid (66063) 1998 RO1, formerly known as 1999 SN5, has an orbital period of 360.29 days, an apoapsis of 254989570.60815 km, and an escape velocity of 0.0999 km/sec. The epoch of (66063) 1998 RO1 is on the 13th of January 2016.
+
+266--> Cluster 1:
+1998 RO1 --> known as as --> 1999 SN5
+
+sent_id:267	The celestial body known as (66391) 1999 KW4 has an epoch date of 14 July 2004 and an escape velocity of zero. It has a density of 2 gms per cu cm, an orbital period of 16244700 and an apoapsis of 162164091.8388 km.
+
+267--> Cluster 1:
+The celestial body --> known as as --> 66391) 1999
+
+sent_id:268	The celestial body known as (66391) 1999 KW4 has an orbital period of 16244700 and an escape velocity of 0. It has a density of 2.0 grams per cubic centimetre and an apoapsis of 162164091.8388 kilometres. Its epoch date is July 14th 2004.
+
+268--> Cluster 1:
+The celestial body --> known as as --> 66391) 1999
+
+sent_id:269	The asteroid called (66391) 1999 KW4, which has the epoch date 14 July 2004, has an orbital period of 16244700.0 and an escape velocity of zero. Its density is 2.0 gm per cu cm and the apoapsis measurement is 162164091.8388 kms.
+
+269--> Cluster 1:
+The asteroid --> called --> 1999 KW4, which has the epoch date
+
+sent_id:270	James Craig Watson, who discovered 101 Helena on 15th August 1868, is a Canadian national who attended the University of Michigan. He died in Madison, Wisconsin.
+
+270--> Cluster 1:
+James Craig Watson --> discovered on --> 101 Helena
+
+sent_id:271	101 Helena was discovered by the Canadian James Craig Watson on August 15th 1868. Mr Watson, who studied at the University of Michigan, died in Madison, Wisconsin.
+
+271--> Cluster 1:
+101 Helena --> was discovered on by --> the Canadian James Craig Watson
+
+sent_id:272	Canadian James Craig Watson discovered 101 Helena on August 15th, 1868. He attended the University of Michigan and died in Madison, Wisconsin.
+
+272--> Cluster 1:
+Canadian James Craig Watson --> discovered on --> 101 Helena
+
+sent_id:273	101 Helena was discovered by James Craig Watson, a Canadian, whose Alma mater is the University of Michigan. He died of peritonitis in Madison, Wisconsin.
+
+273--> Cluster 1:
+101 Helena --> was discovered by --> James Craig Watson
+
+sent_id:274	101 Helena was discovered by Canadian, James Craig Watson, whose Alma mater was the University of Michigan, and who died from peritonitis, in Madison, Wisconsin.
+
+274--> Cluster 1:
+101 Helena --> was discovered by --> Canadian
+
+sent_id:275	Canadian James Craig Watson discovered 101 Helena. Watson's alma mater was the University of Michigan and he died in Madison, Wisconsin of peritonitis.
+
+275--> Cluster 1:
+Canadian James Craig Watson --> discovered --> 101 Helena
+
+sent_id:276	Walter Baade was born in the German Empire, died in West Germany and discovered 1036 Ganymed. His Alma mater was the University of Gottingen and Allan Sandage was his doctoral student.
+
+276--> Cluster 1:
+Walter Baade --> born in --> the German Empire
+
+sent_id:277	Walter Baade, who discovered 1036 Ganymed, was born in the German Empire and died in West Germany. He graduated from the University of Gottingen and one of his doctoral students was Allan Sandage.
+
+277--> Cluster 1:
+Walter Baade --> discovered --> 1036 Ganymed
+
+sent_id:278	Walter Baade, who was born in the German empire and died in West Germany, discovered 1036 Ganymed. Baade's alma mater was the University of Gottingen and one of his doctoral students was Allan Sandage.
+
+278--> Cluster 1:
+Walter Baade --> was born in --> who
+
+sent_id:279	Halton Arp and Allan Sandage were doctoral students of Walter Baade, the discoverer of 1036 Ganymed. Baade was born in the German Empire and graduated from the University of Gottingen.
+
+279--> Cluster 1:
+Halton Arp --> were --> doctoral students of Walter Baade, the discoverer of 1036 Ganymed
+
+sent_id:280	Walter Baade, born in the German Empire and graduate of the University of Gottingen, discovered 1036 Ganymed. Halton Arp and Allan Sandage were doctoral students of Walter Baade.
+
+280--> Cluster 1:
+Walter Baade --> born in in --> the German Empire
+
+sent_id:281	Allan Sandage and Halton Arp were doctoral students of Walter Baade, the discoverer of 1036 Ganymed. Baade was born in the German Empire and his alma mater was the University of Gottingen.
+
+281--> Cluster 1:
+Allan Sandage --> were --> doctoral students of Walter Baade, the discoverer of 1036 Ganymed
+
+sent_id:282	107 Camilla, which has the epoch date 31 December 2006, was discovered by F Vilas and has an orbital period of 2368.05 days. The apoapsis and periapsis measurements are 560937000.0 kilometres and 479343000.0 kilometres respectively.
+
+282--> Cluster 1:
+Camilla --> has --> the epoch date 31 December 2006
+
+sent_id:283	107 Camilla, which has an epoch date of December 31st 2006, was discovered by F. Vilas. Its orbital period is 2,368.05 days, its periapsis is 479,343,000 kilometres and has an apoapsis of 560,937,000 kilometres.
+
+283--> Cluster 1:
+Camilla --> has --> an epoch date of December 31st 2006
+
+sent_id:284	107 Camilla, which was discovered by F Vilas and has the epoch date of 31 December 2006, has an orbital period of 2368.05 days. It has a periapsis of 479343000.0 kms and an apoapsis of 560937000.0 kms.
+
+
+sent_id:285	107 Camilla, was discovered on 17 November 1868, by N.R. Pogson, an English national, who was born in Nottingham and died in Chennai.
+
+285--> Cluster 1:
+107 Camilla, --> was discovered on by --> N.R. Pogson
+
+sent_id:286	N.R. Pogson, who was born in Nottingham, England and died in Chennai, discovered 107 Camilla. The celestial body was discovered on November 17, 1868.
+
+286--> Cluster 1:
+N.R. Pogson --> was born in --> who
+
+sent_id:287	107 Camilla, was discovered on November 17th 1868, by British, N.R. Pogson, who was born in Nottingham and died in Chennai.
+
+287--> Cluster 1:
+107 Camilla, --> was discovered on by --> British
+
+sent_id:288	The epoch of 1089 Tama (whose former name was A919 HA; 1927 WB) is 2005-11-26. The escape velocity of 1089 Tama is 0.0068 km/sec, has an orbital period of 1202.846 days and an apoapsis of 373513000.0 (kilometres).
+
+288--> Cluster 1:
+whose former name --> was --> A919 HA; 1927 WB
+
+sent_id:289	1089 Tama was formerly known as A919 HA; 1927 WB, has an epoch of November 26th, 2005 and an orbit of 1,202.846 days. Its escape velocity is .0068 kilometres a second and it has an apoapsis of 373,513,000 kilometres.
+
+289--> Cluster 1:
+1089 Tama --> known as --> A919 HA; 1927 WB
+
+sent_id:290	1089 Tama was formerly known as A919 HA; 1927 WB and has the epoch date of 2005/11/26. It has an escape velocity of 0.0068 km per sec, an apoapsis of 373513000.0 kms and an orbital period lasting 1202.846 days.
+
+290--> Cluster 1:
+1089 Tama --> known as --> A919 HA; 1927 WB
+
+sent_id:291	The epoch date of 1097 Vicia is 2006.12.31. 1097 Vicia has an escape velocity of 0.0112 km/sec, a mass of 9.8 kgs, an orbital period of 135589000.0, and an apoapsis of 511592000.0 km.
+
+291--> Cluster 1:
+The epoch date --> is --> 2006.12.31
+
+sent_id:292	The epoch date of 1097 Vicia is 2006.12.31. 1097 Vicia has a mass of 9.8 kgs, an escape velocity of 0.0112 km/sec, an orbital period of 135589000.0, and an apoapsis of 511592000.0 km.
+
+292--> Cluster 1:
+The epoch date --> is --> 2006.12.31
+
+sent_id:293	1097 Vicia which has a mass of 9.8 kgs, has the epoch date 31 December 2006. It has an escape velocity of 0.0112 km per sec, an orbital period of 135589000 and an apoapsis of 511592000.0 km.
+
+293--> Cluster 1:
+1097 Vicia --> has --> a mass of 9.8 kgs
+
+sent_id:294	The surface area of the asteroid 10 Hygiea is 837,080.744 square kilometres while its temperatures is 164 degrees Kelvin. The asteroid has an epoch date of June 27th, an escape velocity of 0.21 kilometres a second and an apoapsis of 523,951,582.33968 kilometres.
+
+294--> Cluster 1:
+The surface area --> is --> 837,080.744 square kilometres
+
+sent_id:295	The asteroid called 10 Hygiea had an epoch date on 27th June 2015, its temperature is 164.0 kelvins and its surface area is 837080.744 square kilometres. It has an escape velocity of 0.21 kilometres per second and its apoapsis is 523951582.33968 kms.
+
+295--> Cluster 1:
+The asteroid --> called --> 10 Hygiea
+
+sent_id:296	10 Hygiea, with an epoch date of June 27, 2015, has and escape velocity of 0.21 km per sec. The surface area is 837080.744 sq km, an apoasis of 523951582.33968 km and a temperature of 164 Kelvins.
+
+296--> Cluster 1:
+10 Hygiea --> escape --> velocity of 0.21 km per sec
+
+sent_id:297	Abilene, Texas lies 524.0 above sea level and has the area code of 325 and a population density of 429.9 inhabitants per sq km. It has a total area of 286.5 sq km of which 14.2 sq km are water.
+
+297--> Cluster 1:
+Abilene --> lies in --> 524.0
+
+sent_id:298	Abilene is in Texas and has the area code 325. It is 524.0 above sea level, has a water area of 14.2 sq km, and a total area of 286.5 sq km. Its population density is 429.9 inhabitants per square kilometre.
+
+298--> Cluster 1:
+Abilene --> is in --> Texas
+
+sent_id:299	Abilene is part of Texas, where the capital is Austin and the largest city is Houston. One of the languages spoken in Texas, which is part of the United States, is Spanish.
+
+299--> Cluster 1:
+Abilene --> is --> part of Texas, where the capital is Austin and the largest city is Houston
+
+sent_id:300	Abilene is in Texas, United States. Houston is the largest city in Texas, where Spanish is spoken, and its capital is Austin.
+
+300--> Cluster 1:
+Abilene --> is in --> Texas, United States
+
+sent_id:301	English is the language of the United States, where Asian Americans are an ethnic group and where the inhabitants are referred to as Americans. The US is home to Albany, which is found in the state of Georgia.
+
+301--> Cluster 1:
+English --> is --> the language of the United States, where Asian Americans are an ethnic group and where the inhabitants are referred to as Americans
+
+sent_id:302	In the U.S. there are many different types of Americans, including Asian Americans. The native language in the U.S. is English, which is poke in cities like Albany, Georgia.
+
+302--> Cluster 1:
+there --> are In --> many different types of Americans, including Asian Americans
+
+sent_id:303	Albany is part of Georgia, in the United States. The English speaking country where the inhabitants are known as Americans and where Asian Americans are one of the ethnic groups.
+
+303--> Cluster 1:
+Albany --> is in --> part of Georgia
+
+sent_id:304	Albuquerque in New Mexico has a total area of 490.9 sq km, of which 486.2 is land. The population density is 1142.3 people per square kilometre. The area codes for Albuquerque are 505 and 575.
+
+304--> Cluster 1:
+Albuquerque --> has --> a total area of 490.9 sq km, of which 486.2 is land
+
+sent_id:305	The total area of Albuquerque in New Mexico is 490.9 square kilometres of which 486.2 is land. The population density is 1142.3 persons per sq km and the area codes there are 505 and 575.
+
+305--> Cluster 1:
+The total area --> is --> 490.9 square kilometres of which 486.2 is land
+
+sent_id:306	Albuquerque, N.M. has an area of land of 486.2 and total area of 490.9 square kilometers. The area codes in Albuquerque, New Mexico are 505 and 575 and there are 1142.3 people per square kilometres.
+
+306--> Cluster 1:
+Albuquerque --> has --> an area of land of 486.2 and total area of 490.9 square kilometers
+
+sent_id:307	Anaheim is led by Tom Tait along with the United States House of Representatives located in the US Capitol. The city is located in California where the Spanish language is spoken.
+
+307--> Cluster 1:
+Anaheim --> is led by --> Tom Tait
+
+sent_id:308	Located in the United States Capitol, the United States House of Representatives leads Anaheim, California. Tom Tait is a leader in Anaheim, California, where the Spanish language is spoken.
+
+
+sent_id:309	Anderson in the United States is led by the Democratic Party of the US who have their headquarters in Washington DC. Anderson is located in Indiana, where the state capital is Indianapolis.
+
+309--> Cluster 1:
+Anderson in the United States --> is led by --> the Democratic Party of the
+
+sent_id:310	The Democratic Party leads Anderson, Indiana in the US. The party headquarter is located in Washington D.C. Indianapolis is the capital of Indiana.
+
+310--> Cluster 1:
+The Democratic Party --> leads --> Anderson, Indiana in the US
+
+sent_id:311	Indianapolis is the capital of Indiana, where the city of Anderson is located, in the United States. Anderson, is led by the U.S. Democratic Party, which is headquartered in Washington, D.C.
+
+311--> Cluster 1:
+Indianapolis --> is --> the capital of Indiana, where the city of Anderson is located, in the United States
+
+sent_id:312	Anderson, Indiana lies 268.0 above sea level, has an area code of 765 and a population density of 523.9 inhabitants for each of its 107.43 square kilometres.
+
+312--> Cluster 1:
+Indiana --> lies in --> 268.0
+
+sent_id:313	Anderson, Indiana has 523.9 people per square kilometer, an area of 107.43 square kilometres, an elevation of 268.0 above sea level and an area code of 765.
+
+313--> Cluster 1:
+Indiana --> has --> 523.9 people per square kilometer, an area of 107.43 square kilometres, an elevation of 268.0 above sea level and an area code of 765
+
+sent_id:314	Anderson, Indiana is 268 above sea level and uses the 765 area code. The city is 107.43 square kilometres large and has 523.9 residents per square kilometre.
+
+314--> Cluster 1:
+Indiana --> is --> 268 above sea level
+
+sent_id:315	California, where some parts speak Chinese, is home to Antioch, which covers 75.324 square kilometres of Contra Costa County in the San Francisco Bay area.
+
+315--> Cluster 1:
+some parts --> speak --> Chinese
+
+sent_id:316	Antioch and the San Francisco bay area are parts of Contra Costa County in California. The total area of Antioch is 75.324 square km and Chinese is one of the spoken languages in California.
+
+316--> Cluster 1:
+Antioch --> are --> parts of Contra Costa County in California
+
+sent_id:317	With a total area of 75.324 square km, Antioch is part of Contra Costa County. This county is part of the San Francisco Bay area, in California, where, in some parts, Chinese is spoken.
+
+317--> Cluster 1:
+Antioch --> is With --> part of Contra Costa County
+
+sent_id:318	Attica, Indiana is in Fountain County, Indiana, U.S, where the capital is Washington DC. Covington is the County seat of Fountain County.
+
+318--> Cluster 1:
+Indiana --> is in --> Fountain County, Indiana, U.S, where the capital is Washington DC
+
+sent_id:319	Attica is part of Fountain County, Indiana, United States, where the capital is Washington, D.C. Covington is the County seat of Fountain County.
+
+319--> Cluster 1:
+Attica --> is --> part of Fountain County, Indiana, United States, where the capital is Washington
+
+sent_id:320	Covington is the County seat of Fountain County, in Indiana, which is where Attica is part of. This is in the United States, where the capital is Washington D.C.
+
+320--> Cluster 1:
+Covington --> is --> the County seat of Fountain County, in Indiana, which is where Attica is part of
+
+sent_id:321	Auburn is part of Lee County, Alabama, in the United States, the capital of which is Washington D.C. and where Asian Americans are an ethnic group.
+
+321--> Cluster 1:
+Auburn --> is --> part of Lee County, Alabama, in the United States, the capital of which is Washington D.C. and where Asian Americans are an ethnic group
+
+sent_id:322	Auburn (part of Lee County, Alabama), is in the United States, the capital of which is Washington D.C. One, of the many ethnic groups, in this country, is Asian Americans.
+
+322--> Cluster 1:
+Auburn --> is in --> the United States,
+
+sent_id:323	Opelika is the county seat of Lee County, Alabama, The United States. Auburn is part of Lee County. African Americans are an ethnic group within the United States.
+
+323--> Cluster 1:
+Opelika --> is --> the county seat of Lee County, Alabama, The United States
+
+sent_id:324	Opelika is the county seat of Lee County which is in Auburn, Alabama in the United States where African Americans are.
+
+324--> Cluster 1:
+Opelika --> is --> the county seat of Lee County which is in Auburn, Alabama in the United States where African Americans
+
+sent_id:325	One of the ethnic groups in the United States are the African Americans and Lee County, Alabama, is within the United States. Auburn is part of Lee County, Alabama but Opelika is the county seat.
+
+325--> Cluster 1:
+One --> are --> the African Americans and Lee County, Alabama
+
+sent_id:326	Austin is in Williamson County Texas where Georgetown is the county seat and Round Rock is the largest city and spanish is spoken.
+
+326--> Cluster 1:
+Austin --> is in --> Williamson County Texas where Georgetown is the county seat and Round Rock
+
+sent_id:327	Williamson County, Texas contains the towns of Austin, Round Rock, the largest city, and the county seat of Georgetown. Spanish is spoken in Texas.
+
+327--> Cluster 1:
+Texas --> contains --> the towns of Austin, Round Rock, the largest city, and the county seat of Georgetown
+
+sent_id:328	Austin is part of Williamson County, Texas, where Spanish is spoken. Round Rock is the largest city in Williamson County and Georgetown is the county seat.
+
+328--> Cluster 1:
+Austin --> is --> part of Williamson County, Texas, where Spanish is
+
+sent_id:329	Austin is part of Williamson County in Texas which has the county seat of Georgetown. The largest city in Texas, which uses the Spanish language, is Houston.
+
+329--> Cluster 1:
+Austin --> is --> part of Williamson County in Texas which has the county seat of Georgetown
+
+sent_id:330	Williamson County with county seat Georgetown, and Austin are located inTexas, where the largest city is Houston and Spanish is one of the spoken languages.
+
+330--> Cluster 1:
+Austin --> are located --> inTexas
+
+sent_id:331	Alexandria is part of Madison County, Indiana, in the U.S. Anderson is the biggest city in that county. The capital of Indiana is Indianapolis.
+
+331--> Cluster 1:
+Alexandria --> is --> part of Madison County, Indiana, in the U.S.
+
+sent_id:332	Alexandria is in Madison County, whose largest city is Anderson and is in Indiana where Indianapolis is the capital. They are all in the United States.
+
+332--> Cluster 1:
+Alexandria --> is in --> Madison County, whose largest city is Anderson and is in Indiana where Indianapolis is the capital
+
+sent_id:333	Indianapolis is the capital of Indiana, United States. Also located in this state are Alexandria and Madison County where the largest city is Anderson.
+
+333--> Cluster 1:
+Indianapolis --> is --> the capital of Indiana, United States
+
+sent_id:334	The county seat of Tarrant County is Fort Worth, Texas where English is spoken. Arlington is part of Tarrant County and the state's largest city is Houston.
+
+334--> Cluster 1:
+The county seat --> is --> Fort Worth, Texas where English is spoken
+
+sent_id:335	English is a language spoken in Texas and Houston is the largest city there. Arlington is part of Tarrant County in Texas and Fort Worth is the county seat of Tarrant County.
+
+335--> Cluster 1:
+English --> is --> a language spoken in Texas and
+
+sent_id:336	Arlington, Tarrant County, is in Texas where the largest city is Fort Worth. Austin is the capital of Texas but Houston is the largest city.
+
+336--> Cluster 1:
+Arlington --> is in --> Texas where the largest city is Fort Worth
+
+sent_id:337	Austin is Texas' capital and Houston is the largest city. Arlington, Texas is in Tarrant County; where the largest city is Fort Worth.
+
+337--> Cluster 1:
+Austin --> is --> Texas' capital
+
+sent_id:338	Austin is the capital city of Texas, where Houston is the capital. The state, has the largest city, Fort Worth, and is where Arlington is located (Tarrant County), is located.
+
+338--> Cluster 1:
+Austin --> is --> the capital city of Texas, where Houston is the capital
+
+sent_id:339	Arlington is part of Tarrant County in Texas in the U.S. Austin is the capital in that state and Houston is its biggest city.
+
+339--> Cluster 1:
+Arlington --> is --> part of Tarrant County in Texas in the U.S. Austin
+
+sent_id:340	Arlington is part of Tarrant County, Texas, the capital city of which, is Austin. Houston is the largest city in Texas, which is in the United States.
+
+340--> Cluster 1:
+Arlington --> is --> part of Tarrant County, Texas, the capital city of which
+
+sent_id:341	The inhabitants of the United States are known as Americans and include the ethnic group of Asian Americans. The country is the location of Albany which is led by a Mayor and located in Dougherty County in Georgia.
+
+
+sent_id:342	Albany is in Dougherty County, Georgia, US where Americans live and Asian Americans are an thnic group. Albany is led by a Mayor.
+
+342--> Cluster 1:
+Albany --> is in --> Dougherty County, Georgia, US where Americans live and Asian Americans
+
+sent_id:343	Americans, are the inhabitants of the United States, where one of the ethnic groups, is Asian Americans. Also in the United States, is Albany (led by the Mayor), a city in Dougherty County, Georgia.
+
+343--> Cluster 1:
+Americans --> are --> the inhabitants of the United States, where one of the ethnic groups, is Asian Americans
+
+sent_id:344	Albany is a city in Linn County, Oregon in the United States. The capital of the country is Washington, D.C. and its inhabitants are called Americans. African Americans are an ethnic group within the United States.
+
+344--> Cluster 1:
+Albany --> is --> a city in Linn County, Oregon in the United States
+
+sent_id:345	Albany, Oregon is in Linn County in the United States. Washington, D.C. is the capital of the U.S.; where African Americans and Americans call home.
+
+345--> Cluster 1:
+Oregon --> is in --> Linn County in the United States
+
+sent_id:346	Akron, Summit County, Ohio is located within the United States. The capital of the U.S. is Washington, D.C. and its people are known as Americans. Native Americans are one ethnic group in that country.
+
+
+sent_id:347	The inhabitants of the United States are known as Americans and Native Americans are one of the ethnic groups there. Akron, Ohio which is in Summit County is located within the United States and the capital is Washington DC.
+
+
+sent_id:348	The inhabitants of the United States are known as Americans and include the ethnic group of African Americans. The country is led by the President and is the location of Angola, part of Steuben County, Indiana.
+
+
+sent_id:349	Angola, Indiana is in Steuben County of the U.S.A. The country is led by a president and among the ethnic groups are African Americans.
+
+349--> Cluster 1:
+Indiana --> is in --> Steuben County of the U.S.A.
+
+sent_id:350	The United States uses the English language, has the capital of Washington DC, and includes the Asian Americans among its ethnic groups. The city of Albany is located within the country and is part of Benton County in Oregon.
+
+350--> Cluster 1:
+The United States --> uses --> the English language
+
+sent_id:351	The city of Albany is part of Benton County, Oregon U.S. In the U.S.A. Washington D.C. is the capital, there is an ethnic group of Asian Americans and English is spoken.
+
+351--> Cluster 1:
+The city --> is --> part of Benton County
+
+sent_id:352	The Asian Americans are an ethnic group in the US where the capital city is Washington DC and English is the spoken language. The country is the location of Albany in Oregon.
+
+352--> Cluster 1:
+The Asian Americans --> are --> an ethnic group in the US where the capital city is Washington DC and English
+
+sent_id:353	Albany is a city in Oregon, U.S. where English is the language spoken and Asian Americans are an ethnic group and the capital is Washington DC.
+
+353--> Cluster 1:
+Albany --> is --> a city in Oregon, U.S. where English is the language spoken and Asian Americans are an ethnic group and the capital
+
+sent_id:354	Auburn, Alabama, is part of Lee County, which has Opelika as the county seat. Auburn is located in the US, where Native Americans are an ethnic group.
+
+354--> Cluster 1:
+Auburn --> is --> part of Lee County, which has Opelika as the county seat
+
+sent_id:355	Native Americans are an ethnic group within the United States. This country is where Auburn is located. Auburn is part of Lee County (Alabama), where the Opelika is the county seat.
+
+355--> Cluster 1:
+Native Americans --> are --> an ethnic group within the United States
+
+sent_id:356	Native Americans are one of the ethnic groups in the United States of America which is where Auburn, Alabama is located. Auburn is part of Lee County in Alabama and their county seat is Opelika.
+
+356--> Cluster 1:
+Native Americans --> are --> one of the ethnic groups in the United States of America which is where Auburn, Alabama is located
+
+sent_id:357	Albuquerque in New Mexico, U.S. is led by the Albuquerque City Council and English is the official language. The leader of the United States is Barack Obama and Native Americans are one of the ethnic groups in the country.
+
+357--> Cluster 1:
+U.S. --> is led by --> the Albuquerque City Council
+
+sent_id:358	Native Americans are an ethnic group in the United States, where Barack Obama, is the leader. English speaking America, is where Albuquerque, in New Mexico, is located. The Albuquerque City Council has a leadership role in Albuquerque.
+
+358--> Cluster 1:
+Native Americans --> are --> an ethnic group in the United States, where Barack Obama
+
+sent_id:359	The Albuquerque City Council has a leadership role in Albuquerque, New Mexico, in the United States. The leader of this English speaking country, is Barack Obama, and one of the ethnic groups, is Native Americans.
+
+359--> Cluster 1:
+The Albuquerque City Council --> has --> a leadership role in Albuquerque, New Mexico, in the United States
+
+sent_id:360	English is the language spoken in the United States where the inhabitants are known as Americans and include the ethnic group of Native Americans. The country is the location of Angola, a city in Indiana.
+
+360--> Cluster 1:
+English --> is --> the language spoken in the United States where the inhabitants are known as Americans and include the ethnic group of Native Americans
+
+sent_id:361	Angola, Indiana is part of the English speaking, United States. The U.S. is home to Native Americans and Americans.
+
+361--> Cluster 1:
+Indiana --> is --> part of the English speaking, United States
+
+sent_id:362	Angola is in Indiana which is in the US where English is spoken and the inhabitants are Americans and Native Americans are an ethnic group.
+
+362--> Cluster 1:
+Angola --> is in --> Indiana which is in the US where English is spoken
+
+sent_id:363	Albany, Georgia is found in the United States, where the leader is the president, Asian Americans are an ethnic group and where the inhabitants are referred to as Americans.
+
+363--> Cluster 1:
+Georgia --> are to found in --> the United States, where the leader is the president
+
+sent_id:364	The president is the leader of the United States where Asian Americans are an ethnic group. Albany, Georgia is in the United States, where the inhabitants, are Americans.
+
+364--> Cluster 1:
+The president --> is --> the leader of the United States where Asian Americans are an ethnic group
+
+sent_id:365	Seattle is the largest city of Washington State and Olympia is the capital. Also located in the state is Auburn, part of King County, U.S.
+
+365--> Cluster 1:
+Seattle --> is --> the largest city of Washington State and Olympia
+
+sent_id:366	Auburn is part of King County, Washington, United States. Olympia is the capital of Washington and its largest city is Seattle.
+
+366--> Cluster 1:
+Auburn --> is --> part of King County, Washington, United States
+
+sent_id:367	Auburn is in King County, Washington State, whose largest city is Seattle and whose capital is Olympia. Washington is in the US.
+
+367--> Cluster 1:
+Auburn --> is in --> King County, Washington State, whose largest city is Seattle and
+
+sent_id:368	Bananaman was shown on the BBC, first airing on 3 October 1983 and the final broadcast being 15 April 1986. It was created by John Geering and starred Tim Brooke-Taylor.
+
+368--> Cluster 1:
+Bananaman --> shown on --> the BBC
+
+sent_id:369	The BBC began airing Bananaman October 3rd, 1983 and the last episode was broadcast on April 15th, 1986. John Geering is one of the creators of Bananaman which also starred Tim Brooke-Taylor.
+
+369--> Cluster 1:
+The BBC --> was broadcast on --> the last episode
+
+sent_id:370	The TV character Bananaman was created by John Geering. The programme was broadcast by the BBC and starred Tim Brooke-Taylor. It first aired on the 10th March 1983 and was last shown on April 15th 1986.
+
+370--> Cluster 1:
+Bananaman --> was created by --> John Geering
+
+sent_id:371	Baymax is a character from the film Big Hero 6 starring Scott Adsit. He was created by Steven T Seagle and the American, Duncan Rouleau.
+
+371--> Cluster 1:
+Baymax --> is --> a character from the film Big Hero 6 starring Scott Adsit
+
+sent_id:372	American Duncan Rouleau and Steven T. Seagle created Baymax. Baymax is a character in Big Hero 6 which starred Scott Adsit.
+
+372--> Cluster 1:
+American Duncan Rouleau --> created --> Baymax
+
+sent_id:373	Baymax was created by American Duncan Rouleau and Steven T. Seagle. Baymax is a character in Big Hero 6 which stars Scott Adsit.
+
+373--> Cluster 1:
+Baymax --> was created by --> American Duncan Rouleau
+
+sent_id:374	Chinabank, a publicly traded company with 295 banking centers, was founded in Manila on the 16th of August, 1920. The net income of Chinabank is $15,100,000,000.
+
+
+sent_id:375	Chinabank, a publicly traded company with 295 locations, was founded on 08-16-1920. Chinabank was founded in Manila and has a net income of $15,100,000,000.
+
+
+sent_id:376	Chinabank, a public company with 295 branches, currently has a net income of $15,100,000,000. Chinabank was founded in Manila on 1920-08-16.
+
+376--> Cluster 1:
+Chinabank --> has --> a net income of $15,100,000,000
+
+sent_id:377	GMA New Media, a maker of mobile applications founded on 01-01-2000, is a mass media industry with headquarters in the GMA Network Center. Felipe Gozon is a key person in GMA New Media.
+
+377--> Cluster 1:
+mobile applications --> founded on on --> 01-01-2000
+
+sent_id:378	GMA New Media (founded on January 01, 2000) is a company in mass media industry that offers products such as mobile applications. Felipe Gozon is the key person on GMA New Media, which is located inside the GMA Network Center.
+
+378--> Cluster 1:
+GMA New Media --> founded on on --> January 01, 2000
+
+sent_id:379	GMA New Media founded on January 01,2000 is located in the GMA Network Center. This company is in the mass media industry, makes mobile apps and Felipe Gozon is the key person on board.
+
+379--> Cluster 1:
+New Media --> founded on on --> January 01,2000
+
+sent_id:380	Hypermarcas was founded January 1, 2001 as a pharmaceutical company primarily focusing on cosmetics. It is located in Brazil, which has as population density of 23.8.
+
+380--> Cluster 1:
+Hypermarcas --> founded as --> a pharmaceutical company primarily focusing on cosmetics
+
+sent_id:381	Hypermarcas is a pharmaceutical company founded on January 1, 2001, that also sells cosmetics. It is located in Brazil which has a population density of 23.8 per square kilometer.
+
+381--> Cluster 1:
+Hypermarcas --> is --> a pharmaceutical company founded on January 1, 2001, that also sells cosmetics
+
+sent_id:382	Hypermarcas, founded on January 1, 2001, is a pharmaceutical company and a maker of cosmetics products. The company is located in Brazil, which has a population density of 23.8.
+
+382--> Cluster 1:
+Hypermarcas --> founded on on --> January 1, 2001
+
+sent_id:383	Trane is a European subsidiary company located in Ireland that employs 29,000 people. The company was founded in La Crosse, Wisconsin.
+
+383--> Cluster 1:
+Trane --> is --> a European subsidiary company located in Ireland that employs 29,000 people
+
+sent_id:384	Founded in La Crosse, Wisconsin, Trane is located in the European country of Ireland. Trane is a subsidiary company with 29000 employees.
+
+
+sent_id:385	Trane, a subsidiary company founded in La Crosse, Wisconsin, has 29,000 employees and operates in Ireland, which is located in Europe.
+
+385--> Cluster 1:
+a subsidiary company --> founded in in --> La Crosse, Wisconsin
+
+sent_id:386	Trane is subsidiary in Swords, Dublin who produces building management systems, they have a net income of $556 million and a total revenue of $10,264,000,000.
+
+386--> Cluster 1:
+Trane --> is --> subsidiary in Swords
+
+sent_id:387	Trane, a maker of building management systems with net income of $556,300,000 from revenue of 10,264,000,000, is a subsidiary company located in Swords, Dublin.
+
+387--> Cluster 1:
+Trane --> building with from --> management systems
+
+sent_id:388	Trane, a subsidiary located in Swords, Dublin, manufactures building management systems. Trane has net income of $556,300,000 from revenue of $10,264,000,000.
+
+388--> Cluster 1:
+a subsidiary --> located in in --> Swords, Dublin,
+
+sent_id:389	From Andalusia, Spain, Ajoblanco is made with bread, almonds, garlic, water and olive oil. Ajo blanco is an alternative name to Ajoblanco.
+
+
+sent_id:390	Ajoblanco, also known as Ajo blanco is a dish from the Andalusian region of Spain and includes the main ingredients of bread, almonds, garlic, water and olive oil.
+
+390--> Cluster 1:
+Ajoblanco --> known as as --> Ajo blanco
+
+sent_id:391	A dish found in the Andalusian region of Spain is called Ajoblanco (or Ajo blanco). It contains bread, almonds, garlic, water and olive oil.
+
+391--> Cluster 1:
+A dish --> found in in --> the Andalusian region of Spain
+
+sent_id:392	Tomatoes, guanciale, cheese, and olive oil are main ingredients in the traditional Amatriciana sauce, which comes from the region of Lazio and can be found in an Italian meal.
+
+392--> Cluster 1:
+Tomatoes --> are --> main ingredients in the traditional Amatriciana sauce, which comes from the region of Lazio and can be found in an Italian meal
+
+sent_id:393	Amatriciana is a traditional sauce from Lazio, Italy. It includes cheese along with tomatoes, guanciale and olive oil.
+
+393--> Cluster 1:
+Amatriciana --> is --> a traditional sauce from Lazio, Italy
+
+sent_id:394	Amatriciana sauce can be found in Italian food and comes from the country's Lazio region. The main ingredients of the sauce are guanciale, tomatoes, cheese, and olive oil.
+
+394--> Cluster 1:
+Amatriciana sauce --> found in --> Italian food
+
+sent_id:395	Arem-arem, a Javanese dish, is commonly served in Indonesia where the leader is Joko Widodo. It is also where the currency is the Indonesian rupiah and where Indonesian language is the language spoken.
+
+
+sent_id:396	Sergio Mattarella is a leader in Italy, a country where Rome is the capital, and both the people and the language spoken are Italian. Arrabbiata sauce can be found in Italy.
+
+396--> Cluster 1:
+Sergio Mattarella --> is --> a leader in Italy, a country where Rome is the capital
+
+sent_id:397	Arrabbiata sauce is from Italy where the capital is Rome, Italian is the language spoken and Sergio Mattarella is a leader. People there are called Italians.
+
+397--> Cluster 1:
+Arrabbiata sauce --> is from --> Italy where the capital is Rome
+
+sent_id:398	Ximo Puig is a leader of the Valencian Community which is where Arros negre comes from. It is a traditional dish from Spain, where the people are called Spaniards and the leader is Felipe VI of Spain.
+
+398--> Cluster 1:
+Ximo Puig --> is --> a leader of the Valencian Community which is where Arros negre comes from
+
+sent_id:399	Arros negre is from the Valencian Community of Spain, home to the Spaniards, led by Felipe VI and Ximo Puig.
+
+399--> Cluster 1:
+negre --> is from --> the Valencian Community of Spain,
+
+sent_id:400	Asam pedas is a food found in the Malay Peninsula of Malaysia, whose capital is Kuala Lumpur, and includes the Malaysian Chinese and Malaysian Indians.
+
+400--> Cluster 1:
+Asam pedas --> is --> a food found in the Malay Peninsula of Malaysia, whose capital is Kuala Lumpur
+
+sent_id:401	Asam pedas is a food found in the Malay Peninsula in Malaysia, whose capital is Kuala Lumpur, where Malaysian Indians and Malaysian Chinese are ethnic groups.
+
+401--> Cluster 1:
+Asam pedas --> is --> a food found in the Malay Peninsula in Malaysia, whose capital is Kuala Lumpur, where Malaysian Indians and Malaysian Chinese are ethnic groups
+
+sent_id:402	Malaysia and the Malay Peninsula are home to the dish Asam pedas. The capital of Malaysian Chinese and Indian inhabited Malaysia is Kuala Lumpur.
+
+
+sent_id:403	Malaysian Indian and Malaysian chinese are two of the ethnic groups in Malaysia where Arifin Zakaria is the leader. Asam pedas is found in Malaysia and is from the Malay Peninsula region.
+
+403--> Cluster 1:
+Indian --> are --> two of the ethnic groups in Malaysia where Arifin Zakaria is the leader
+
+sent_id:404	Asam pedas is a food found in the Malay Peninsula region, Malaysia, where ethnic groups include Malaysian Indian and Chinese. Arifin Zakaria is the country's leader.
+
+404--> Cluster 1:
+Asam pedas --> is --> a food found in the Malay Peninsula region, Malaysia, where ethnic groups include Malaysian Indian and Chinese
+
+sent_id:405	Malaysia, led by Arifin Zakaria, is home to the Malaysian Indian and Chinese, as well as the asam pedas of the Malay Peninsula region.
+
+
+sent_id:406	Ayam penyet is a Javanese dish made nationwide, and can also be found in Malaysia and Singapore. It should be served hot and contains the main ingredients of squeezed or smashed fried chicken served with sambal.
+
+406--> Cluster 1:
+Ayam penyet --> is --> a Javanese dish made nationwide
+
+sent_id:407	Ayam penyet is a hot food dish found in Java, Malaysia and Singapore and consists of fried chicken and sambal sauce.
+
+407--> Cluster 1:
+Ayam penyet --> is --> a hot food dish found in Java, Malaysia and Singapore
+
+sent_id:408	Ayam penyet is a food made in Java regions of Malaysia and Singapore. It contains fried chicken that is smashed and served hot with sambal.
+
+408--> Cluster 1:
+Ayam penyet --> is --> a food made in Java regions of Malaysia and Singapore
+
+sent_id:409	Malaysian Chinese is an ethnic group from Malaysia and Ayam Penyet is from there. Ayam Penyet is also from Indonesia and it contains fried chicken as well as "squeezed" or "smashed" chicken served with sambal.
+
+409--> Cluster 1:
+Malaysian Chinese --> is --> an ethnic group from Malaysia and Ayam Penyet
+
+sent_id:410	Ayam penyet is a dish comprising "squeezed" or "smashed" fried chicken served with sambal. It can be found in Indonesia and in Malaysia, where there is an ethnic group called Malaysian Chinese.
+
+410--> Cluster 1:
+Ayam penyet --> is --> a dish comprising "squeezed" or "smashed" fried chicken served with sambal
+
+sent_id:411	Ayam penyet (origins: Indonesia) contains squeezed/smashed fried chicken with sambal and is popular in Malaysia. Malasysia is home to the Malaysian chinese.
+
+411--> Cluster 1:
+Ayam penyet --> contains --> smashed fried chicken with sambal
+
+sent_id:412	The Malaysian chinese are an ethnic group from Malaysia which is where Ayam Penyet is from. Ayam Penyet can also be found in Indonesia and it contains fried chicken.
+
+412--> Cluster 1:
+The Malaysian chinese --> are --> an ethnic group from Malaysia which is where Ayam Penyet is from
+
+sent_id:413	Ayam penyet a dish made with fried chicken, is popular in Malaysia. It originates from Indonesia. The Malaysian chinese are an ethnic group in Malaysia.
+
+413--> Cluster 1:
+a dish --> made with --> fried chicken
+
+sent_id:414	The fried chicken dish Ayam penyet comes from the region of Indonesia and also Malaysia where Malaysian Chinese are an ethnic group.
+
+414--> Cluster 1:
+The fried chicken dish Ayam penyet --> comes from --> the region of Indonesia and also Malaysia where Malaysian Chinese are an ethnic group
+
+sent_id:415	Bacon Explosion comes from the United States. The US president is Barack Obama, and the capital is in Washington, D.C. English is the language of the US, and white Americans are a major ethnic group.
+
+415--> Cluster 1:
+Bacon Explosion --> comes from --> the United States
+
+sent_id:416	Bacon Explosion is a dish from the United States, where Joe Biden is leader and the capital is Washington DC. English is the language spoken in the US and Asian Americans are an ethnic group there.
+
+416--> Cluster 1:
+Bacon Explosion --> is --> a dish from the United States, where Joe Biden is leader and
+
+sent_id:417	Bacon Explosion originates from the United States where Asian Americans are one of the ethnic groups. The country's capital city is Washington D.C and Joe Biden is a politician there. In the U.S., they speak English.
+
+417--> Cluster 1:
+Bacon Explosion --> originates from --> the United States where Asian Americans are one of the ethnic groups
+
+sent_id:418	Baked Alaska originates from France where the national language is French and one of the leader is Gerard Larcher. The dessert is served in Hong Kong as well where the leader is Carrie Lam.
+
+418--> Cluster 1:
+the national language --> is --> French and one of the leader
+
+sent_id:419	Baked Alaska comes from France where the spoken language is French, and the country's leader is Gerard Larcher. This dessert is also served in Hong Kong where one of the political leaders is Carrie Lam.
+
+419--> Cluster 1:
+Baked Alaska --> comes from --> France where the spoken language is French
+
+sent_id:420	Baked Alaska, served in Hong Kong, whose political leader is Carrie Lam, but is actually from France where the national language is French and the leader is Gerard Larcher.
+
+420--> Cluster 1:
+Baked Alaska --> Baked Alaska to served in --> Hong Kong, whose political leader is Carrie Lam
+
+sent_id:421	Bandeja paisa is typical Colombian cuisine that originates from the Paisa region and contains lemon. The lemon belongs to the rutaceae family and the order of Rosids.
+
+421--> Cluster 1:
+Bandeja paisa --> is --> typical Colombian cuisine that originates from the Paisa region and contains lemon
+
+sent_id:422	Barny Cakes, which are made from sponge cake, are from France, where Gerard Larcher and Claude Bartolone are leaders and French is the language spoken.
+
+422--> Cluster 1:
+Barny Cakes --> are made from --> which
+
+sent_id:423	Barny cakes, made with sponge cake, are found in France, where French is spoken and whose leaders are Claude Bartolone and Gerard Larcher.
+
+423--> Cluster 1:
+Barny cakes --> made with --> sponge cake
+
+sent_id:424	Created by Mondelez International (founded in Chicago), Barny Cakes come from France where Gerard Larcher is leader and they speak French.
+
+
+sent_id:425	Barny cakes is created by Mondelez International, which was founded in Chicago. It comes from France, which leader is Gérard Larcher and the language is French.
+
+425--> Cluster 1:
+Barny cakes --> is created by --> Mondelez International
+
+sent_id:426	Indian people enjoy the dish bhajji, which originates from the Karnataka region of India. This nation is led by T.S. Thakur and Sumitra Mahajan.
+
+426--> Cluster 1:
+Indian people --> enjoy --> the dish bhajji, which originates from the Karnataka region of India
+
+sent_id:427	Binignit is a dessert from the Visayas region of the Philippines. It contains sweet potato and banana.
+
+427--> Cluster 1:
+Binignit --> is --> a dessert from the Visayas region of the Philippines
+
+sent_id:428	Binignit comes from the Philippines from the region of Visayas. Its a type of dessert featuring banana and sweet potatoes.
+
+428--> Cluster 1:
+Binignit --> comes from --> the Philippines
+
+sent_id:429	The dessert Binignit includes sweet potato and banana. It is from the Visayas region of the Philippines.
+
+429--> Cluster 1:
+The dessert Binignit --> includes --> sweet potato and banana
+
+sent_id:430	Enrique Pena Nieto is the leader of Mexico which is where they speak Spanish and eat bionico, flavoured with honey, for dessert.
+
+430--> Cluster 1:
+Enrique Pena Nieto --> is --> the leader of Mexico which is where they speak Spanish and eat bionico, flavoured with honey, for dessert
+
+sent_id:431	Bionico is a dish found in Mexico, where Spanish is spoken and the leader is Silvano Aureoles Conejo. Bionico is a dish served for dessert and a cookie can be served as a dessert too.
+
+431--> Cluster 1:
+Bionico --> is --> a dish found in Mexico, where Spanish is spoken and the leader is Silvano Aureoles Conejo
+
+sent_id:432	Mexico is a spanish speaking country and is led by Silvano Aureoles Conejo. A type of food is Bionico, which is a type of cookie served for dessert.
+
+432--> Cluster 1:
+Mexico --> is --> a spanish speaking country
+
+sent_id:433	Honey can be used as a variation in the dish Bionico which is served for dessert. It is found in Guadalajara, Mexico where Silvano Aureoles Conejo is the leader.
+
+433--> Cluster 1:
+Honey --> used as --> a variation in the dish Bionico which is served for dessert
+
+sent_id:434	The name of the leader in Mexico is Silvano Aureoles Conejo and bionico can be found in the Guadalajara region. It is served as a dessert course and honey can be added to it.
+
+434--> Cluster 1:
+The name --> is --> Silvano Aureoles Conejo and bionico
+
+sent_id:435	The dessert Bionico is found in Guadalajara and Silvano Aureoles Conejo led Mexico and may contain honey.
+
+
+sent_id:436	Joko Widodo is the leader of Indonesia whose capital is Jakarta and its language is Indonesian. Bakso comes from Indonesia and is popular in Southeastern Asian countries.
+
+436--> Cluster 1:
+Joko Widodo --> is --> the leader of Indonesia whose capital is Jakarta and its language
+
+sent_id:437	Joko Widodo is the leader of Indonesia, a country where Indonesian is the language spoken and Jakarta is the capital city. Bakso is a traditional food throughout Indonesia and is also popular in neighbouring Southeast Asian countries.
+
+437--> Cluster 1:
+Joko Widodo --> is --> the leader of Indonesia, a country where Indonesian is the language spoken and Jakarta is the capital city
+
+sent_id:438	Bakso originates from Indonesia and also popular in neighbouring Southeast Asian countries. The country's capital city is Jakarta, its main language is Indonesian and led by president Joko Widodo.
+
+438--> Cluster 1:
+The country's capital city --> is --> Jakarta
+
+sent_id:439	Bakso is a food found in Indonesia where the capital is Jakarta and the leaders are Jusuf Kalla and Joko Widodo.
+
+439--> Cluster 1:
+Bakso --> is --> a food found in Indonesia where the capital is Jakarta and the leaders
+
+sent_id:440	Bakso is dish from Indonesia (capital Jakarta). Jusuf Kalla and Joko Widodo are political leaders in the country.
+
+440--> Cluster 1:
+Bakso --> is --> dish from Indonesia (capital Jakarta
+
+sent_id:441	Bakso is a dish from Indonesia. The country's capital city is Jakarta and it is led by president Joko Widodo and vice president Jusuf Kalla.
+
+441--> Cluster 1:
+Bakso --> is --> a dish from Indonesia
+
+sent_id:442	The capital of Italy is Rome and is where Italians are from and Amatriciana is a traditional sauce. The leaders are Laura Boldrini and Pietro Grasso.
+
+442--> Cluster 1:
+The capital --> is --> Rome
+
+sent_id:443	Amatriciana sauce is a traditional dish from Italy, where the capital is Rome and the leaders include Pietro Grasso and Laura Boldrini. Italians is the name given to people from Italy.
+
+443--> Cluster 1:
+Amatriciana sauce --> is --> a traditional dish from Italy, where the capital is Rome and the leaders
+
+sent_id:444	The capital city of Italy is Rome and its inhabitants are the Italians. The country is the home of the Amatriciana sauce and its led by Pietro Grasso and Laura Boldrini.
+
+444--> Cluster 1:
+The capital city --> are --> the Italians
+
+sent_id:445	English is spoken in Singapore where the leader is Halimah Yacob. Ayam penyet is from the Singapore region of Java where the Banyumasan people are an ethnic group.
+
+445--> Cluster 1:
+English --> spoken in --> Singapore where the leader is Halimah Yacob
+
+sent_id:446	The Banyumasan people are an ethnic group from Java, where you can find a traditional dish called Ayam penyet. The dish comes from Singapore, where the leader is Halimah Yacob and English is one of the languages spoken.
+
+446--> Cluster 1:
+The Banyumasan people --> are --> an ethnic group from Java, where you can find a traditional dish called Ayam penyet
+
+sent_id:447	Halimah Yacob leads Singapore, where Standard Chinese is spoken and where Ayam penyet is from. This dish is a food found in Java; one of the ethnic groups there are the Banyumasan people.
+
+447--> Cluster 1:
+Halimah Yacob --> leads --> Singapore, where Standard Chinese is spoken and where Ayam penyet is from
+
+sent_id:448	The Banyumasan people are an ethnic group in Java, the country of Ayam penyet, which is also from the Singapore region. Standard Chinese is spoken in Singapore and Halimah Yacob is the leader.
+
+448--> Cluster 1:
+The Banyumasan people --> are --> an ethnic group in Java, the country of Ayam penyet, which is also from the Singapore region
+
+sent_id:449	Ayam penyet is a dish from the region of Java and Singapore where Standard Chinese is spoken. Halimah Yacob is the leader of Singapore and the Banyumasan people are an ethnic group from Java.
+
+449--> Cluster 1:
+Ayam penyet --> is --> a dish from the region of Java and Singapore where Standard Chinese is
+
+sent_id:450	Philippines is the country the dish Batchoy comes from. The Ilocano and Igorot peoples are ethnic groups from the Philippines, where languages spoken include Arabic and Phillippine English.
+
+450--> Cluster 1:
+Philippines --> is --> the country
+
+sent_id:451	Batchoy is eaten in the Philippines, languages spoken there include English (official language) and also Arabic. Ethnic groups there include the Ilocano and Igorot peoples.
+
+
+sent_id:452	Available nationwide in Indonesia and Singapore, Beef kway teow is a dish which comes from Singapore, where English is spoken. It is also where two of the leaders are Halimah Yacob and Tony Tan.
+
+452--> Cluster 1:
+Beef kway teow --> is --> a dish which comes from Singapore, where English is
+
+sent_id:453	Just like in Indonesia, Beef kway teow is popular nationwide is Singapore (where it comes from). In this country, English is spoken and two of the leaders are Halimah Yacob and Tony Tan.
+
+453--> Cluster 1:
+Beef kway teow --> is in --> popular nationwide
+
+sent_id:454	Beef kway teow is a popular dish in Singapore and Indonesia. Tony Tan and Halimah Yacob are leaders in Singapore where English is spoken.
+
+454--> Cluster 1:
+Beef kway teow --> is --> a popular dish in Singapore and Indonesia
+
+sent_id:455	Ajoblanco is a Spanish dish that originates Andalusia, where the leader is Susana Diaz. Felipe VI is the leader of Spain, where the people that live there are called Spaniards.
+
+455--> Cluster 1:
+Ajoblanco --> is --> a Spanish dish that originates Andalusia, where the leader is Susana Diaz
+
+sent_id:456	Some famous Spaniards from Spain include Felipe VI (leader of Spain) and Susana Diaz who is the leader of Andalusia where ajoblanco comes from.
+
+456--> Cluster 1:
+Some famous Spaniards --> include --> Felipe VI (leader of Spain) and Susana Diaz who is the leader of Andalusia where ajoblanco comes from
+
+sent_id:457	Ajoblanco is a dish from Spain, where the currency is the euro, the leader is Felipe VI, the language spoken is Spanish and the people that live there are called Spaniards.
+
+457--> Cluster 1:
+Ajoblanco --> is --> a dish from Spain, where the currency is the euro
+
+sent_id:458	Ajoblanco is a food found in Spanish speaking and Felipe VI led Spain. It is also home to the Spaniards and can be purchased with the Euro.
+
+458--> Cluster 1:
+Ajoblanco --> is --> a food found in Spanish speaking and Felipe VI
+
+sent_id:459	AIDAstella was built by Meyer Werft and is operated by AIDA Cruise Line. The AIDAstella has a beam of 32.2 m, is 253260.0 millimetres in length and has a top speed of 38.892.
+
+459--> Cluster 1:
+AIDAstella --> was built by --> Meyer Werft
+
+sent_id:460	The AIDAstella was built by Meyer Werft and operated by the AIDA Cruise Line. It is 253260.0 millimetres long with a beam of 32.2 metres and a top speed of 38.892 km/h.
+
+460--> Cluster 1:
+The AIDAstella --> was built by --> Meyer Werft
+
+sent_id:461	The AIDAstella is operated by AIDA Cruise Line and was built by Meyer Werft. It is 253260.0 millimetres in length, has a beam of 32.2m and a top speed of 38.892 km/h.
+
+461--> Cluster 1:
+The AIDAstella --> is operated by --> AIDA Cruise Line
+
+sent_id:462	The ALCO RS-3, produced between May 1950 and August 1956 by the American Locomotive Company, has 12 cylinders and a V12 engine and its length is 17068.8 millimetres.
+
+
+sent_id:463	The ALCO RS-3, built by the American Locomotive Company, has a V12 cylinder engine and is 17068.8mm long. It was produced from May 1950 to August 1956.
+
+
+sent_id:464	The ALCO RS-3 was produced from May 1950 to August 1956 by the American Locomotive Company. It has a V12, 12 cylinder engine and is 17068.8mm long.
+
+464--> Cluster 1:
+The ALCO RS-3 --> was produced from by --> the American Locomotive Company
+
+sent_id:465	The AMC Matador (also known as the American Motors Matador) is assembled in Thames, New Zealand. Classified as a mid-size car, it features a wagon style body and an AMC V8 engine.
+
+465--> Cluster 1:
+The AMC Matador --> known as as --> the American Motors Matador
+
+sent_id:466	The AMC Matador, also known as American Motors Matador, was assembled in Thames, New Zealand. The AMC Matador is a mid-size station wagon with a V8 engine type.
+
+466--> Cluster 1:
+The AMC Matador --> known as as --> American Motors Matador
+
+sent_id:467	The AMC Matador aka the American Motors Matador, is assembled in Thames, New Zealand, has a v8 engine, and is classified as a mid-size station wagon.
+
+
+sent_id:468	P&amp;O owns the Alhambra which has a Humphrys, Tennant and Dykes engine and is 63800.0 millimetres long. The Alhambra was made by the Samuda Brothers. Humphrys, Tennant and Dykes are located in Deptford.
+
+468--> Cluster 1:
+P&amp;O --> owns --> the Alhambra which has a Humphrys, Tennant and Dykes engine and is 63800.0 millimetres long
+
+sent_id:469	The Alhambra was built by the Samuda Brothers is owned by the P &amp; O company. It was 63800.0 millimetres long and has a Humphrys, Tennant and Dykes power type. Humphrys, Tennant and Dykes are located in Deptford.
+
+
+sent_id:470	The Alhambra was built by the Samuda Brothers and is owned by P&amp;O. It was 63800.0 millimetres long and has a Humphrys, Tennant and Dykes power type. Humphrys, Tennant and Dykes is located in Deptford.
+
+470--> Cluster 1:
+The Alhambra --> was built by --> the Samuda Brothers
+
+sent_id:471	The Antares rocket is 3.9 metres in diametre and is manufactured by the Yuzhnoye Design Office. Its launch site was the Mid-Atlantic Regional Spaceport Launch Pad 0. The Antares rocket made its first flight on October 28th, 2014 and its final flight on September 18th, 2013.
+
+471--> Cluster 1:
+The Antares rocket --> is --> 3.9 metres in diametre
+
+sent_id:472	The Antares rocket, manufactured by the Yuzhnoye Design Office, was launched from the Mid-Atlantic Regional Spaceport Launch Pad 0. At 3.9m in diameter, the Antares rocket had its maiden flight on the 28th October, 2014 and final flight on the 18th of September, 2013.
+
+
+sent_id:473	The Antares rocket, which was manufactured at the Yuzhnoye Design Office, made its first flight on October 28, 2014 and had its final flight on the 18th of September 2013. It is 3.9 m in diameter, and was launched from the Mid-Atlantic Regional Spaceport Launch Pad 0.
+
+473--> Cluster 1:
+The Antares rocket --> was manufactured at --> which
+
+sent_id:474	The Antares rocket is manufactured at the Yuzhnoye Design Office, and was launched from the Mid-Atlantic Regional Spaceport. It is comparable to the United States Delta II, which was launched at the Vandenberg Air Force Base.
+
+474--> Cluster 1:
+The Antares rocket --> manufactured at --> the Yuzhnoye Design Office
+
+sent_id:475	Produced at the Yuzhnoye Design Office, the Antares rocket was launched from the Mid-Atlantic Regional Spaceport. The Antares compares to the Delta II US born rocket which launches out of Vandenberg Air Force Base.
+
+
+sent_id:476	The Antares rocket is manufactured by the Yuzhnoye Design Office and launched from the Mid-Atlantic Regional Spaceport. It is similar to the Delta II rocket from the United States which launched from the Vandenberg Air Force Base.
+
+476--> Cluster 1:
+The Antares rocket --> is manufactured by --> the Yuzhnoye Design Office
+
+sent_id:477	The Ariane 5 had its first voyage August 11, 2005 and its last flight on December 18, 2009. It was manufactured by Airbus Defence and Space and launched from the Guiana Space Centre. Its diameter is 5.4 metres.
+
+477--> Cluster 1:
+The Ariane --> had --> its first voyage August 11, 2005 and its last flight on December 18, 2009
+
+sent_id:478	The Airbus Defence and Space manufactured the Ariane 5 which has a diameter of 5.4 metres. It was launched from the Guiana Space Centre, making its maiden flight on 11 August 2005 and the final flight on 18 December 2009.
+
+478--> Cluster 1:
+The Airbus Defence and Space --> manufactured --> the Ariane 5 which has a diameter of 5.4 metres
+
+sent_id:479	The Airbus Defence and Space manufactures the Ariane 5 which has a diameter of 5.4 metres. It was launched from the Guiana Space Centre, making its maiden flight on 11 August 2005 and the last flight on December 18 2009.
+
+479--> Cluster 1:
+the Ariane 5 --> has --> a diameter of 5.4 metres
+
+sent_id:480	The Ariane 5's maiden flight was on the 2nd March 2004 and its last flight being on Sept. 27, 2003. It was made by the European Space Agency and took off from ELA-3. It is 5.4 m in diameter.
+
+480--> Cluster 1:
+The Ariane 5's maiden flight --> was on --> the 2nd March 2004 and
+
+sent_id:481	First launched on March 2, 2004 the Ariane 5 took off from ELA-3. That craft is made by the European Space Agency and its last flight was on Sept. 27, 2003. The Ariane 5 is 5.4 m in diameter.
+
+
+sent_id:482	The Aston Martin V8 is assembled in the United Kingdom governed by Elizabeth II. The next model of that vehicle was the Aston Martin Virage, which is related to Aston Martin DBS. Aston Martin is the manufacturer of the Aston Martin DBS.
+
+482--> Cluster 1:
+The Aston Martin V8 --> assembled in --> the United Kingdom governed by Elizabeth II
+
+sent_id:483	The Aston Martin V8 is assembled in the United Kingdom, where the ruler is Queen Elizabeth II. The Aston Martin V8 was succeeded by the Aston Martin Virage which along with Aston Martin DBS (Aston Martin manufatured) are related types of transportation.
+
+483--> Cluster 1:
+The Aston Martin V8 --> assembled in --> the United Kingdom, where the ruler is Queen Elizabeth II
+
+sent_id:484	Aston Martin manufactures the Aston Martin DBS which is related to the Aston Martin Virage. The latter car succeeded the Aston Martin V8 which is assembled in the United Kingdom which is led by Elizabeth II.
+
+484--> Cluster 1:
+Aston Martin --> manufactures --> the Aston Martin DBS which is related to the Aston Martin Virage
+
+sent_id:485	Aston Mastin DBS, made by Aston Martin, is related to the Aston Martin Virage, which succeeded the Aston Martin V8. The V8 was assembled in the, Elizabeth II led, United Kingdom.
+
+
+sent_id:486	From the United States the Atlas II (3.04 m diameter) was sent from Vandenberg Air Force Base and Spaceport Florida Launch Complex 36. March 16, 1998 was its final lift off.
+
+
+sent_id:487	The Atlas II is from the United States and launched from the Vandenberg Air Force Base and the Spaceport Florida Launch Complex 36. It is 3.04 m in diameter and took its final flight on 16 March 1998.
+
+487--> Cluster 1:
+The Atlas II --> is from --> the United States
+
+sent_id:488	The Atlas II, from the united States, was launched at the Spaceport Florida Launch Complex 36 and Vandenberg Air Force Base. 3.04m in diameter, its final flight was March 16, 1998.
+
+
+sent_id:489	Audi A1 hatchback is a supermini vehicle made in Brussels, Belgium. It contains a 1.2 l front engine with a front wheel drive layout.
+
+489--> Cluster 1:
+Audi A1 hatchback --> is --> a supermini vehicle made in Brussels, Belgium
+
+sent_id:490	The Audi A1 is a hatchback belonging to the supermini class. It has a 1.2 litre engine, a front-engine with front-wheel-drive and is assembled in Brussels, Belgium.
+
+490--> Cluster 1:
+The Audi A1 --> is --> a hatchback belonging to the supermini class
+
+sent_id:491	The Audi A1 is a supermini hatchback assembled in Brussels, Belgium. It has a front-engine with front-wheel-drive and a 1.2 litre engine.
+
+491--> Cluster 1:
+The Audi A1 --> is --> a supermini hatchback assembled in Brussels, Belgium
+
+sent_id:492	Douglas R. Oberhelman is the key person at Caterpillar Inc which was founded in the US and located in Illinois. The company provides the engine power to the AIDAluna owned by AIDA Cruises.
+
+492--> Cluster 1:
+Douglas R. Oberhelman --> is --> the key person at Caterpillar Inc which was founded in the US and located in Illinois
+
+sent_id:493	Douglas R Oberhelman is a key person at Caterpillar Inc. which was founded in the United States and is located in Illinois. The company powers the AIDAluna owned by AIDA Cruises.
+
+493--> Cluster 1:
+Douglas R Oberhelman --> is --> a key person at Caterpillar Inc. which was founded in the United States and is located in Illinois
+
+sent_id:494	Douglas R Oberhelman is a key person at Caterpillar Inc. which was founded in the United States and is located in Illinois. It provides the power to the AIDAluna owned by AIDA Cruises.
+
+494--> Cluster 1:
+Douglas R Oberhelman --> is --> a key person at Caterpillar Inc. which was founded in the United States and is located in Illinois
+
+sent_id:495	Carnival Corporation &amp; plc is the parent company of Costa Crociere in Genoa, who own the AIDAstella. AIDAstella was built by Meyer Werft and is operated by AIDA Cruises.
+
+495--> Cluster 1:
+Carnival Corporation &amp --> is --> the parent company of Costa Crociere in Genoa, who own the AIDAstella
+
+sent_id:496	The AIDAstella, which was built by Meyer Werft, is operated by AIDA Cruises. Its owner are Costa Crociere who are located in Genoa and a subsidiary of Carnival Corporation &amp; Plc.
+
+
+sent_id:497	Meyer Werft built the AIDAstella which is operated by the AIDA Cruise Line. It is owned by Costa Crociere who are located in Genoa and have Carnival Corporation &amp; plc as their parent company.
+
+497--> Cluster 1:
+Meyer Werft --> built --> the AIDAstella which is operated by the AIDA Cruise Line
+
+sent_id:498	The Minotaur IV rocket and the Antares rocket were launched from the Mid-Atlantic Regional Spaceport Launch Pad 0 . The latter was similar to the Delta II from the United States that launched at Cape Canaveral Air Force Station.
+
+
+sent_id:499	The Mid-Atlantic Regional Spaceport Launch Pad 0 is associated with the rocket, Minotaur IV and is also the launch site of the Antares rocket. This latter rocket is comparable to the United states Delta II which launched from Cape Canaveral Air Force Station.
+
+499--> Cluster 1:
+The Mid-Atlantic Regional Spaceport Launch Pad 0 --> associated --> the rocket, Minotaur IV
+
+sent_id:500	Both the Antares rocket and the Minotaur IV rocket were launched from the Mid-Atlantic Regional Spaceport Launch Pad 0, while the Delta II (United States) was launched at Cape Canaveral Air Force Station; Delta II is comparable to Antares.
+
+
+sent_id:501	The launch site of the rocket Antares was the Mid-Atlantic Regional Spaceport Launch Pad 0, which is associated with the Minotaur IV rocket. The Antares rocket is comparable with the Delta II, which originated from the United States, and was launched at Vandenberg Air Force Base.
+
+501--> Cluster 1:
+The launch site --> was --> the Mid-Atlantic Regional Spaceport Launch Pad 0, which is associated with the Minotaur IV rocket
+
+sent_id:502	The Minotaur IV rocket and the Antares rocket were launched from the Mid-Atlantic Regional Spaceport Launch Pad 0. The latter rocket is comparable to the Delta II which originated in the United States and launched from the Vandenberg Air Force Base.
+
+
+sent_id:503	The A-Rosa Luna was built on the Neptun Werft, located in Rostock, Germany. Germany (whose capital city is Berlin) is led by Joachim Gauck.
+
+503--> Cluster 1:
+The A-Rosa Luna --> built on --> the Neptun Werft, located in Rostock, Germany
+
+sent_id:504	The builder of the A-Rosa Luna is Neptun Werft whose HQ is in Rostock, Germany. Berlin is the capital in that country and Joachim Gauck is the name of one of its leaders.
+
+504--> Cluster 1:
+The builder --> is --> Neptun Werft whose HQ is in Rostock, Germany
+
+sent_id:505	The A-Rosa Luna was built by Neptun Werft in Rostock, Germany. Joachim Gauck is a leader of Germany, with its capital at Berlin.
+
+505--> Cluster 1:
+The A-Rosa Luna --> was built by --> Neptun Werft
+
+sent_id:506	The builder of the A-Rosa Luna is Neptun Werft, from Rostock, Germany. The leader of Germany is Stanislaw Tillich and the people are called Germans.
+
+506--> Cluster 1:
+The builder --> is --> Neptun Werft, from Rostock, Germany
+
+sent_id:507	The builder of the A-Rosa Luna is Neptun Werft, headquartered in Rostock, Germany. Stanislaw Tillich is a leader of Germany, and the demonym for people who live there is Germans.
+
+507--> Cluster 1:
+The builder --> is --> Neptun Werft, headquartered in Rostock, Germany
+
+sent_id:508	Neptun Werft, who built the A-Rosa Luna, is headquartered in Rostock in Germany. Germans is the demonym for people who live in Germany and Stanislaw Tillich is its leader.
+
+508--> Cluster 1:
+Neptun Werft --> built --> the A-Rosa Luna
+
+sent_id:509	The Delta II is from the United States and is comparable to the Antares rocket which was launched at the Mid-Atlantic Regional Spaceport Launch Pad 0. The Mid-Atlantic Regional Spaceport Launch Pad 0 is associated with the Rocket Minotaur V.
+
+509--> Cluster 1:
+The Delta II --> is from --> the United States
+
+sent_id:510	The Antares rocket and the Minotaur V, were launched at the Mid-Atlantic Regional Spaceport Launch Pad 0. The Antares is comparable to the, United States origin, Delta II.
+
+
+sent_id:511	The Antares rocket, comparable to the Delta II (United States), was launched at the Mid-Atlantic Regional Spaceport Launch Pad 0, along with the Minotaur V.
+
+
+sent_id:512	ALV X-1 came from the U.S. whose people are American and whose capital is in Washington, D.C. White Americans are part of an ethnic group in the U.S. and their national anthem is known as The Star Spangled Banner.
+
+512--> Cluster 1:
+ALV X-1 --> came from --> the U.S. whose people are American and whose capital is in Washington, D.C.
+
+sent_id:513	The capital of the United States, where ALV X-1 originated, is Washington, D.C. The inhabitants of the United States are called Americans, and its anthem is The Star Spangled Banner. One of its ethnic groups is White Americans.
+
+513--> Cluster 1:
+The capital --> is --> Washington, D.C.
+
+sent_id:514	The ALV X-1 originates from the United States where the national anthem is the Star Spangled Banner and the capital city is Washington DC. The country's inhabitants are called Americans and one of the ethnic groups are the White Americans.
+
+514--> Cluster 1:
+the national anthem --> is --> the Star Spangled Banner and the capital city
+
+sent_id:515	The 11th Mississippi Infantry monument is located in the municipality of Gettysburg, Adams County, Pennsylvania. Adams County is east of Franklin County and south of Cumberland County. Maryland's Carroll county is located to the southeast.
+
+515--> Cluster 1:
+The 11th Mississippi Infantry monument --> located in --> the municipality of Gettysburg, Adams County, Pennsylvania
+
+sent_id:516	The 11th Mississippi Infantry Monument is placed in the municipality of Gettysburg, Adams County, Pennsylvania. To the west of Adams County lies Franklin County and to the north, Cumberland County, both of these are in Pennsylvania. Carroll County Maryland is southeast of Adams County.
+
+516--> Cluster 1:
+The 11th Mississippi Infantry Monument --> placed in --> the municipality of Gettysburg, Adams County, Pennsylvania
+
+sent_id:517	The 11th Mississippi Infantry monument is located in Gettysburg, Adams County, Pennsylvania. Adams County is located east of Franklin County and south of Cumberland County. Maryland's Carroll County is located to the southeast.
+
+517--> Cluster 1:
+The 11th Mississippi Infantry monument --> located in --> Gettysburg, Adams County, Pennsylvania
+
+sent_id:518	The capital of Azerbaijan is Baku and the leader and Prime Minister of Azerbaijan is called Artur Rasizade. The Baku Turkish Martyrs' Memorial is located in Azerbaijan and the legislature is known as the National Assembly.
+
+518--> Cluster 1:
+The capital --> is --> Baku and the leader and Prime Minister of Azerbaijan
+
+sent_id:519	Prime Minister of Azerbaijan (capital Baku) is the official title of the leader whose name is Artur Rasizade. Baku Turkish Martyrs' Memorial is located in Azerbaijan and the legislature of the country is the National Assembly.
+
+519--> Cluster 1:
+Prime Minister --> is --> the official title of the leader whose name is Artur Rasizade
+
+sent_id:520	The Baku Turkish Martyrs' Memorial in Azerbaijan is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku and was designed by Huseyin Butuner and Hilmi Guner. The monument is also known by the native name Türk Şehitleri Anıtı. Azerbaijan's leader is Artur Rasizade.
+
+
+sent_id:521	The Baku Turkish Martyrs' Memorial (native name: "Türk Sehitleri Aniti") in Azerbaijan has been dedicated to Ottoman Army soldiers killed in the Battle of Baku and it was designed by Hüseyin Bütüner and Hilmi Güner. Artur Rasizade is the leader of Azerbaijan.
+
+
+sent_id:522	The Baku Turkish Martyrs' Memorial in Azerbaijan is dedicated to the Ottoman Army soldiers killed in the Battle of Baku. The native name of the memorial is "Türk Sehitleri Aniti" and was designed by Hüseyin Bütüner and Hilmi Güner. The leader of Turkey is Artur Rasizade.
+
+
+sent_id:523	Huseyin Butuner and Hilmi Guner designed the red granite and white marble Baku Turkish Martyrs memorial in Azerbaijan. It is also known as Turk Sehitleri Aniti and is dedicated to the soldiers of the Ottoman army killed in the Battle of Baku.
+
+523--> Cluster 1:
+Huseyin Butuner --> designed in --> the red granite and white marble
+
+sent_id:524	The Baku Turkish Martyrs' Memorial is located in Azerbaijan, where it is known as "Türk Sehitleri Aniti". The memorial is dedicated to Ottoman Army soldiers who were killed in the Battle of Baku. It was designed by Hüseyin Bütüner and Hilmi Güner, and constructed out of red granite and white marble.
+
+524--> Cluster 1:
+The Baku Turkish Martyrs' Memorial --> located in --> Azerbaijan, where it is known as "Türk Sehitleri Aniti"
+
+sent_id:525	Baku Turkish Martyrs' Memorial, made of red granite and white marble, is dedicated to the Ottoman Army soldiers killed in the Battle of Baku and was designed by Huseyin Butuner and Hilmi Guner. The memorial is known in Turkish as Turk Sehitleri Aniti and can be found in Azerbaijan.
+
+525--> Cluster 1:
+Baku Turkish Martyrs' Memorial --> made of --> red granite and white marble
+
+sent_id:526	The Baku Turkish Martyrs' Memorial, designed by Huseyin Butuner and Hilmi Guner and made of red granite and white marble, is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku. The memorial is found in Azerbaijan whose leader is the Prime Minister.
+
+
+sent_id:527	The Baku Turkish Martyrs' Memorial in Azerbaijan is dedicated to the Ottoman Army soldiers killed in the Battle of Baku. It was designed by Hüseyin Bütüner and Hilmi Güner and is built using Red granite and white marble. Azerbaijan's leader is the Prime Minister of Azerbaijan.
+
+
+sent_id:528	The Baku Turkish Martyrs' Memorial, designed by Hüseyin Bütüner and Hilmi Güner, was constructed using red granite and white marble. It is located in Baku, Azerbaijan, which is led by a Prime Minister. This Memorial is dedicated to the Ottoman Army soldiers killed in the Battle of Baku.
+
+
+sent_id:529	The birth place of Abdul Taib Mahmud was the Kingdom of Sarawak and his residence was Demak Jaya, Jalan Bako, Kuching, Sarawak. He was a member of the Parti Pesaka Bumiputera Bersatu and was succeeded by Adenan Satem who had attended the University of Adelaide.
+
+529--> Cluster 1:
+The birth place --> was --> the Kingdom of Sarawak and his residence
+
+sent_id:530	Abdul Taib Mahmud was born in the Kingdom of Sarawak and lives in Demak Jaya, Jalan Bako, Kuching, Sarawak. He is a member of the Parti Pesaka Bumiputera Bersatu and was succeeded by the University of Adelaide educated Adenan Satem.
+
+530--> Cluster 1:
+Abdul Taib Mahmud --> born in --> the Kingdom of Sarawak
+
+sent_id:531	Abdul Taib Mahmud was born in the Kingdom of Sarawak, lives in Demak Jaya, Jalan Bako, Kuching, Sarawak and is a member of the Parti Pesaka Bumiputera Bersatu. He was succeeded by Adenan Satem, who studied at the University of Adelaide.
+
+531--> Cluster 1:
+Abdul Taib Mahmud --> born in --> the Kingdom of Sarawak
+
+sent_id:532	Abdulsalami Abubakar served in the Nigerian Army and was in office whilst Mike Akhigbe (the successor to Oladipo Diya) was Vice President. His career ended on 29 May 1999 and he was succeeded by Olusegun Obasanjo.
+
+532--> Cluster 1:
+Abdulsalami Abubakar --> served in --> the Nigerian Army
+
+sent_id:533	Abdulsalami Abubakar, who served in the Nigerian Army, ended his career on May 29th, 1999 and served in office while Mike Akhigbe was the Vice President. Akhigbe succeeded Oladipo Diya while Olusegun Obasanjo took over from Abubaka when he left office.
+
+533--> Cluster 1:
+Abdulsalami Abubakar --> served in --> the Nigerian Army
+
+sent_id:534	Olusegun Obasanjo succeeded Abdulsalami Abubakar, who served in the Nigerian Army and ended his career on 1999-05-2. Abdulsalami Abubakar was in office while Mike Akhigbe, who succeeded Oladipo Diya, was Vice President.
+
+534--> Cluster 1:
+Olusegun Obasanjo --> succeeded --> Abdulsalami Abubakar, who served in the Nigerian Army and ended his career on 1999-05-2
+
+sent_id:535	Abraham A Ribicoff was a US national born in Connecticut and dying in New York City. He was a member of the Democratic Party in the U.S.A. and worked as the United States Secretary of Health, Education, and Welfare.
+
+535--> Cluster 1:
+Abraham A Ribicoff --> was --> a US national born in Connecticut and dying in New York City
+
+sent_id:536	Abraham A. Ribicoff who was born in Connecticut, United States, worked as the United States Secretary of Health, Education, and Welfare and he was a member of the Democratic Party in the United States. He died in New York City.
+
+
+sent_id:537	Democrat Abraham A. Ribicoff was born in Connecticut, US and died in New York City. He worked as the United States Secretary of Health, Education and Welfare.
+
+537--> Cluster 1:
+Democrat Abraham A. Ribicoff --> born in --> Connecticut
+
+sent_id:538	American Abraham A. Ribicoff died in the United States and was married to Casey Ribicoff who was born in Chicago. Native Americans are one of several ethnic groups in the U.S.
+
+538--> Cluster 1:
+American Abraham A. Ribicoff --> died in --> the United States
+
+sent_id:539	Abraham A Ribicoff was born and died in the United States, a country where one of the ethnic groups are the Native Americans. He was married to Casey Ribicoff who was born in Chicago.
+
+539--> Cluster 1:
+Abraham A Ribicoff --> born to died in --> the United States, a country where one of the ethnic groups are the Native Americans
+
+sent_id:540	Native Americans are the ethnic group in the United States, the country Abraham A. Ribicoff was a national of. Bornin Chicago, Casey Ribicoff was the wife of Abraham A. Ribcoff, who died in the United States.
+
+540--> Cluster 1:
+Native Americans --> are --> the ethnic group in the United States, the country Abraham A. Ribicoff
+
+sent_id:541	Adam Holloway was born in Kent and attended Magdalene College in Cambridge. He began his career on 5 May 2005 and served in the Grenadier Guards and became a member of parliament for Gravesham.
+
+541--> Cluster 1:
+Adam Holloway --> born in --> Kent
+
+sent_id:542	Gravesham Parliament member and Magdalene College Cambridge alum Adam Holloway, was born in Kent. A Grenadier Guard, he began his career 05/05/2005.
+
+
+sent_id:543	Adam Holloway was born in Kent, and began his career on the 5th May 2005. He served in the Grenadier guards and was a MP for Gravesham. His alma mater is Magdalene College, Cambridge.
+
+543--> Cluster 1:
+Adam Holloway --> born in --> Kent
+
+sent_id:544	Agnes Kant is a national of the Netherlands which is led by Mark Rutte. She worked at the House of Representatives and is a member of the Socialist Party led by Emile Roemer.
+
+544--> Cluster 1:
+Agnes Kant --> is --> a national of the Netherlands which is led by Mark Rutte
+
+sent_id:545	Agnes Kant is from the Netherlands, where Mark Rutte is the leader. She worked at the House of Representatives in the Netherlands and is a member of the Netherlands Socialist Party, whose leader is Emile Roemer.
+
+545--> Cluster 1:
+Agnes Kant --> is from --> the Netherlands, where Mark Rutte is the leader
+
+sent_id:546	Agnes Kant, from the Netherlands, where the leader is Mark Rutte, worked as a Parliamentary group leader. She is a member of the Netherlands Socialist Party, whose leader is Emile Roemer.
+
+546--> Cluster 1:
+the leader --> is --> Mark Rutte
+
+sent_id:547	Agnes Kant, of Netherlands, is a member of the country's Socialist Party which is led by Emile Roemer. Kant was a Parliamentary group leader. in the country which is led by Mark Rutte.
+
+547--> Cluster 1:
+Agnes Kant --> is --> a member of the country's Socialist Party which is led by Emile Roemer
+
+sent_id:548	Agnes Kant is a national of the Netherlands which is led by Mark Rutte. She is a member of the Socialist Party which uses the colour red and is led by Emile Roemer.
+
+548--> Cluster 1:
+Agnes Kant --> is --> a national of the Netherlands which is led by Mark Rutte
+
+sent_id:549	Associated with the colour red, The Socialist Party of The Netherlands, is led by Emile Roemer. Agnes Kant is a member of the Socialist Party in the Netherlands. The nationality of Agnes Kant is Netherlands, the leader of which is, Mark Rutte.
+
+
+sent_id:550	Agnes Kant is a member of the Socialist Party in the Netherlands which is led by Emile Roemer and makes use of the colour red. She is a national of the Netherlands which is led by Mark Rutte.
+
+550--> Cluster 1:
+Agnes Kant --> is --> a member of the Socialist Party in the Netherlands which is led by Emile Roemer and makes use of the colour red
+
+sent_id:551	Albert B White was married to Agnes Ward White who was born in Marietta, Ohio . Before he died in Parkersburg, West Virginia he was succeeded by William M O Dawson whose birthplace was Bloomington Maryland.
+
+551--> Cluster 1:
+Albert B White --> was --> married to Agnes Ward White who was born in Marietta, Ohio
+
+sent_id:552	Born in Marietta, Ohio, Agnes Ward White was married to Albert B. White. He died in Parkersburg, West Virginia and was succeeded by William M O Dawson. The birthplace of William M. O. Dawson was Bloomington Maryland.
+
+552--> Cluster 1:
+Marietta --> is --> Ohio, Agnes Ward White
+
+sent_id:553	Agnes Ward White was born in Marietta, Ohio and became the spouse of Albert B White who died at Parkersburg, West Virginia. He had been succeeded by William M O Dawson whose birthplace was Bloomington Maryland.
+
+553--> Cluster 1:
+Agnes Ward White --> born in --> Marietta, Ohio
+
+sent_id:554	Alberto Teisaire was from Argentina where Spanish is spoken. He died in Buenos Aires, where the leader is Gabriela Michetti and the governing body is the Buenos Aires City Legislature.
+
+554--> Cluster 1:
+Alberto Teisaire --> was from --> Argentina where Spanish is spoken
+
+sent_id:555	The language of Argentina is Spanish. Argentinian, Alberto Teisaire, died in Buenos Aires. The city is led by Gabriela Michetti and is governed by the Buenos Aires City Legislature.
+
+555--> Cluster 1:
+The language --> is --> Spanish
+
+sent_id:556	Alberto Teisaire was Argentinian and died in Buenos Aires. The governing body in Buenos Aires is the Buenos Aires City Legislature and the leader is Gabriela Michetti. The language of Argentina is Spanish.
+
+556--> Cluster 1:
+Alberto Teisaire --> was --> Argentinian
+
+sent_id:557	The governing body in Buenos Aires is the Buenos Aires City Legislature and the city is led by Horacio Rodríguez Larreta. It is the death place of the Alberto Teisaire who was from Argentina where the language spoken is Spanish.
+
+557--> Cluster 1:
+The governing body --> is led --> the Buenos Aires City Legislature and the city
+
+sent_id:558	Spanish is spoken in Argentina the country Alberto Teisaire came from. He died in Buenos Aires, where the governing body is, the Buenos Aires City Legislature. The leader of Buenos Aires is Horacio Rodríguez Larreta.
+
+558--> Cluster 1:
+Spanish --> spoken in --> Argentina
+
+sent_id:559	Alberto Teisaire was Argentinian and died in Buenos Aires, where they speak Spanish. The leader in Buenos Aires is Horacio Rodríguez Larreta and the city is governed by the Buenos Aires City Legislature.
+
+559--> Cluster 1:
+Alberto Teisaire --> was --> Argentinian
+
+sent_id:560	Alberto Teisaire, born on 20th May 1891 in Mendoza, Argentina was a Rear Admiral in the Argentine Navy. He worked as a Provisional President of the Argentine Senate and was succeeded by Isaac Rojas.
+
+560--> Cluster 1:
+Alberto Teisaire --> born on in on --> 20th May 1891
+
+sent_id:561	Alberto Teisaire was born in Mendoza, Argentina on May 20th 1891 and served as a Rear Admiral in the Argentine Navy. He worked as the Provisional President of the Argentine Senate and was succeeded by Isaac Rojas.
+
+561--> Cluster 1:
+Alberto Teisaire --> born in --> Mendoza, Argentina
+
+sent_id:562	Alberto Teisaire was born in Mendoza, Argentina on May 20th, 1891. He was a Rear Admiral in the Argentine Navy, worked as the Provisional President of the Argentine Senate and was succeeded by Isaac Rojas.
+
+562--> Cluster 1:
+Alberto Teisaire --> born in --> Mendoza, Argentina
+
+sent_id:563	Burlington is the largest city in Vermont, which is where Alvah Sabin is from. He started active service on 1853-03-04 and represented Vermont's 3rd Congressional District. Alvah Sabin died in Sycamore, Illinois.
+
+563--> Cluster 1:
+Burlington --> is --> the largest city in Vermont, which is where Alvah Sabin is from
+
+sent_id:564	Alvah Sabin was from Vermont and represented Vermont's 3rd congressional district where Burlington is the largest city. He started active service on 03/04/1853 and died in Sycamore, Illinois.
+
+564--> Cluster 1:
+Alvah Sabin --> was from --> Vermont
+
+sent_id:565	Before dying in Sycamore, Illinois, Alvah Sabin represented Vermont's 3rd Congressional District. He started active service on 1853-03-04 and his state was Vermont, the largest city of which is, Burlington.
+
+565--> Cluster 1:
+He --> started on --> active service
+
+sent_id:566	Alvah Sabin, who was born in Georgia, Vermont, worked as the state's secretary and represented Vermont's 3rd Congressional District. Vermont's largest city is Burlington.
+
+566--> Cluster 1:
+Alvah Sabin --> was born in --> who
+
+sent_id:567	Vermont Secretary of State and 3rd Congressional District representative Alvah Sabin was born in Georgia, Vermont (largest city: Burlington).
+
+
+sent_id:568	Alvah Sabin was born in Georgia, Vermont and represented Vermont's 3rd Congressional District. He was from Vermont, which has the largest city of Burlington and worked as the Secretary of State of Vermont.
+
+568--> Cluster 1:
+Alvah Sabin --> born in --> Georgia, Vermont
+
+sent_id:569	Alvah Sabin represented Vermont and was a member of the Whig Party in the United States. The largest city in Vermont is Burlington. Alvah Sabin died in Sycamore, Illinois and Henry Clay was the leader of the Whig Party.
+
+569--> Cluster 1:
+Alvah Sabin --> represented --> Vermont
+
+sent_id:570	Alvah Sabin belongs to the Whig Party of the United States which is led by Henry Clay. Sabin represented Vermont, where the largest city is Burlington and eventually died in Sycamore, Illinois.
+
+570--> Cluster 1:
+Alvah Sabin --> belongs --> the Whig Party of the United States which is led by Henry Clay
+
+sent_id:571	Burlington is the largest city in Vermont, the state, Alvah Sabin represented. He was a member of the Whig Party of the United States (led by Henry Clay) and died in Sycamore, Illinois.
+
+571--> Cluster 1:
+Burlington --> is --> the largest city in Vermont, the state
+
+sent_id:572	Burlington is the largest city in Vermont, which is the state Alvah Sabin represented. Alvah Sabin (died in Sycamore, Illinois) was a member of the United States Whig Party, which was led by Daniel Webster.
+
+572--> Cluster 1:
+Burlington --> is --> the largest city in Vermont, which is the state Alvah Sabin represented
+
+sent_id:573	Vermont, where the largest city is Burlington, was represented by Alvah Sabin who died in Sycamore, Illinois. He belonged to the Whig Party (United States) which is led by Daniel Webster.
+
+573--> Cluster 1:
+the largest city --> is --> Burlington
+
+sent_id:574	Burlington is the largest city in Vermont, the state that Alvah Sabin represented. He was a member of the United States Whig Party, which was led by Daniel Webster. Alvah Sabin died in Sycamore, Illinois.
+
+574--> Cluster 1:
+Burlington --> is --> the largest city in Vermont, the state that Alvah Sabin
+
+sent_id:575	Adonis Georgiadis, who was succeeded by Makis Voridis, was in office while Antonis Samaras was Prime Minister. Athens born Samaras, who had the deputy Evangelos Venizelos, was in office while Konstantinos Mitsotakis was Prime Minister.
+
+
+sent_id:576	Antonis Samaras, born in Athens, was Prime Minister and served with Adonis Georgiadis. Samaras, whose deputy is Evangelos Venizelos, served also when K. Mitsotakis was Prime Minister. Georgiadis was succeeded by Makis Voridis.
+
+576--> Cluster 1:
+Antonis Samaras --> born in in --> Athens
+
+sent_id:577	Adonis Georgiadis was in office while Athens-born Antonis Samaras was Prime Minister. In turn, Samaras was in office while Konstantinos Mitsotakis was Prime Minister. Samaras' deputy is Evangelos Venizelos and Georgiadis was succeeded by Makis Voridis.
+
+577--> Cluster 1:
+Adonis Georgiadis --> was in --> office
+
+sent_id:578	Alfons Gorbach was born in Imst in Austria and died in Graz. Austrian German is the language of Austria and the leader there is Doris Bures.
+
+578--> Cluster 1:
+Alfons Gorbach --> born in --> Imst in Austria
+
+sent_id:579	Alfons Gorbach was born in Imst, Austria and died in Graz. Austrian German speaking Austria is led by Doris Bures.
+
+579--> Cluster 1:
+Alfons Gorbach --> born in --> Imst
+
+sent_id:580	Austrian German is the language in Austria, the leader of which, is Doris Bures. Alfons Gorbach, was born in Imst, Austria and died in Graz.
+
+580--> Cluster 1:
+Austrian German --> is --> the language in Austria, the leader of which
+
+sent_id:581	Ab Klink is a national of the Netherlands, where the currency is the Euro and Mark Rutte is the leader, Ab Klink was born in Stellendam and belongs to the Christian Democratic Appeal party.
+
+581--> Cluster 1:
+Ab Klink --> is --> a national of the Netherlands, where the currency is the Euro and Mark Rutte
+
+sent_id:582	Ab Klink was born in Stellendam, Netherlands. He belongs to the Christian Democratic Appeal party. The leader of the Netherland is Mark Rutte and the currency is the euro.
+
+582--> Cluster 1:
+Ab Klink --> born in --> Stellendam, Netherlands
+
+sent_id:583	Gordon Marsden is the leader of Blackpool where AFC Blackpool are located. Their manager is Stuart Parker who is a member of Chesterfield FC and plays for KV Mechelen.
+
+583--> Cluster 1:
+Gordon Marsden --> is --> the leader of Blackpool where AFC Blackpool are
+
+sent_id:584	Gordon Marsden is the leader of Blackpool where AFC Blackpool is located. The club is managed by Stuart Parker who is part of the KV Mechelen club and a member of Chesterfield FC.
+
+584--> Cluster 1:
+Gordon Marsden --> is --> the leader of Blackpool where AFC Blackpool is
+
+sent_id:585	Olympiacos F.C. were past champions in the Greece Superleague, the league AEK Athens FC compete in. Their manager is Gus Poyet, whose club is Real Zaragoza even though he played for Chelsea F.C.
+
+585--> Cluster 1:
+Olympiacos F.C. --> were --> past champions in the Greece Superleague
+
+sent_id:586	Gus Poyet is the manager of AEK Athens F.C. who play in the Superleague of Greece (which has Olympiacos FC as previous champions). Poyet previously played for Chelsea FC and is in the Real Zaragoza club.
+
+586--> Cluster 1:
+Gus Poyet --> is --> the manager of AEK Athens F.C. who play in the Superleague of Greece (which has Olympiacos FC as previous champions
+
+sent_id:587	Previous champions of the Superleague Greece are Olympiacos FC. AEK Athens FC also compete in the league and they are managed by Gus Poyet who previously played for Chelsea FC and whose club is Real Zaragoza.
+
+587--> Cluster 1:
+Previous champions --> are --> Olympiacos FC
+
+sent_id:588	Estádio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremiação Sportiva Arapiraquense. It is located in Alagoas. Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league from Brazil. The Vila Nova Futebol Clube were champions at the Série C.
+
+588--> Cluster 1:
+Estádio Municipal Coaracy da Mata Fonseca --> is --> the name of the ground of Agremiação Sportiva Arapiraquense
+
+sent_id:589	Vila Nova Futebol Clube have been champions of Campeonato Brasileiro Série C. from Brazil in which Agremiação Sportiva Arapiraquense also play. This latter team have their ground at Estádio Municipal Coaracy da Mata Fonseca which is located in Alagoas.
+
+589--> Cluster 1:
+Vila Nova Futebol Clube --> have been --> champions of Campeonato Brasileiro Série C. from Brazil in which Agremiação Sportiva Arapiraquense also
+
+sent_id:590	Llocated in Alagoas, Estádio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremiação Sportiva Arapiraquense. They play in the Campeonato Brasileiro Série C league, which is from Brazil, and the champions of which have been Vila Nova Futebol Clube.
+
+590--> Cluster 1:
+Estádio Municipal Coaracy da Mata Fonseca --> is --> the name of the ground of Agremiação Sportiva Arapiraquense
+
+sent_id:591	Vila Nova Futebol Clube have been champions of Campeonato Brasileiro Série C. league in Brazil. Agremiação Sportiva Arapiraquense also play in the league and have their home ground at Estádio Municipal Coaracy da Mata Fonseca in Arapiraca.
+
+591--> Cluster 1:
+Vila Nova Futebol Clube --> have been --> champions of Campeonato Brasileiro Série C. league in Brazil
+
+sent_id:592	Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league (in Brazil), which has been won by Vila Nova Futebol Clube. Agremiacao Sportiva Arapiraquense's ground is the Estadio Municipal Coaracy da Mata Fonseca, which is located in Arapiraca.
+
+592--> Cluster 1:
+Agremiação Sportiva Arapiraquense --> play in --> the Campeonato Brasileiro Série C league (in Brazil)
+
+sent_id:593	Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league in Brazil. Vila Nova Futebol Clube are the champions of Serie C. Estádio Municipal Coaracy da Mata Fonseca (Arapiraca) is the name of the ground of Agremiação Sportiva Arapiraquense.
+
+593--> Cluster 1:
+Agremiação Sportiva Arapiraquense --> play in --> the Campeonato Brasileiro Série C league in Brazil
+
+sent_id:594	The Vila Nova Futebol Clube were champions at the Campeonato Brasileiro Série C. in Brazil. Agremiação Sportiva Arapiraquense who also play in the league have 17000 members and are managed by Vica.
+
+594--> Cluster 1:
+The Vila Nova Futebol Clube --> were --> champions at the Campeonato Brasileiro Série C. in Brazil
+
+sent_id:595	Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league in Brazil, which has been won by Vila Nova Futebol Clube. Agremiacao Sportiva Arapiraquense's ground can hold 17000 fans and the team is managed by Vica.
+
+595--> Cluster 1:
+Agremiação Sportiva Arapiraquense --> play in --> the Campeonato Brasileiro Série C league in Brazil, which has been won by Vila Nova Futebol Clube
+
+sent_id:596	Vila Nova Futebol Clube have been champions of Campeonato Brasileiro Série C, which is from Brazil. It is in this league that Agremiação Sportiva Arapiraquense play in. They are managed by Vica, and have17000 members.
+
+596--> Cluster 1:
+Vila Nova Futebol Clube --> have been --> champions of Campeonato Brasileiro Série C, which is from Brazil
+
+sent_id:597	The Accademia di Architettura di Mendrisio in Mendrisio, Switzerland had 100 academic staff and 600 students. Its dean is Mario Botta.
+
+597--> Cluster 1:
+The Accademia di Architettura di Mendrisio --> had --> 100 academic staff and 600 students
+
+sent_id:598	The Dean of the Accademia di Architettura di Mendrisio in the city of Mendrisio, Switzerland is Mario Botta. There are 600 students and 100 academic staff at the Accademia.
+
+598--> Cluster 1:
+Switzerland --> is --> Mario Botta
+
+sent_id:599	The Accademia di Architettura di Mendrisio in Switzerland has a staff of 100 and a student population of 600. The dean is Mario Botta.
+
+599--> Cluster 1:
+The Accademia di Architettura di Mendrisio --> has --> a staff of 100 and a student population of 600
+
+sent_id:600	The Accademia di Architettura di Mendrisio is located in Ticino, Switzerland. It was established in 1996 and it has 600 students. The leader of Switzerland is Johann Schneider-Ammann.
+
+600--> Cluster 1:
+The Accademia di Architettura di Mendrisio --> located in --> Ticino, Switzerland
+
+sent_id:601	The leader of Switzerland is Johann Schneider-Ammann. The country is the location of the Accademia di Architettura di Mendrisio in Ticino which was established in 1996 and has 600 students.
+
+601--> Cluster 1:
+The leader --> is --> Johann Schneider-Ammann
+
+sent_id:602	The Accademia di Architettura di Mendrisio, which has 600 students, was founded in 1996 in Ticino, Switzerland. The leader of Switzerland is Johann Schneider-Ammann.
+
+602--> Cluster 1:
+The Accademia di Architettura di Mendrisio --> has --> 600 students
+
+sent_id:603	The Acharya Institute of Technology is affiliated with the Visvesvaraya Technological University and is located in Bangalore, Karnataka. To its northeast is Telangana and to its west is the Arabian Sea.
+
+603--> Cluster 1:
+The Acharya Institute of Technology --> affiliated --> the Visvesvaraya Technological University
+
+sent_id:604	The Acharya Institute of Technology in Bangalore, Karnataka is east of the Arabian Sea and southwest of Telangana. It is affiliated with the Visvesvaraya Technological University.
+
+604--> Cluster 1:
+Karnataka --> is --> east of the Arabian Sea and southwest of Telangana
+
+sent_id:605	Karnataka state which has the Arabian Sea to its west and Telangana to its northwest is also home to the Acharya Institute of Technology. The Institute is located in the city of Bangalore and is affiliated with the Visvesvaraya Technological University.
+
+605--> Cluster 1:
+Karnataka state --> has --> the Arabian Sea
+
+sent_id:606	The Acharya Institute of Technology is located at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, India. The School was established in 2000 and has 700 Postgraduate Students.
+
+606--> Cluster 1:
+The Acharya Institute of Technology --> located In --> Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, India
+
+sent_id:607	The Acharya Institute of Technology was established in 2000 and is based in the city of Bangalore in India. It currently has 700 Postgraduate Students and its exact location is in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.
+
+607--> Cluster 1:
+The Acharya Institute of Technology --> established in --> 2000
+
+sent_id:608	Acharya Institute of Technology was founded by Kempe Gowda I in Bangalore in the state of Karnataka. It has the Arabian Sea to its west and is affiliated with Visvesvaraya Technological University.
+
+608--> Cluster 1:
+Acharya Institute of Technology --> was founded in by --> Kempe Gowda I
+
+sent_id:609	Acharya Institute of Technology is located in Bangalore, Karnataka, east of the Arabian Sea. The Institute is affiliated with Visvesvaraya Technological University. Bangalore was founded by Kempe Gowda.
+
+609--> Cluster 1:
+Acharya Institute of Technology --> located in --> Bangalore, Karnataka,
+
+sent_id:610	The 1 Decembrie 1918 University is in Alba Iulia, Romania. The country's capital is Bucharest and the prime minister is Klaus Iohannis.
+
+610--> Cluster 1:
+The 1 Decembrie 1918 University --> is in --> Alba Iulia, Romania
+
+sent_id:611	1 Decembrie 1918 University is in Alba Iulia, Romania. Bucharest is the capital of Romania and Klaus Iohannis is the country's Prime Minister.
+
+611--> Cluster 1:
+1 Decembrie 1918 University --> is in --> Alba Iulia, Romania
+
+sent_id:612	1 Decembrie 1918 University is located in the city of Alba Iulia in Romania. The capital of Romania is Bucharest and the Prime Minister is Klaus Iohannis.
+
+612--> Cluster 1:
+1 Decembrie 1918 University --> located in --> the city of Alba Iulia in Romania
+
+sent_id:613	The School of Business and Social Sciences at Aarhus University in Denmark is affiliated with the European University Association. It has 16,000 students, 737 employees. and was established in 1928.
+
+
+sent_id:614	The School of Business and Social Sciences at the Aarhus University in Denmark was established in 1928. It is affiliated with the European University Association and has a staff compliment of 737. 16000 students attend the university currently.
+
+
+sent_id:615	The School of Business and Social Sciences at the Aarhus University was established in Denmark in 1928. The School is affiliated with the European University Association and has 16,000 students and 737 academic staff.
+
+
+sent_id:616	Faber and Faber are the publishers of The Secret Scripture, a sequel to A Long Long Way. That book comes from Ireland which is located in Europe and where there is an ethnic group of white people.
+
+616--> Cluster 1:
+Faber --> are --> the publishers of The Secret Scripture, a sequel to A Long Long Way
+
+sent_id:617	Ireland, where the white people are an ethnic group, is situated within Europe. The book A Long Long Way was written in Ireland and published by Faber and Faber. The sequel to the book is known as The Secret Scripture.
+
+617--> Cluster 1:
+the white people --> are --> an ethnic group
+
+sent_id:618	Ireland is a country within Europe and the ethnic group are white people. The novel A Long Long Way was written in Ireland and was followed by The Secret Scripture which was published by Faber and Faber.
+
+618--> Cluster 1:
+Ireland --> is --> a country within Europe and
+
+sent_id:619	The ethnic group of Ireland is White people and is where A Long Long Way comes from. It was preceded by Annie Dunne and followed by The Secret Scripture which is published by Faber and Faber.
+
+619--> Cluster 1:
+The ethnic group --> is --> White people
+
+sent_id:620	An ethnic group of Ireland is white people where A Long Long Way comes from. It was preceded by Annie Dunne preceded and followed by The Secret Scripture which is published by Faber and Faber.
+
+620--> Cluster 1:
+An ethnic group --> is --> white people where A Long Long Way comes from
+
+sent_id:621	Above the Veil is an Australian novel and the sequel to Aenir and Castle. It was later followed by Into Battle and The Violet Keystone.
+
+
+sent_id:622	Above the Veil is an Australian novel and the sequel to Aenir and Castle. It was followed by Into Battle and The Violet Keystone.
+
+
+sent_id:623	Above the Veil is an Australian novel and the sequel to Aenir and Castle. It was followed by Into the Battle and The Violet Keystone.
+
+
+sent_id:624	Cornell University is in Ithaca, New York and is nicknamed Cornell Big Red. They are the publisher of Administrative Science Quarterly and are affiliated with the Association of American Universities.
+
+624--> Cluster 1:
+Cornell University --> is in --> Ithaca, New York
+
+sent_id:625	Cornell University is in Ithaca, New York and their nickname is Cornell Big Red. They are the publisher of Administrative Science Quarterly and are affiliated with the Association of American Universities.
+
+625--> Cluster 1:
+Cornell University --> is in --> Ithaca, New York
+
+sent_id:626	Cornell University is in Ithaca, New York and their nickname is Cornell Big Red. They are the publisher of the Administrative Science Quarterly and are affiliated with the Association of American Universities.
+
+626--> Cluster 1:
+Cornell University --> is in --> Ithaca, New York
+
+sent_id:627	The Administrative Science Quarterly is published by Cornell University, Ithaca, in the state of New York. Cornell University (nicknamed 'Cornell Big Red') is affiliated with the Association of Public and Land-grant Universities.
+
+627--> Cluster 1:
+The Administrative Science Quarterly --> is published in by --> Cornell University, Ithaca
+
+sent_id:628	Cornell Big Red is the nickname of Cornell University which is affiliated with the Association of Public and Land-grant Universities. The University is in the city of Ithaca, New York, New York State and publishes the Administrative Science Quarterly.
+
+628--> Cluster 1:
+Cornell Big Red --> is --> the nickname of Cornell University which is affiliated with the Association of Public and Land-grant Universities
+
+sent_id:629	Cornell University, of Ithaca, New York, is the publisher of the Administrative Science Quarterly. The University, which has the nickname Cornell Big Red, is affiliated with the Association of Public and Land-grant Universities.
+
+629--> Cluster 1:
+Cornell University --> is --> the publisher of the Administrative Science Quarterly
+
+sent_id:630	The United States is home to the ethnic group of African Americans and is led by Barack Obama. The country is the origin of the book Alcatraz Versus the Evil Librarians. This book was written in English, as spoken in Great Britain.
+
+630--> Cluster 1:
+The United States --> is led by --> Barack Obama
+
+sent_id:631	Alcatraz Versus the Evil Librarians is from the United States and is written in English which is also spoken in Great Britain. The leader of the US is Barack Obama and African Americans are one of the ethnic groups.
+
+631--> Cluster 1:
+the Evil Librarians --> is from --> the United States
+
+sent_id:632	A Severed Wasp is from the United States which like Great Britain speaks English. The capital of the US is Washington D.C and one ethnic group is the African Americans.
+
+632--> Cluster 1:
+A Severed Wasp --> is from --> the United States
+
+sent_id:633	A Severed Wasp originates in the United States where like in Great Britain, English is also spoken. Washington DC is the capital of the US and one ethnic group is the African Americans.
+
+
+sent_id:634	A severed Wasp is a novel from the United States where English is largely spoken (as in Great Britain). The capital of the US is Washington D.C. and African Americans are an ethnic group there.
+
+634--> Cluster 1:
+A severed Wasp --> is --> a novel from the United States where English is largely spoken (as in Great Britain
+
+sent_id:635	English is spoken in Great Britain and the United States where Joe Biden is leader, African Americans are an ethnic group and Alcatraz Versus the Evil Librarians is from there.
+
+635--> Cluster 1:
+English --> are to spoken in --> Great Britain and the United States where Joe Biden is leader
+
+sent_id:636	Alcatraz Versus the Evil Librarians is a book from The United States. In that country the majority language is English (as in Great Britain). A leading politician of the US is Joe Biden and African Americans are an ethnic group there.
+
+636--> Cluster 1:
+the Evil Librarians --> is --> a book from The United States
+
+sent_id:637	Alcatraz Versus the Evil Librarians is from The United States. English is spoken there (as in Great Britain) and Joe Biden is a leading politician there. African Americans are an ethnic group in the US.
+
+637--> Cluster 1:
+the Evil Librarians --> is from --> The United States
+
+sent_id:638	David Cameron and Elizabeth II are leaders in the United Kingdom. The country, which uses the English language has the capital city of London and is where the AIDS journal originates.
+
+638--> Cluster 1:
+David Cameron --> are --> leaders in the United Kingdom
+
+sent_id:639	The AIDS journal was published in the United Kingdom, where English is spoken. The leader of the UK is Elizabeth II, and another leader is David Cameron. English is spoken in the United Kingdom, where the capital is London.
+
+639--> Cluster 1:
+The AIDS journal --> published in --> the United Kingdom, where English is spoken
+
+sent_id:640	AIDS journal is from the United Kingdom, which capital is London and the language is English. The leaders of that country are David Cameron and Elizabeth II.
+
+640--> Cluster 1:
+AIDS journal --> is from --> the United Kingdom, which capital is London and
+
+sent_id:641	The leaders of the United Kingdom are Elizabeth II and David Cameron. The AIDS journal is published in the United Kingdom by Lippincott, Williams &amp; Wilkins, whose parent company is Wolters Kluwer.
+
+641--> Cluster 1:
+The leaders --> are --> Elizabeth II and David Cameron
+
+sent_id:642	The AIDS journal was published in the United Kingdom where Elizabeth II and David Cameron are leaders. The journal was published by Lippincott Williams &amp; Wilkins whose parent company is Wolters Kluwer.
+
+642--> Cluster 1:
+The AIDS journal --> published in --> the United Kingdom where Elizabeth II and David Cameron are leaders
+
+sent_id:643	The English language is spoken in Great Britain and A Severed Wasp was written in it even though it comes from the United States. Barack Obama is the leader of the United States where Native Americans are an ethnic group.
+
+643--> Cluster 1:
+The English language --> spoken in --> Great Britain and A Severed Wasp
+
+sent_id:644	A Severed Wasp is written in English, the language spoken in Great Britain. However, it originates from the United States where the President is Barack Obama and the Native Americans are an ethnic group.
+
+644--> Cluster 1:
+A Severed Wasp --> written in --> English, the language spoken in Great Britain
+
+sent_id:645	A Severed Wasp is from the United States, where Barack Obama is the president. English is the main language of the U.S., and is also spoken in Great Britain. Native Americans are one of the national ethnic groups.
+
+645--> Cluster 1:
+A Severed Wasp --> is from --> the United States, where Barack Obama is the president
+
+sent_id:646	A Severed Wasp is from the United States, where English is spoken (as in Great Britain), and Barack Obama is President. Native Americans are one of the ethnic groups in the U.S.
+646--> Cluster 1:
+A Severed Wasp --> is from --> the United States, where English is spoken (as in Great Britain)
+

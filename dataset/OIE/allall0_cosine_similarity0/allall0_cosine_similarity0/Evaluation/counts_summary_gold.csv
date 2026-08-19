@@ -1,0 +1,7 @@
+stat,value
+n_sentences,300
+n_gold_clusters,1350
+n_sys_triples,2447
+n_sentences_with_sys_triples,300
+avg_gold_clusters_per_sentence,4.5
+avg_triples_per_sentence,8.157

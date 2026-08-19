@@ -1,0 +1,4 @@
+metric,micro,macro
+Precision,0.05,0.11
+Recall,0.14,0.13
+F1,0.08,0.12

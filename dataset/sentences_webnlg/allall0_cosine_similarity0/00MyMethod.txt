@@ -1,0 +1,583 @@
+1	Abilene regional airport	serves With in	Abiliene, part of Jones County, Texas,
+2	Abilene Regional Airport	has	a runway length of 2194.0
+3	It	has	the ICAO location identifier KABI and the runway name
+4	Abilene, Texas	is served by	Abilene Regional Airport
+5	Abilene Regional Airport	serves	the city of Abilene in Texas
+6	The Adolfo Suárez Madrid–Barajas Airport	is operated by	ENAIRE
+7	Adolfo Suárez Madrid-Barajas Airport	lies in	sea level
+8	Agra Airport	is in	Uttar Pradesh, which is part of Bundelkhand and Awadh
+9	Agra Airport	located in	Uttar Pradesh
+10	Ram Naik	is	the leader of Uttar Pradesh which is part of Awadh and Bundelkhand
+11	Agra Airport	has	the native name of Kheria Air Force Station
+12	Agra Airport	located in	Uttar Pradesh which is part of Awadh and Bundelkhand
+13	Al Asad airbase	is operated by	the United States Air Force
+14	Al Asad airbase	is operated by	the United States Air Force
+15	The United States Air Force	was involved	which
+16	The United States Air Force	has fought in	the Korean War
+17	The United States Air Force	fought	battles in the Korean war
+18	The transport aircraft	is	the Lockheed C-130 Hercules
+19	The USAF	fought in	the Korean War
+20	Al Asad Airbase	is operated by	the United States Air Force
+21	The Invasions of Grenada	in involved	the United States Air Force which now operates the Al Asad airbase
+22	Al Asad airbase	is operated by	The United States Air Force
+23	Allama Iqbal International airport	located in	Punjab Pakistan
+24	Allama Iqbal International Airport	serves	the city of Lahore
+25	there	is In	an airport called Allama Iqbal International Airport
+26	The Pakistan Civil Aviation Authority	is	the operating organisation of the Allama Iqbal International Airport
+27	The Pakistan Civil Aviation Authority	is	the operating organisation of the Allama Iqbal International Airport located in Punjab, Pakistan, which is led by Shehbaz Sharif
+28	The airport	is	973.0 above sea level
+29	Andrews County Airport	has	a runway length of 896
+30	Andrews County Airport	located in	Texas
+31	Andrews County Airport	is in	Texas
+32	Andrews County Airport	located in	Texas, United States
+33	Houston	is	the largest city in Texas, where Austin is the Capital city
+34	Andrews County Airport	located in	Texas, a state where Spanish is spoken
+35	Andrews County Airport	located in	Texas where the Spanish language is spoken and the people are known as Texans
+36	The Angola International Airport	serves to is in	Ícolo e Bengo, (Luanda Province)
+37	Angola International Airport	located at	Ícolo e Bengo in Luanda province, Angola
+38	Angola International Airport	is located in	which
+39	Angola International Airport	located in	Ícolo e Bengo, Luanda Province, Angola
+40	Angola International airport	located in	Icolo
+41	Angola International Airport	located in	Icolo
+42	The Flemish department	is	the operating organisation of Antwerp International Airport which is owned by the Flemish Region
+43	The Flemish Region	owns	Antwerp International Airport which is operated by the Flemish Department of Mobility and Public Works and serves the city of Antwerp
+44	Antwerp International Airport	is owned by	the Flemish Region
+45	The city of Appleton	is served by	Appleton International Airport
+46	Appleton International Airport	found in	Greenville, Wisconsin
+47	Appleton International Airport	serves	the city of Appleton
+48	The city of Appleton	is served by	Appleton International Airport
+49	Wisconsin	is served by	Appleton International Airport
+50	Ardmore Airport in New Zealand	is operated by	the Civil Aviation Authority of New Zealand
+51	Ardmore Airport (New Zealand)	is operated by	the Civil Aviation Authority of New Zealand
+52	The Civil Aviation Authority of New Zealand	is	the operating organisation for Ardmore Airport, New Zealand
+53	Turkmenistan Airlines	operates	Ashgabat International Airport in Ashgabat
+54	Ashgabat International Airport	is operated by	Turkmenistan Airlines
+55	Ashgabat International Airport	located in	Ashgabat
+56	Atlantic City International Airport	has	a runway length of 1,873
+57	Runway 4/22	has	an elevation of 23m above sea level
+58	The Port Authority of New York	is	the operating organisation of Atlantic City International airport, which lies 23.0 meters above sea level
+59	Antwerp International Airport	serves	the city of Antwerp which is Belgium
+60	Antwerp International Airport	serves	Antwerp in Belgium
+61	Atlantic City International Airport	is in	sea level
+62	Atlantic City International Airport	located in	sea level in Egg Harbor Township, Atlantic County, New Jersey, United States
+63	Atlantic City International Airport	lies in	sea level
+64	Adolfo Suarez Madrid-Barajas airport	located in in	Madrid
+67	Aaron Bertram	is	a ska punk musician, a genre that originated from punk rock
+68	Aaron Bertram	plays for	the Kids Imagine Nation and the Suburban Legends bands, where he performs ska punk music, a form of punk rock
+69	Aaron Bertram	plays	the Kids Imagine Nation
+70	American Aaron Deer	is	an Indie rock musician from Indiana
+71	Aaron Deer	comes from	Indiana
+72	Aaron Deer	is	an Indie rock soloist, formerly a member of Wee Giant
+73	Aaron Turner	is	an electric guitar player for the black metal genre who has performed for House of Low Culture and Mamiffer
+74	Aaron Turner	is	a black metal musician that plays electric guitar and who performs with Mamiffer and has performed for the House of Low Culture and death metal
+75	Black metal electric guitar player Aaron Turner	performs	Mamiffer and House of Low Culture
+76	Black metal musician Aaron Turner	plays	the electric guitar
+77	Aaron Turner	plays	electric guitar black metal
+78	Black metal music and electric guitarist Aaron Turner	associated	the bands Twilight and Greymachine
+79	Aaron Turner	born in	Massachusetts
+80	Aaron Turner	is from	Massachusetts
+81	Massachusetts	born	Sludge metal musician
+82	The musician	originates from	Katowice, Poland
+83	Abradab	came from	Katowice, Poland
+84	Katowice	born	Abradab
+85	Ace Wilder	has	a musical background as a solo singer
+86	Solo singer Ace Wilder	born on	July 23, 1982
+87	Ace Wilder's occupation	is	a solo singer
+88	Agustin Barboza	born in	Asuncion, Paraguay
+89	Agustin Barboza	born in	Asuncion, Paraguay where the ethnic group are called Mestizo
+90	Agustin Barboza	speaking	Spanish speaking, Asuncion, Paraguay
+91	Disco	derives from	rhythm and blues which originated from the blues
+92	a rhythm and blues musician	died in	the US
+93	Ahmet Ertegun	is	a rhythm and blues artist whose background is non performing personnel
+94	Ahmet Ertegun	is from in	Washington D.C.
+95	Ahmet Ertegun genre	is	rhythm and blues
+96	whose musical genre	is	Rock music
+97	Singer Alan Frew	is	a rock musician
+98	Singer Alan Frew	is	a rock musician
+99	Alan Frew	is from	Newmarket, Ontario, Canada,
+100	Alan Frew	is from	Coatbridge, Newmarket, Ontario, Canada
+101	Singer Alan Frew	born in	Coatbridge
+102	He	plays	the band Chameleon Circuit
+103	Alex Day	born in	the London Borough of Havering
+104	Electronic musician Alex Day	born in	the London Borough of Havering
+105	Alfred Garth Jones	born in	Manchester
+106	Alfred Garth Jones	born in	Manchester
+107	Alfred Garth Jones	born in	Manchester
+108	Alfredo Zitarrosa	performs	Zamba music
+109	Alfredo Zitarrosa	recorded	his songs
+110	Alfredo Zitarrosa	is	a Zamba solo singer associated with Ciro Perez and Hector Numa Moraes
+111	Alison O'Donnell	began in	her music career
+112	Alison O'Donnell	played	Irish folk music
+113	Anders Osborne's musical career	began in	1989
+114	Anders Osborne	started in	his musical performing
+115	Anders Osborne	started to performing in	1989
+116	Anders Osborne	is	a rock guitarist associated with Johnny Sansone
+117	Rock guitarist Anders Osborne	signed	Okeh Records
+118	Rock guitarist Anders Osborne	signed	Okeh Records
+122	Singer	is	Andra
+123	Andra	born in	Campia Turzii
+124	Andra	is	a solo rhythm and blues singer who was born in 1986 in Campia Turzii
+125	Andrew Rayel	was born in	who
+126	Andrew Rayel	born in	Chisinau, Moldova
+127	Andrew Rayel	born in	Chisinau, Moldova
+128	The musician	is	part of the Kaiser Chiefs
+129	B-Unique Records	began in	2003
+130	B-Unique Records	began in	his career
+131	Andrew Rayel	wad	a string instrumentalist who is associated with Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, house musician Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi
+132	String instrumentalist Andrew Rayel	associated	the musical artists: Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns (house music), Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, and Alexandra Badoi
+133	String instrumentalist Andrew Rayel	associated	Armin van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns (House music), Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin and Alexandra Badoi
+134	Allen Forrest	is	a hip hop artist who was born on February 4, 1981
+135	whose musical genre	is	hip hop music, date of birth
+136	Allen Forrest	born on	February 4, 1981
+137	Agustin Barboza	born in	Asuncion, in Paraguay
+138	Agustin Barboza	born in	Asuncion, Paraguay where the people speak Spanish
+139	Agustin Barboza	born in	Spanish speaking Asuncion, Paraguay, home of the Mestizo
+140	The leader	is called	Juan Afara
+141	Agustin Barboza	born in	Paraguay
+142	Agustin Barboza	born in	Paraguay, led by Juan Afara
+143	Al Anderson	plays in	the guitar
+144	Al Anderson	plays	the guitar for rock band NRBQ
+145	Rock guitarist AI Anderson	is	a member of NRBQ
+146	Aaron Turner	plays	the electric guitar
+147	Aaron Turner	is	an electric guitarist who has performed with House of Low Culture and the black metal band Twilight
+148	Electric guitarist Aaron Turner	has played	black metal band Twilight
+149	Alfredo Zitarrosa	died in	Montevideo, Uruguay
+150	Alfredo Zitarrosa	is to died in	Montevideo, the leader of which
+151	Raúl Fernando Sendic Rodríguez	is	the leader of Spanish speaking, Uruguay
+152	Alfredo Zitarrosa	died in	Montevideo in Uruguay
+153	Uruguay	is	the final resting place of Alfredo Zitarrosa
+154	Montevideo	is led by	Daniel Martinez
+155	Alan Bean	was	an American born in Wheeler, Texas
+156	Apollo 12	was operated by	NASA
+158	Alan Shepard	born in on in	New Hampshire
+159	Alan Shepard	born in	New Hampshire
+160	Alan Shepard	born on	the 18th of November, 1923 in New Hampshire
+161	Alan Shepard	born in in	New Hampshire
+162	Alan Shepard	has died in	California
+163	Alan Shepard	has died in	California
+164	The late Alan Shepard	born in	New Hampshire
+165	The late Alan Shepard	born in	New Hampshire
+166	Alan Shepard	was from	New Hampshire
+167	Alan Bean	born in in	Wheeler, Texas)
+168	Alfred Worden	was	a backup pilot on the NASA
+169	Alan Shepard	was awarded	the United States Navy Distinguished Service Medal which is higher than
+170	Alan Shepard	born on	18 November 1923
+171	Alan Shepard	born in	New Hampshire
+172	Elliot See	born in	Dallas
+173	Elliot See	born in	Dallas
+174	Elliot See	born in	Dallas
+175	Elliot See	passed on in	28th February 1966
+176	Elliot See	born in	Dallas
+177	Elliot See	was born on	who
+178	Elliot See	born in	Dallas, which is a county in Texas
+179	Elliot See	born in	Dallas county, Texas
+180	Elliot See	was born in	who
+181	Elliot See	born in	Dallas
+182	Elliot See	born in	Dallas
+183	Elliot See	was born in	who
+184	William Anders	was	a member of the Apollo 8 crew (operated by NASA
+185	William Anders	retired on	September 1st, 1969
+186	William Anders	joined	NASA
+187	Akeem Dent	made	his debut
+188	Akeem Dent's debut team	was	the Atlanta Falcons in Atlanta and
+189	The Atlanta Falcons of Atlanta	was	Akeem Dent's debut team
+190	Al Kharaitiyat SC (home ground Al Khor)	is managed by	Amar Osim
+191	Alaa Abdul-Zahra's clubs	are	Shabab Al-Ordon Club and Al Kharaitiyat SC
+192	Alaa Abdul Zahra's club	is	Shabab Al-Ordon
+193	Aleksandr Chumakov	died in	Russia
+194	Former Soviet Union international footballer Aleksandr Chumakov	died in	Russia, where the leader is Valentina Matviyenko
+195	Aleksandr Chumakov	died in	Russia where Valentina Matviyenko is a leader
+196	Aleksandr Prudnikov	is	an associate of the youth side of FC Spartak Moscow
+197	Aleksandr Prudnikov	played	FC Spartak Moscow's youth team
+198	Aleksandr Prudnikov	represented at	FC Spartak Moscow
+199	Alessio Romagnoli	connected	UC Sampdoria
+200	Alessio Romagnoli	has played for	for UC Sampdoria
+201	Alessio Romagnoli	connected	UC Sampdoria
+202	Alessio Romagnoli	belongs	A.C. Milan
+203	Alessio Romagnoli	is	a member of the Italian national under 17 football team
+204	Aleksandr Prudnikov	played	FC Spartak Moscow's youth team
+205	Aleksandr Prudnikov	played	FC Spartak Moscow's youth team
+206	Aleksandr Prudnikov's club	is	FC Dynamo Moscow
+207	Akeem Adams' former clubs	include	United Petrotrin FC, who play at Palo Seco, and Ferencvarosi TC, where Thomas Doll is the manager and Gabor Kubatov
+208	Akeem Adams	is	a member of the United Petrotrin F.C. club and also Ferencvarosi TC
+209	Akeem Adams	is	a member of the United Petrotrin F.C. club who have their ground at Palo Seco
+210	Akeem Ayers' former team	was	the Los Angeles Rams who are based in LA and play their home matches at the Los Angeles Memorial Coliseum
+211	Akeem Ayers	debuted	the Tennessee Titans
+212	The debut team	was	the Tennessee Titans (Mike Mularkey coach
+213	20 Fenchurch Street	located in	the United Kingdom, where London is the capital
+214	The United Kingdom	uses	the currency of the pound sterling
+215	250 Delaware Avenue	built in	Buffalo New York
+216	There	are	12 floors at 250 Delaware Avenue in Buffalo, New York
+217	Rahm Emanuel	is	the leader of Chicago, DuPage County, Illinois, United States which is the location of the building at 300 North LaSalle which has 60 floors
+218	300 North LaSalle	has	60 floors
+219	300 North LaSalle	has	60 floors
+222	Located	owned to Located in	Dublin, Leinster, 3Arena
+224	Construction	took in	place
+225	Adisham Hall	located in	Haputale, Sri Lanka
+226	Adisham Hall	is in	Haputale, Sri Lanka
+227	Adisham Hall	located at	Haputale, Sri Lanka
+228	Ranil Wickremesinghe	is	the leader of Sri Lanka where the capital city is Sri Jayawardenepura Kotte and the currency
+229	Adisham Hall	located in	Haputale, Sri Lanka
+230	Adisham Hall	located in	Haputale, Sri Lanka, where the capital is called Sri Jayawardenepura Kotte
+231	The main ethnic group	are	the Japanese
+232	The Akita Museum of Art	located in	Akita, Akita which is located in Japan
+233	Akita Museum of Art	is in	the city of Akita, Japan
+234	Amdavad ni Gufa	located in	Gujarat, Ahmedabad, India
+235	Amdavad ni Gufa	located in	Gujarat, Ahmedabad which is in India
+236	Amdavad ni Gufa	is in	Gujarat, Ahmedabad which is in India
+237	Amdavad ni Gufa	located in	Ahmedabad, Gujarat, India;
+239	Ampara Hospital	has	476 beds
+240	There	are	476 beds at Ampara Hospital in the Eastern Province of Sri Lanka where Austin Fernando is the leader
+241	Julia Morgan	was born in	who
+242	Julia Morgan	was	an architect born in California
+243	Asilomar Conference Grounds	were designed by	Julia Morgan
+245	Julia Morgan	born in in	California
+246	The Asilomar Conference Grounds	constructed in	1913
+247	Asilomar Conference Grounds	located in	Pacific Grove, California
+248	The Asilomar Conference Grounds	constructed in	1913
+249	Asser Levy Public Baths	built in in	1904
+250	The Asser Levy Public baths	located on	23rd Street in Manhattan
+251	The Asser Levy Public Baths	built in	1904
+252	The Asser Levy Public Baths	found in	New York City, New York, United States
+253	Gale Brewer	is	the leader of Manhattan which is part of New York City, New York, United States
+254	The location	are	New York City, US.New York City and Manhattan
+255	103 Colmore Row	was designed by	the architect
+256	The City Council	is	the governing body for Birmingham where Andrew Mitchell is a leader
+257	Birmingham	is led by	Andrew Mitchell
+258	Hailemariam Desalegn	are	leaders within Ethiopia
+261	The President	is	the primary leader of English language speaking United States
+262	250 Delaware Avenue	located in	the United States, where the leader is known as the President of the United States, supported by the United States of America`s Chief Justice, John Roberts
+263	Joe Biden	is	a leader of the United States which is led by a President
+264	250 Delaware Avenue	located in	the United States, where English is spoken
+265	The celestial body	known as as	66063
+266	1998 RO1	known as as	1999 SN5
+267	The celestial body	known as as	66391) 1999
+268	The celestial body	known as as	66391) 1999
+269	The asteroid	called	1999 KW4, which has the epoch date
+270	James Craig Watson	discovered on	101 Helena
+271	101 Helena	was discovered on by	the Canadian James Craig Watson
+272	Canadian James Craig Watson	discovered on	101 Helena
+273	101 Helena	was discovered by	James Craig Watson
+274	101 Helena	was discovered by	Canadian
+275	Canadian James Craig Watson	discovered	101 Helena
+276	Walter Baade	born in	the German Empire
+277	Walter Baade	discovered	1036 Ganymed
+278	Walter Baade	was born in	who
+279	Halton Arp	were	doctoral students of Walter Baade, the discoverer of 1036 Ganymed
+280	Walter Baade	born in in	the German Empire
+281	Allan Sandage	were	doctoral students of Walter Baade, the discoverer of 1036 Ganymed
+282	Camilla	has	the epoch date 31 December 2006
+283	Camilla	has	an epoch date of December 31st 2006
+285	107 Camilla,	was discovered on by	N.R. Pogson
+286	N.R. Pogson	was born in	who
+287	107 Camilla,	was discovered on by	British
+288	whose former name	was	A919 HA; 1927 WB
+289	1089 Tama	known as	A919 HA; 1927 WB
+290	1089 Tama	known as	A919 HA; 1927 WB
+291	The epoch date	is	2006.12.31
+292	The epoch date	is	2006.12.31
+293	1097 Vicia	has	a mass of 9.8 kgs
+294	The surface area	is	837,080.744 square kilometres
+295	The asteroid	called	10 Hygiea
+296	10 Hygiea	escape	velocity of 0.21 km per sec
+297	Abilene	lies in	524.0
+298	Abilene	is in	Texas
+299	Abilene	is	part of Texas, where the capital is Austin and the largest city is Houston
+300	Abilene	is in	Texas, United States
+301	English	is	the language of the United States, where Asian Americans are an ethnic group and where the inhabitants are referred to as Americans
+302	there	are In	many different types of Americans, including Asian Americans
+303	Albany	is in	part of Georgia
+304	Albuquerque	has	a total area of 490.9 sq km, of which 486.2 is land
+305	The total area	is	490.9 square kilometres of which 486.2 is land
+306	Albuquerque	has	an area of land of 486.2 and total area of 490.9 square kilometers
+307	Anaheim	is led by	Tom Tait
+309	Anderson in the United States	is led by	the Democratic Party of the
+310	The Democratic Party	leads	Anderson, Indiana in the US
+311	Indianapolis	is	the capital of Indiana, where the city of Anderson is located, in the United States
+312	Indiana	lies in	268.0
+313	Indiana	has	523.9 people per square kilometer, an area of 107.43 square kilometres, an elevation of 268.0 above sea level and an area code of 765
+314	Indiana	is	268 above sea level
+315	some parts	speak	Chinese
+316	Antioch	are	parts of Contra Costa County in California
+317	Antioch	is With	part of Contra Costa County
+318	Indiana	is in	Fountain County, Indiana, U.S, where the capital is Washington DC
+319	Attica	is	part of Fountain County, Indiana, United States, where the capital is Washington
+320	Covington	is	the County seat of Fountain County, in Indiana, which is where Attica is part of
+321	Auburn	is	part of Lee County, Alabama, in the United States, the capital of which is Washington D.C. and where Asian Americans are an ethnic group
+322	Auburn	is in	the United States,
+323	Opelika	is	the county seat of Lee County, Alabama, The United States
+324	Opelika	is	the county seat of Lee County which is in Auburn, Alabama in the United States where African Americans
+325	One	are	the African Americans and Lee County, Alabama
+326	Austin	is in	Williamson County Texas where Georgetown is the county seat and Round Rock
+327	Texas	contains	the towns of Austin, Round Rock, the largest city, and the county seat of Georgetown
+328	Austin	is	part of Williamson County, Texas, where Spanish is
+329	Austin	is	part of Williamson County in Texas which has the county seat of Georgetown
+330	Austin	are located	inTexas
+331	Alexandria	is	part of Madison County, Indiana, in the U.S.
+332	Alexandria	is in	Madison County, whose largest city is Anderson and is in Indiana where Indianapolis is the capital
+333	Indianapolis	is	the capital of Indiana, United States
+334	The county seat	is	Fort Worth, Texas where English is spoken
+335	English	is	a language spoken in Texas and
+336	Arlington	is in	Texas where the largest city is Fort Worth
+337	Austin	is	Texas' capital
+338	Austin	is	the capital city of Texas, where Houston is the capital
+339	Arlington	is	part of Tarrant County in Texas in the U.S. Austin
+340	Arlington	is	part of Tarrant County, Texas, the capital city of which
+342	Albany	is in	Dougherty County, Georgia, US where Americans live and Asian Americans
+343	Americans	are	the inhabitants of the United States, where one of the ethnic groups, is Asian Americans
+344	Albany	is	a city in Linn County, Oregon in the United States
+345	Oregon	is in	Linn County in the United States
+349	Indiana	is in	Steuben County of the U.S.A.
+350	The United States	uses	the English language
+351	The city	is	part of Benton County
+352	The Asian Americans	are	an ethnic group in the US where the capital city is Washington DC and English
+353	Albany	is	a city in Oregon, U.S. where English is the language spoken and Asian Americans are an ethnic group and the capital
+354	Auburn	is	part of Lee County, which has Opelika as the county seat
+355	Native Americans	are	an ethnic group within the United States
+356	Native Americans	are	one of the ethnic groups in the United States of America which is where Auburn, Alabama is located
+357	U.S.	is led by	the Albuquerque City Council
+358	Native Americans	are	an ethnic group in the United States, where Barack Obama
+359	The Albuquerque City Council	has	a leadership role in Albuquerque, New Mexico, in the United States
+360	English	is	the language spoken in the United States where the inhabitants are known as Americans and include the ethnic group of Native Americans
+361	Indiana	is	part of the English speaking, United States
+362	Angola	is in	Indiana which is in the US where English is spoken
+363	Georgia	are to found in	the United States, where the leader is the president
+364	The president	is	the leader of the United States where Asian Americans are an ethnic group
+365	Seattle	is	the largest city of Washington State and Olympia
+366	Auburn	is	part of King County, Washington, United States
+367	Auburn	is in	King County, Washington State, whose largest city is Seattle and
+368	Bananaman	shown on	the BBC
+369	The BBC	was broadcast on	the last episode
+370	Bananaman	was created by	John Geering
+371	Baymax	is	a character from the film Big Hero 6 starring Scott Adsit
+372	American Duncan Rouleau	created	Baymax
+373	Baymax	was created by	American Duncan Rouleau
+376	Chinabank	has	a net income of $15,100,000,000
+377	mobile applications	founded on on	01-01-2000
+378	GMA New Media	founded on on	January 01, 2000
+379	New Media	founded on on	January 01,2000
+380	Hypermarcas	founded as	a pharmaceutical company primarily focusing on cosmetics
+381	Hypermarcas	is	a pharmaceutical company founded on January 1, 2001, that also sells cosmetics
+382	Hypermarcas	founded on on	January 1, 2001
+383	Trane	is	a European subsidiary company located in Ireland that employs 29,000 people
+385	a subsidiary company	founded in in	La Crosse, Wisconsin
+386	Trane	is	subsidiary in Swords
+387	Trane	building with from	management systems
+388	a subsidiary	located in in	Swords, Dublin,
+390	Ajoblanco	known as as	Ajo blanco
+391	A dish	found in in	the Andalusian region of Spain
+392	Tomatoes	are	main ingredients in the traditional Amatriciana sauce, which comes from the region of Lazio and can be found in an Italian meal
+393	Amatriciana	is	a traditional sauce from Lazio, Italy
+394	Amatriciana sauce	found in	Italian food
+396	Sergio Mattarella	is	a leader in Italy, a country where Rome is the capital
+397	Arrabbiata sauce	is from	Italy where the capital is Rome
+398	Ximo Puig	is	a leader of the Valencian Community which is where Arros negre comes from
+399	negre	is from	the Valencian Community of Spain,
+400	Asam pedas	is	a food found in the Malay Peninsula of Malaysia, whose capital is Kuala Lumpur
+401	Asam pedas	is	a food found in the Malay Peninsula in Malaysia, whose capital is Kuala Lumpur, where Malaysian Indians and Malaysian Chinese are ethnic groups
+403	Indian	are	two of the ethnic groups in Malaysia where Arifin Zakaria is the leader
+404	Asam pedas	is	a food found in the Malay Peninsula region, Malaysia, where ethnic groups include Malaysian Indian and Chinese
+406	Ayam penyet	is	a Javanese dish made nationwide
+407	Ayam penyet	is	a hot food dish found in Java, Malaysia and Singapore
+408	Ayam penyet	is	a food made in Java regions of Malaysia and Singapore
+409	Malaysian Chinese	is	an ethnic group from Malaysia and Ayam Penyet
+410	Ayam penyet	is	a dish comprising "squeezed" or "smashed" fried chicken served with sambal
+411	Ayam penyet	contains	smashed fried chicken with sambal
+412	The Malaysian chinese	are	an ethnic group from Malaysia which is where Ayam Penyet is from
+413	a dish	made with	fried chicken
+414	The fried chicken dish Ayam penyet	comes from	the region of Indonesia and also Malaysia where Malaysian Chinese are an ethnic group
+415	Bacon Explosion	comes from	the United States
+416	Bacon Explosion	is	a dish from the United States, where Joe Biden is leader and
+417	Bacon Explosion	originates from	the United States where Asian Americans are one of the ethnic groups
+418	the national language	is	French and one of the leader
+419	Baked Alaska	comes from	France where the spoken language is French
+420	Baked Alaska	Baked Alaska to served in	Hong Kong, whose political leader is Carrie Lam
+421	Bandeja paisa	is	typical Colombian cuisine that originates from the Paisa region and contains lemon
+422	Barny Cakes	are made from	which
+423	Barny cakes	made with	sponge cake
+425	Barny cakes	is created by	Mondelez International
+426	Indian people	enjoy	the dish bhajji, which originates from the Karnataka region of India
+427	Binignit	is	a dessert from the Visayas region of the Philippines
+428	Binignit	comes from	the Philippines
+429	The dessert Binignit	includes	sweet potato and banana
+430	Enrique Pena Nieto	is	the leader of Mexico which is where they speak Spanish and eat bionico, flavoured with honey, for dessert
+431	Bionico	is	a dish found in Mexico, where Spanish is spoken and the leader is Silvano Aureoles Conejo
+432	Mexico	is	a spanish speaking country
+433	Honey	used as	a variation in the dish Bionico which is served for dessert
+434	The name	is	Silvano Aureoles Conejo and bionico
+436	Joko Widodo	is	the leader of Indonesia whose capital is Jakarta and its language
+437	Joko Widodo	is	the leader of Indonesia, a country where Indonesian is the language spoken and Jakarta is the capital city
+438	The country's capital city	is	Jakarta
+439	Bakso	is	a food found in Indonesia where the capital is Jakarta and the leaders
+440	Bakso	is	dish from Indonesia (capital Jakarta
+441	Bakso	is	a dish from Indonesia
+442	The capital	is	Rome
+443	Amatriciana sauce	is	a traditional dish from Italy, where the capital is Rome and the leaders
+444	The capital city	are	the Italians
+445	English	spoken in	Singapore where the leader is Halimah Yacob
+446	The Banyumasan people	are	an ethnic group from Java, where you can find a traditional dish called Ayam penyet
+447	Halimah Yacob	leads	Singapore, where Standard Chinese is spoken and where Ayam penyet is from
+448	The Banyumasan people	are	an ethnic group in Java, the country of Ayam penyet, which is also from the Singapore region
+449	Ayam penyet	is	a dish from the region of Java and Singapore where Standard Chinese is
+450	Philippines	is	the country
+452	Beef kway teow	is	a dish which comes from Singapore, where English is
+453	Beef kway teow	is in	popular nationwide
+454	Beef kway teow	is	a popular dish in Singapore and Indonesia
+455	Ajoblanco	is	a Spanish dish that originates Andalusia, where the leader is Susana Diaz
+456	Some famous Spaniards	include	Felipe VI (leader of Spain) and Susana Diaz who is the leader of Andalusia where ajoblanco comes from
+457	Ajoblanco	is	a dish from Spain, where the currency is the euro
+458	Ajoblanco	is	a food found in Spanish speaking and Felipe VI
+459	AIDAstella	was built by	Meyer Werft
+460	The AIDAstella	was built by	Meyer Werft
+461	The AIDAstella	is operated by	AIDA Cruise Line
+464	The ALCO RS-3	was produced from by	the American Locomotive Company
+465	The AMC Matador	known as as	the American Motors Matador
+466	The AMC Matador	known as as	American Motors Matador
+468	P&amp;O	owns	the Alhambra which has a Humphrys, Tennant and Dykes engine and is 63800.0 millimetres long
+470	The Alhambra	was built by	the Samuda Brothers
+471	The Antares rocket	is	3.9 metres in diametre
+473	The Antares rocket	was manufactured at	which
+474	The Antares rocket	manufactured at	the Yuzhnoye Design Office
+476	The Antares rocket	is manufactured by	the Yuzhnoye Design Office
+477	The Ariane	had	its first voyage August 11, 2005 and its last flight on December 18, 2009
+478	The Airbus Defence and Space	manufactured	the Ariane 5 which has a diameter of 5.4 metres
+479	the Ariane 5	has	a diameter of 5.4 metres
+480	The Ariane 5's maiden flight	was on	the 2nd March 2004 and
+482	The Aston Martin V8	assembled in	the United Kingdom governed by Elizabeth II
+483	The Aston Martin V8	assembled in	the United Kingdom, where the ruler is Queen Elizabeth II
+484	Aston Martin	manufactures	the Aston Martin DBS which is related to the Aston Martin Virage
+487	The Atlas II	is from	the United States
+489	Audi A1 hatchback	is	a supermini vehicle made in Brussels, Belgium
+490	The Audi A1	is	a hatchback belonging to the supermini class
+491	The Audi A1	is	a supermini hatchback assembled in Brussels, Belgium
+492	Douglas R. Oberhelman	is	the key person at Caterpillar Inc which was founded in the US and located in Illinois
+493	Douglas R Oberhelman	is	a key person at Caterpillar Inc. which was founded in the United States and is located in Illinois
+494	Douglas R Oberhelman	is	a key person at Caterpillar Inc. which was founded in the United States and is located in Illinois
+495	Carnival Corporation &amp	is	the parent company of Costa Crociere in Genoa, who own the AIDAstella
+497	Meyer Werft	built	the AIDAstella which is operated by the AIDA Cruise Line
+499	The Mid-Atlantic Regional Spaceport Launch Pad 0	associated	the rocket, Minotaur IV
+501	The launch site	was	the Mid-Atlantic Regional Spaceport Launch Pad 0, which is associated with the Minotaur IV rocket
+503	The A-Rosa Luna	built on	the Neptun Werft, located in Rostock, Germany
+504	The builder	is	Neptun Werft whose HQ is in Rostock, Germany
+505	The A-Rosa Luna	was built by	Neptun Werft
+506	The builder	is	Neptun Werft, from Rostock, Germany
+507	The builder	is	Neptun Werft, headquartered in Rostock, Germany
+508	Neptun Werft	built	the A-Rosa Luna
+509	The Delta II	is from	the United States
+512	ALV X-1	came from	the U.S. whose people are American and whose capital is in Washington, D.C.
+513	The capital	is	Washington, D.C.
+514	the national anthem	is	the Star Spangled Banner and the capital city
+515	The 11th Mississippi Infantry monument	located in	the municipality of Gettysburg, Adams County, Pennsylvania
+516	The 11th Mississippi Infantry Monument	placed in	the municipality of Gettysburg, Adams County, Pennsylvania
+517	The 11th Mississippi Infantry monument	located in	Gettysburg, Adams County, Pennsylvania
+518	The capital	is	Baku and the leader and Prime Minister of Azerbaijan
+519	Prime Minister	is	the official title of the leader whose name is Artur Rasizade
+523	Huseyin Butuner	designed in	the red granite and white marble
+524	The Baku Turkish Martyrs' Memorial	located in	Azerbaijan, where it is known as "Türk Sehitleri Aniti"
+525	Baku Turkish Martyrs' Memorial	made of	red granite and white marble
+529	The birth place	was	the Kingdom of Sarawak and his residence
+530	Abdul Taib Mahmud	born in	the Kingdom of Sarawak
+531	Abdul Taib Mahmud	born in	the Kingdom of Sarawak
+532	Abdulsalami Abubakar	served in	the Nigerian Army
+533	Abdulsalami Abubakar	served in	the Nigerian Army
+534	Olusegun Obasanjo	succeeded	Abdulsalami Abubakar, who served in the Nigerian Army and ended his career on 1999-05-2
+535	Abraham A Ribicoff	was	a US national born in Connecticut and dying in New York City
+537	Democrat Abraham A. Ribicoff	born in	Connecticut
+538	American Abraham A. Ribicoff	died in	the United States
+539	Abraham A Ribicoff	born to died in	the United States, a country where one of the ethnic groups are the Native Americans
+540	Native Americans	are	the ethnic group in the United States, the country Abraham A. Ribicoff
+541	Adam Holloway	born in	Kent
+543	Adam Holloway	born in	Kent
+544	Agnes Kant	is	a national of the Netherlands which is led by Mark Rutte
+545	Agnes Kant	is from	the Netherlands, where Mark Rutte is the leader
+546	the leader	is	Mark Rutte
+547	Agnes Kant	is	a member of the country's Socialist Party which is led by Emile Roemer
+548	Agnes Kant	is	a national of the Netherlands which is led by Mark Rutte
+550	Agnes Kant	is	a member of the Socialist Party in the Netherlands which is led by Emile Roemer and makes use of the colour red
+551	Albert B White	was	married to Agnes Ward White who was born in Marietta, Ohio
+552	Marietta	is	Ohio, Agnes Ward White
+553	Agnes Ward White	born in	Marietta, Ohio
+554	Alberto Teisaire	was from	Argentina where Spanish is spoken
+555	The language	is	Spanish
+556	Alberto Teisaire	was	Argentinian
+557	The governing body	is led	the Buenos Aires City Legislature and the city
+558	Spanish	spoken in	Argentina
+559	Alberto Teisaire	was	Argentinian
+560	Alberto Teisaire	born on in on	20th May 1891
+561	Alberto Teisaire	born in	Mendoza, Argentina
+562	Alberto Teisaire	born in	Mendoza, Argentina
+563	Burlington	is	the largest city in Vermont, which is where Alvah Sabin is from
+564	Alvah Sabin	was from	Vermont
+565	He	started on	active service
+566	Alvah Sabin	was born in	who
+568	Alvah Sabin	born in	Georgia, Vermont
+569	Alvah Sabin	represented	Vermont
+570	Alvah Sabin	belongs	the Whig Party of the United States which is led by Henry Clay
+571	Burlington	is	the largest city in Vermont, the state
+572	Burlington	is	the largest city in Vermont, which is the state Alvah Sabin represented
+573	the largest city	is	Burlington
+574	Burlington	is	the largest city in Vermont, the state that Alvah Sabin
+576	Antonis Samaras	born in in	Athens
+577	Adonis Georgiadis	was in	office
+578	Alfons Gorbach	born in	Imst in Austria
+579	Alfons Gorbach	born in	Imst
+580	Austrian German	is	the language in Austria, the leader of which
+581	Ab Klink	is	a national of the Netherlands, where the currency is the Euro and Mark Rutte
+582	Ab Klink	born in	Stellendam, Netherlands
+583	Gordon Marsden	is	the leader of Blackpool where AFC Blackpool are
+584	Gordon Marsden	is	the leader of Blackpool where AFC Blackpool is
+585	Olympiacos F.C.	were	past champions in the Greece Superleague
+586	Gus Poyet	is	the manager of AEK Athens F.C. who play in the Superleague of Greece (which has Olympiacos FC as previous champions
+587	Previous champions	are	Olympiacos FC
+588	Estádio Municipal Coaracy da Mata Fonseca	is	the name of the ground of Agremiação Sportiva Arapiraquense
+589	Vila Nova Futebol Clube	have been	champions of Campeonato Brasileiro Série C. from Brazil in which Agremiação Sportiva Arapiraquense also
+590	Estádio Municipal Coaracy da Mata Fonseca	is	the name of the ground of Agremiação Sportiva Arapiraquense
+591	Vila Nova Futebol Clube	have been	champions of Campeonato Brasileiro Série C. league in Brazil
+592	Agremiação Sportiva Arapiraquense	play in	the Campeonato Brasileiro Série C league (in Brazil)
+593	Agremiação Sportiva Arapiraquense	play in	the Campeonato Brasileiro Série C league in Brazil
+594	The Vila Nova Futebol Clube	were	champions at the Campeonato Brasileiro Série C. in Brazil
+595	Agremiação Sportiva Arapiraquense	play in	the Campeonato Brasileiro Série C league in Brazil, which has been won by Vila Nova Futebol Clube
+596	Vila Nova Futebol Clube	have been	champions of Campeonato Brasileiro Série C, which is from Brazil
+597	The Accademia di Architettura di Mendrisio	had	100 academic staff and 600 students
+598	Switzerland	is	Mario Botta
+599	The Accademia di Architettura di Mendrisio	has	a staff of 100 and a student population of 600
+600	The Accademia di Architettura di Mendrisio	located in	Ticino, Switzerland
+601	The leader	is	Johann Schneider-Ammann
+602	The Accademia di Architettura di Mendrisio	has	600 students
+603	The Acharya Institute of Technology	affiliated	the Visvesvaraya Technological University
+604	Karnataka	is	east of the Arabian Sea and southwest of Telangana
+605	Karnataka state	has	the Arabian Sea
+606	The Acharya Institute of Technology	located In	Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, India
+607	The Acharya Institute of Technology	established in	2000
+608	Acharya Institute of Technology	was founded in by	Kempe Gowda I
+609	Acharya Institute of Technology	located in	Bangalore, Karnataka,
+610	The 1 Decembrie 1918 University	is in	Alba Iulia, Romania
+611	1 Decembrie 1918 University	is in	Alba Iulia, Romania
+612	1 Decembrie 1918 University	located in	the city of Alba Iulia in Romania
+616	Faber	are	the publishers of The Secret Scripture, a sequel to A Long Long Way
+617	the white people	are	an ethnic group
+618	Ireland	is	a country within Europe and
+619	The ethnic group	is	White people
+620	An ethnic group	is	white people where A Long Long Way comes from
+624	Cornell University	is in	Ithaca, New York
+625	Cornell University	is in	Ithaca, New York
+626	Cornell University	is in	Ithaca, New York
+627	The Administrative Science Quarterly	is published in by	Cornell University, Ithaca
+628	Cornell Big Red	is	the nickname of Cornell University which is affiliated with the Association of Public and Land-grant Universities
+629	Cornell University	is	the publisher of the Administrative Science Quarterly
+630	The United States	is led by	Barack Obama
+631	the Evil Librarians	is from	the United States
+632	A Severed Wasp	is from	the United States
+634	A severed Wasp	is	a novel from the United States where English is largely spoken (as in Great Britain
+635	English	are to spoken in	Great Britain and the United States where Joe Biden is leader
+636	the Evil Librarians	is	a book from The United States
+637	the Evil Librarians	is from	The United States
+638	David Cameron	are	leaders in the United Kingdom
+639	The AIDS journal	published in	the United Kingdom, where English is spoken
+640	AIDS journal	is from	the United Kingdom, which capital is London and
+641	The leaders	are	Elizabeth II and David Cameron
+642	The AIDS journal	published in	the United Kingdom where Elizabeth II and David Cameron are leaders
+643	The English language	spoken in	Great Britain and A Severed Wasp
+644	A Severed Wasp	written in	English, the language spoken in Great Britain
+645	A Severed Wasp	is from	the United States, where Barack Obama is the president
+646	A Severed Wasp	is from	the United States, where English is spoken (as in Great Britain)

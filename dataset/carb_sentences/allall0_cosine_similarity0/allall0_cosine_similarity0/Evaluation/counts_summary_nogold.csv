@@ -1,0 +1,6 @@
+stat,value
+n_sentences,641
+n_triples,5563
+n_sentences_with_triples,638
+n_sentences_without_triples,3
+avg_triples_per_sentence,8.679

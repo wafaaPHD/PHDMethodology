@@ -1,0 +1,6 @@
+criterion,avg_score_%
+Correctness (faithfulness to sentence),90.2
+Completeness (sentence content covered),88.76
+Minimality (conciseness),74.08
+Overall Judged Accuracy,84.35
+% Triples High-Fidelity (sim>=90),61.2
