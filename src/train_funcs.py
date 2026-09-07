@@ -149,3 +149,175 @@ def evaluate_(
         metrics['triple_f1'], 
         metrics['triple_auc']
     )
+def _decode_span(tokenizer, token_ids, start_idx, end_idx):
+    """
+    Decode the token span [start_idx, end_idx) into text. Stops early
+    (before end_idx) if a special token (e.g. [E1], [/E1], [E2], [/E2],
+    [SEP], [PAD]) is hit, since that marks the end of real content.
+    """
+    if end_idx <= start_idx:
+        return '', start_idx
+    special_ids = set(tokenizer.all_special_ids)
+    span_ids = []
+    consumed = 0
+    for tok_id in token_ids[start_idx:end_idx].tolist():
+        if tok_id in special_ids:
+            break
+        span_ids.append(tok_id)
+        consumed += 1
+    text = tokenizer.decode(span_ids, skip_special_tokens=True).strip() if span_ids else ''
+    return text, start_idx + consumed
+ 
+ 
+def _decode_entity_span(tokenizer, token_ids, start_idx, max_span_len=8):
+    """
+    Best-effort decode of the entity text that follows an E1/E2 marker
+    token. Starts right after `start_idx` and stops at the next special
+    token (e.g. [E1], [/E1], [E2], [/E2], [SEP], [PAD]) or after
+    `max_span_len` tokens, whichever comes first.
+ 
+    Returns (entity_text, end_idx), where end_idx is the token position
+    right after the decoded span -- callers use it as the start of the
+    "relation" text that follows the entity.
+    """
+    return _decode_span(tokenizer, token_ids, start_idx + 1, start_idx + 1 + max_span_len)
+ 
+ 
+def load_seen_triples(args, out_filename='HighScoreUniqueTriples.txt'):
+    """
+    Loads the (entity1, relation, entity2) triples already present in the
+    high-score output file, so that uniqueness can be enforced globally
+    -- i.e. across the whole file and across separate training runs --
+    rather than only within the current process.
+    """
+    seen = set()
+    out_path = os.path.join(args.ResultPathDataset, out_filename)
+    if os.path.isfile(out_path):
+        with open(out_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                parts = line.rstrip('\n').split('\t')
+                if len(parts) == 4:
+                    _, e1, rel, e2 = parts
+                    seen.add((e1, rel, e2))
+    return seen
+def get_mask_predictions(lm_logits, lm_labels, tokenizer, lm_ignore_idx, top_k=1):
+    """
+    Recovers the model's predicted token(s) for every masked ([MASK])
+    position in a batch.
+
+    Args:
+        lm_logits: [batch, seq_len, vocab_size] or [seq_len, vocab_size]
+            -- raw LM head output
+        lm_labels: [batch, seq_len] or [seq_len] -- true token id at
+            masked positions, lm_ignore_idx everywhere else (this is how
+            masked positions are located). Must have one fewer dimension
+            than lm_logits (i.e. no vocab axis).
+        tokenizer: tokenizer used to encode the input
+        lm_ignore_idx: the ignore_index value used when building lm_labels
+        top_k: how many candidate predictions to return per masked position
+
+    Returns:
+        list of dicts, one per masked position:
+            {
+                'batch_idx': int, 'seq_idx': int,
+                'true_token': str,
+                'predicted_tokens': [str, ...],   # top_k, best first
+                'confidences': [float, ...]        # softmax probs, aligned
+            }
+        'batch_idx' is always 0 when lm_labels is 1-D (single sequence,
+        no batch axis).
+    """
+    if lm_labels.dim() == lm_logits.dim() - 1 and lm_labels.dim() == 1:
+        # No batch axis -- treat as a single sequence (batch_idx = 0).
+        lm_logits = lm_logits.unsqueeze(0)
+        lm_labels = lm_labels.unsqueeze(0)
+    elif lm_labels.dim() != lm_logits.dim() - 1:
+        raise ValueError(
+            f"lm_labels has {lm_labels.dim()} dims but lm_logits has "
+            f"{lm_logits.dim()} dims -- expected lm_labels to have exactly "
+            f"one fewer dim (no vocab axis). Check that you're passing the "
+            f"full, unsliced lm_logits/lm_labels (before any [(x == mask_id)] "
+            f"filtering)."
+        )
+
+    def _id_to_str(token_id):
+        # tokenizer.decode() gives the real surface string for a single id
+        # (handles byte-level BPE / merges correctly), unlike
+        # convert_ids_to_tokens() which can surface raw vocab pieces or
+        # print [UNK] even for valid ids.
+        return tokenizer.decode(
+            [token_id],
+            skip_special_tokens=False,
+            clean_up_tokenization_spaces=True,
+        ).strip()
+
+    probs = torch.softmax(lm_logits, dim=-1)  # [batch, seq_len, vocab_size]
+    mask_positions = (lm_labels != lm_ignore_idx).nonzero(as_tuple=False)  # [N, 2]
+
+    results = []
+    for b, s in mask_positions.tolist():
+        top_probs, top_ids = probs[b, s].topk(top_k)
+        top_ids = top_ids.tolist()
+
+        results.append({
+            'batch_idx': b,
+            'seq_idx': s,
+            'true_token': _id_to_str(lm_labels[b, s].item()),
+            'predicted_tokens': [_id_to_str(tid) for tid in top_ids],
+            'confidences': top_probs.tolist()
+        })
+    return results
+def get_mask_predictions_old(lm_logits, lm_labels, tokenizer, lm_ignore_idx, top_k=1):
+    """
+    Recovers the model's predicted token(s) for every masked ([MASK])
+    position in a batch.
+ 
+    Args:
+        lm_logits: [batch, seq_len, vocab_size] or [seq_len, vocab_size]
+            -- raw LM head output
+        lm_labels: [batch, seq_len] or [seq_len] -- true token id at
+            masked positions, lm_ignore_idx everywhere else (this is how
+            masked positions are located). Must have one fewer dimension
+            than lm_logits (i.e. no vocab axis).
+        tokenizer: tokenizer used to encode the input
+        lm_ignore_idx: the ignore_index value used when building lm_labels
+        top_k: how many candidate predictions to return per masked position
+ 
+    Returns:
+        list of dicts, one per masked position:
+            {
+                'batch_idx': int, 'seq_idx': int,
+                'true_token': str,
+                'predicted_tokens': [str, ...],   # top_k, best first
+                'confidences': [float, ...]        # softmax probs, aligned
+            }
+        'batch_idx' is always 0 when lm_labels is 1-D (single sequence,
+        no batch axis).
+    """
+    if lm_labels.dim() == lm_logits.dim() - 1 and lm_labels.dim() == 1:
+        # No batch axis -- treat as a single sequence (batch_idx = 0).
+        lm_logits = lm_logits.unsqueeze(0)
+        lm_labels = lm_labels.unsqueeze(0)
+    elif lm_labels.dim() != lm_logits.dim() - 1:
+        raise ValueError(
+            f"lm_labels has {lm_labels.dim()} dims but lm_logits has "
+            f"{lm_logits.dim()} dims -- expected lm_labels to have exactly "
+            f"one fewer dim (no vocab axis). Check that you're passing the "
+            f"full, unsliced lm_logits/lm_labels (before any [(x == mask_id)] "
+            f"filtering)."
+        )
+ 
+    probs = torch.softmax(lm_logits, dim=-1)  # [batch, seq_len, vocab_size]
+    mask_positions = (lm_labels != lm_ignore_idx).nonzero(as_tuple=False)  # [N, 2]
+ 
+    results = []
+    for b, s in mask_positions.tolist():
+        top_probs, top_ids = probs[b, s].topk(top_k)
+        results.append({
+            'batch_idx': b,
+            'seq_idx': s,
+            'true_token': tokenizer.convert_ids_to_tokens([lm_labels[b, s].item()])[0],
+            'predicted_tokens': tokenizer.convert_ids_to_tokens(top_ids.tolist()),
+            'confidences': top_probs.tolist()
+        })
+    return results

@@ -232,7 +232,7 @@ class PerformanceMetrics:
         print(f"  Estimated Total Remaining Time: {report['empirical_metrics']['epoch_time_seconds']['total_estimated']:.2f} seconds")
         
         print("\n[Memory Usage]")
-        print(f"  CPU Memory: {report['empirical_metrics']['cpu_memory_mb']['current']:.0f} MB (peak: {report['empirical_metrics']['cpu_memory_mb']['peak']:.0f} MB)")
+        #print(f"  CPU Memory: {report['empirical_metrics']['cpu_memory_mb']['current']:.0f} MB (peak: {report['empirical_metrics']['cpu_memory_mb']['peak']:.0f} MB)")
         print(f"  GPU Memory: {report['empirical_metrics']['gpu_memory_mb']['current']:.0f} MB (peak: {report['empirical_metrics']['gpu_memory_mb']['peak']:.0f} MB)")
         print(f"  GPU Memory Reserved: {report['empirical_metrics']['gpu_memory_mb']['reserved']:.0f} MB")
         

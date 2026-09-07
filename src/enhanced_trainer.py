@@ -9,13 +9,14 @@ from .enhanced_model import EnhancedTriplePredictionModel
 from .enhanced_loss import EnhancedTwoHeadedLoss
 from .PerformanceMetrics import PerformanceMetrics
 from .preprocessing_funcs import load_dataloaders
-from .train_funcs import load_state, load_results, evaluate_
+from .train_funcs import load_state, load_results, evaluate_,load_seen_triples, _decode_entity_span,get_mask_predictions
 from .misc import save_as_pickleResult, load_pickle
 import logging
 import json
 import time
 import numpy as np
 import pandas as pd
+import re
 
 logging.basicConfig(format='%(asctime)s [%(levelname)s]: %(message)s', 
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
@@ -54,6 +55,19 @@ def train_enhanced_model(args, modelt):
     
     tokenizer = load_pickle("%s_tokenizer.pkl" % model_name, args)
     net.resize_token_embeddings(len(tokenizer))
+    # Relation id -> relation string mapping, needed to write out human
+    # readable predicted relations for the high-score triples file.
+    relations_mapper = load_pickle(args.pretrain_data + '_' + 'relations.pkl', args)
+    idx2rel = relations_mapper.idx2rel
+    
+    # High-score unique triples: "high score" = the model's own softmax
+    # confidence on its predicted relation; "unique" = never repeat the
+    # same (entity1, relation, entity2) triple in the output file, even
+    # across separate training runs -- so we seed the seen-set from
+    # whatever is already on disk.
+    high_score_threshold = getattr(args, 'high_score_threshold', 0.9)
+    seen_high_score_triples = load_seen_triples(args)
+    sentence_counter = 0
     
     if cuda:
         net.cuda()
@@ -188,6 +202,117 @@ def train_enhanced_model(args, modelt):
             verbose = (i % update_size) == (update_size - 1)
             triple_predictions=result['triple_predictions']
             blanks_logits=result['blanks_logits']
+            # --- Relation predictions for the high-score triples file ---
+            # NOTE: the relation string must come from the closed-set relation
+            # classifier head (triple_predictions['relation_logits'] mapped through
+            # idx2rel), NOT from the masked-LM head (get_mask_predictions on
+            # lm_logits). The MLM head predicts a single raw BERT vocab token at
+            # the [MASK] position; relation phrases are frequently multi-token or
+            # simply outside BERT's vocab, so its top-1 prediction collapses to
+            # [UNK] almost every time. The relation classifier instead does a
+            # softmax over the fixed `args.num_relations` classes, so it always
+            # yields a real, known relation label together with a meaningful
+            # confidence score -- which is also what "high score" is documented
+            # to mean in load_seen_triples() above.
+            input_ids = x.detach().cpu()
+            e1_starts = e1_e2_start[:, 0].detach().cpu().tolist()
+            e2_starts = e1_e2_start[:, 1].detach().cpu().tolist()
+            out_path = os.path.join(args.ResultPathDataset, 'HighScoreUniqueTriples.txt')
+
+            if triple_predictions is not None and 'relation_logits' in triple_predictions:
+                rel_probs = torch.softmax(triple_predictions['relation_logits'], dim=-1).detach().cpu()
+                rel_confidences, rel_pred_ids = rel_probs.max(dim=-1)
+                rel_confidences = rel_confidences.tolist()
+                rel_pred_ids = rel_pred_ids.tolist()
+
+                for b, rel_id in enumerate(rel_pred_ids):
+                    confidence = rel_confidences[b]
+                    if confidence < high_score_threshold:
+                        continue
+                    # idx2rel may be a dict or a list depending on how the
+                    # relations mapper was built -- support both, and fall
+                    # back to [UNK] only for a genuinely unmapped id rather
+                    # than as the default outcome.
+                    if isinstance(idx2rel, dict):
+                        relation = idx2rel.get(rel_id, '[UNK]')
+                    else:
+                        relation = idx2rel[rel_id] if 0 <= rel_id < len(idx2rel) else '[UNK]'
+                    if relation == '[UNK]':
+                        continue
+
+                    entity1, e1_end = _decode_entity_span(tokenizer, input_ids[b], e1_starts[b])
+                    entity2, _ = _decode_entity_span(tokenizer, input_ids[b], e2_starts[b])
+                    parts = entity1.split('[E1]')
+                    if len(parts) > 1:
+                        rest = parts[1]
+                        # Split the rest by the closing tag
+                        inner_parts = rest.split('[/E1]')
+                        if len(inner_parts) == 1:
+                            # Opening tag but no closing tag
+                            entity1 = rest
+                        else:
+                            entity1 = inner_parts[0]
+                    else:
+                        parts = entity1.split('[/E1]')
+                        if len(parts) > 1:
+                            # Opening tag but no closing tag
+                            entity1 = parts[0]
+                    parts = entity2.split('[E2]')
+                    if len(parts) > 1:
+                        rest = parts[1]
+                        # Split the rest by the closing tag
+                        inner_parts = rest.split('[/E2]')
+                        if len(inner_parts) == 1:
+                            # Opening tag but no closing tag
+                            entity2 = rest
+                        else:
+                            entity2 = inner_parts[0]
+                    else:
+                        parts = entity2.split('[/E2]')
+                        if len(parts) > 1:
+                            # Opening tag but no closing tag
+                            entity2 = parts[0]
+                    if not entity1 or not entity2:
+                        continue
+                    if relation=='':
+                           # --- [MASK] predictions: needs the full lm_logits, before it gets sliced ---
+                        mask_preds = get_mask_predictions(
+                                          lm_logits, masked_for_pred, tokenizer,
+                                          lm_ignore_idx=tokenizer.pad_token_id,   # matches lm_ignore_idx used to build the loss
+                                          top_k=1
+                                      )
+                        for p in mask_preds:
+                            #print(f"[batch {p['batch_idx']}] true: {p['true_token']:>12} -> "
+                            #f"predicted: {p['predicted_tokens'][0]:>12} ({p['confidences'][0]:.3f})")
+                            if p['confidences'][0]< high_score_threshold:
+                                continue
+                            relation=p['predicted_tokens'][0]
+                            if relation=='[UNK]':
+                                continue 
+                            if relation=='':
+                                continue   
+                            triple_key = (entity1, relation, entity2)
+                            if triple_key in seen_high_score_triples:
+                                continue
+                            seen_high_score_triples.add(triple_key)
+                            with open(out_path, 'a', encoding='utf-8') as f1:
+                                f1.write(str(sentence_counter + b-1))
+                                f1.write('\t')
+                                f1.write(entity1 + '\t' + relation + '\t' + entity2)
+                                f1.write('\n') 
+                    if relation=='[UNK]' or relation=='':
+                        continue   
+                    relation=re.sub(r'\([^)]*\)', '', relation)                                            
+                    triple_key = (entity1, relation, entity2)
+                    if triple_key in seen_high_score_triples:
+                        continue
+                    seen_high_score_triples.add(triple_key)
+                    with open(out_path, 'a', encoding='utf-8') as f1:
+                        f1.write(str(sentence_counter + b-1))
+                        f1.write('\t')
+                        f1.write(entity1 + '\t' + relation + '\t' + entity2)
+                        f1.write('\n')
+            sentence_counter += x.size(0)
             loss = criterion(
                 lm_logits, 
                 blanks_logits, 
@@ -382,10 +507,10 @@ def train_enhanced_model(args, modelt):
         with open(args.ResultPathDataset+'result2.txt', 'a') as f:
                      json.dump(textresult, f)
                      f.write("\n")
-        
-        if f1_per_epoch[-1] > best_pred:
-            best_pred = f1_per_epoch[-1]
-            torch.save({
+        if len(f1_per_epoch)>0:
+            if f1_per_epoch[-1] > best_pred:
+                best_pred = f1_per_epoch[-1]
+                torch.save({
                     'epoch': epoch + 1,\
                     'state_dict': net.state_dict(),\
                     'best_acc': f1_per_epoch[-1],\

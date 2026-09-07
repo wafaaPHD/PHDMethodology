@@ -7,7 +7,7 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset
 from torch.nn.utils.rnn import pad_sequence
-from .misc import save_as_pickle, load_pickle, get_subject_objects,processSubjectObjectPairs2
+from .misc import save_as_pickle, load_pickle,processSubjectObjectPairs2#, get_subject_objects,
 from tqdm import tqdm
 import logging
 from .SubjectObjectrelation import splitMergeSentences,chunktext,SubjectObjectrelation
@@ -86,7 +86,7 @@ def create_pretraining_corpus(args,modelt,raw_text, nlp,index, predictor=None, w
     start_memory = psutil.Process(os.getpid()).memory_info().rss / 1024 / 1024  # MB
     
     # Initialize statistics dictionary
-    raw_text=raw_text.text
+    raw_text=raw_text
     stats = {
         "timestamp": datetime.now().isoformat(),
         "raw_text_length": len(raw_text),
@@ -203,10 +203,12 @@ def create_pretraining_corpus(args,modelt,raw_text, nlp,index, predictor=None, w
                                     f.write('\t')
                                     f.write(item[0]+'\t'+item[1]+'\t'+item[2])
                                     f.write('\n')
-           
-    
-    
-    for graphdata_e,tokensarr_row in zip(all_sent_triples,tokensarr):
+        with open(args.PathDataset+'AllMyMethod_afterentity.txt', 'a', encoding="utf-8") as f:
+                                    f.write(str(index))
+                                    f.write('\t')
+                                    f.write(item[0]+'\t'+item[1]+'\t'+item[2])
+                                    f.write('\n')
+    for graphdata_e in all_sent_triples:
             try:    
                 e1, e2 = graphdata_e[0], graphdata_e[2]
                 rel = graphdata_e[1]
@@ -251,7 +253,7 @@ def create_pretraining_corpus(args,modelt,raw_text, nlp,index, predictor=None, w
                 relindex=graphdata_e[5]
                 if len(triple_dict)==0:
                                     for r in e1.split():
-                                        start_index = tokensarr_row.index(r)
+                                        start_index = tokensarr.index(r)
                                         relindex.append(start_index)
                 
                 relindex[:] = [number - left_r for number in relindex]
@@ -286,7 +288,88 @@ def create_pretraining_corpus(args,modelt,raw_text, nlp,index, predictor=None, w
                         extracted_triples.append((e1text, rel, e2text))
             except:
                 pass
+    print("Processed dataset samples from named entity extraction:")
+    for i in tqdm(range(len(ents))):
+            e1 = ents[i]
+            e1start = e1.start; e1end = e1.end
+            if e1.label_ not in entities_of_interest:
+                continue
+            #if re.search("[\d+]", e1.text): # entities should not contain numbers
+            #    continue
+            
+            for j in range(1, len(ents) - i):
+                e2 = ents[i + j]
+                e2start = e2.start; e2end = e2.end
+                if e2.label_ not in entities_of_interest:
+                    continue
+                if re.search("[\d+]", e2.text): # entities should not contain numbers
+                    continue
+                if e1.text.lower() == e2.text.lower(): # make sure e1 != e2
+                    continue
     
+                if (e1end < e2start) and ((e1.text, e2.text) not in ents_list):
+                
+                  if (1 <= (e2start - e1end) <= window_size): # check if next nearest entity within window_size
+                    # Find start of sentence
+                    punc_token = False
+                    start = e1start - 1
+                    if start > 0:
+                        while not punc_token:
+                            punc_token = sents_doc[start].is_punct
+                            start -= 1
+                            if start < 0:
+                                break
+                        left_r = start + 2 if start > 0 else 0
+                    else:
+                        left_r = 0
+                    
+                    # Find end of sentence
+                    punc_token = False
+                    start = e2end
+                    if start < length_doc:
+                        while not punc_token:
+                            punc_token = sents_doc[start].is_punct
+                            start += 1
+                            if start == length_doc:
+                                break
+                        right_r = start if start < length_doc else length_doc
+                    else:
+                        right_r = length_doc
+                    
+                    if (right_r - left_r) > window_size: # sentence should not be longer than window_size
+                        continue
+                    
+                    x = [token.text for token in sents_doc[left_r:right_r]]
+                    
+                    ### empty strings check ###
+                    for token in x:
+                        assert len(token) > 0
+                    assert len(e1.text) > 0
+                    assert len(e2.text) > 0
+                    assert e1start != e1end
+                    assert e2start != e2end
+                    assert (e2start - e1end) > 0
+                    
+                    r = (x, (e1start - left_r, e1end - left_r), (e2start - left_r, e2end - left_r),'','')
+                    D.append((r, e1.text, e2.text))
+                    with open(args.PathDataset+'AllMyMethod_afterentity.txt', 'a', encoding="utf-8") as f:
+                                    f.write(str(index))
+                                    f.write('\t')
+                                    f.write(e1.text+'\t'+'_'+'\t'+e2.text)
+                                    f.write('\n')
+                    with open(args.PathDataset+'OnlyEntity.txt', 'a', encoding="utf-8") as f:
+                                    f.write(str(index))
+                                    f.write('\t')
+                                    f.write(e1.text+'\t'+'_'+'\t'+e2.text)
+                                    f.write('\n')
+                    ents_list.append((e1.text, e2.text))
+                    entityindex.append((e1.text,e2.text,(e1start,e1end),(e2start,e2end)))
+                    if ((e1.text, e1start,e1end)) not in entities_pos:
+                            entities_pos.append((e1.text, e1start,e1end))
+                    if ((e2.text, e2start,e2end)) not in entities_pos:
+                            entities_pos.append((e2.text, e2start,e2end))
+                    if ((e1.text,"", e2.text)) not in extracted_triples:
+                                    extracted_triples.append((e1.text,"", e2.text))
     ents_list_Position.append(entityindex)
     relations.append(relationstring) 
     
@@ -300,8 +383,8 @@ def create_pretraining_corpus(args,modelt,raw_text, nlp,index, predictor=None, w
     stats["final_memory_mb"] = end_memory
     stats["total_relations_extracted"] = len(extracted_triples)
     stats["unique_relations"] = len(set([triple[1] for triple in extracted_triples if triple[1]]))
-    stats["cosine_similarity"]=args.cosine_similarity
-    stats["Z_scores"]=args.Z_scores    
+    #stats["cosine_similarity"]=args.cosine_similarity
+    #stats["Z_scores"]=args.Z_scores    
     # Save statistics to file if requested
     if save_stats_to_file:
         try:
@@ -1165,7 +1248,6 @@ class pretrain_dataset(Dataset):
                        if bool(re.search(r"[!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]", x[idx])) == False]
 
         masked_for_pred = [token.lower() for idx, token in enumerate(x) if idx in masked_idxs]
-
         #masked_for_pred = [w.lower() for w in masked_for_pred] # we are using uncased model
         x = [token if (idx not in masked_idxs) else self.tokenizer.mask_token \
              for idx, token in enumerate(x)]
@@ -1439,7 +1521,7 @@ def load_dataloaders(args,modelt, max_length=50000):
                 reference_triples.append(referse_triples1)
                 extracted_triples.append(extract_triples1)
         elif(args.pretrain_data=='sentences_webnlg.txt'):
-                  with open("./dataset/sentences_webnlg/"+args.pretrain_data, "r", encoding="utf8") as f:
+                  with open("./Datasets/sentences_webnlg/"+args.pretrain_data, "r", encoding="utf8") as f:
                     text = f.readlines()
                     
                     for line in tqdm(text, total=len(text)):
@@ -1457,7 +1539,7 @@ def load_dataloaders(args,modelt, max_length=50000):
                             reference_triples.append(referse_triples1)
                             extracted_triples.append(extract_triples1)        
         elif(args.pretrain_data=='cnn.txt'):
-          with open("./dataset/OIE/"+args.pretrain_data, "r", encoding="utf8") as f:
+          with open("./Datasets/OIE/"+args.pretrain_data, "r", encoding="utf8") as f:
             text = f.readlines()
             
             for line in tqdm(text, total=len(text)):
@@ -1476,7 +1558,7 @@ def load_dataloaders(args,modelt, max_length=50000):
                     extracted_triples.append(extract_triples1)
 
         elif(args.pretrain_data=='wire57_sentences.txt'):
-          with open('./dataset/wire57/'+args.pretrain_data, "r", encoding="utf8") as f:
+          with open('./Datasets/wire57_sentences/'+args.pretrain_data, "r", encoding="utf8") as f:
             text = f.readlines()
             
             for line in tqdm(text, total=len(text)):
@@ -1495,7 +1577,7 @@ def load_dataloaders(args,modelt, max_length=50000):
                 extracted_triples.append(extract_triples1)
                 
         elif(args.pretrain_data=='carb_sentences.txt'):
-          with open('./dataset/carb_sentences/'+args.pretrain_data, "r", encoding="utf8") as f:
+          with open('./Datasets/carb_sentences/'+args.pretrain_data, "r", encoding="utf8") as f:
             text = f.readlines()
             
             for line in tqdm(text, total=len(text)):
@@ -1515,7 +1597,7 @@ def load_dataloaders(args,modelt, max_length=50000):
                 extracted_triples.append(extract_triples1)
 
         elif(args.pretrain_data=='Re-OIE2016.json'):
-          with open('./dataset/Re-OIE2016/'+args.pretrain_data, "r", encoding="utf8") as f:
+          with open('./Datasets/Re-OIE2016/'+args.pretrain_data, "r", encoding="utf8") as f:
             
             #D = load_pickle('DORg.pkl',args)
             text = f.readlines()
@@ -1539,7 +1621,7 @@ def load_dataloaders(args,modelt, max_length=50000):
                 extracted_triples.append(extract_triples1)
                 
         elif(args.pretrain_data=='train_filter.data'):
-          with open('./dataset/CDR/'+args.pretrain_data, "r") as f:#, encoding="utf8"
+          with open('./Datasets/CDR/'+args.pretrain_data, "r") as f:#, encoding="utf8"
             text = f.readlines()            
             for line in tqdm(text, total=len(text)):
                lines = line.rstrip().split('\t')
@@ -1853,7 +1935,7 @@ def LoadDataPreprocess(args,modelt,linesen,nlp,index,predictor):
                                 f.write('sent_id:'+(index).__str__())
                                 f.write('\t')
                       with open(args.PathDataset+'benchie_gold_annotations_en.txt', 'a', encoding="utf-8") as f:    
-                                f.write(text_chunk.text)
+                                f.write(text_chunk)
                                 f.write('\n')
                       relation=''
                       for indexcluster,x1 in enumerate(extract_triples1):
@@ -1867,7 +1949,7 @@ def LoadDataPreprocess(args,modelt,linesen,nlp,index,predictor):
                                  with open(args.PathDataset+'benchie_gold_annotations_en.txt', 'a', encoding="utf-8") as f:
                                     f.write(x1[0]+' --> '+x1[1]+' --> '+x1[2])
                                     f.write('\n')
-                                 with open(args.PathDataset+str(args.cosine_similarity)+str(args.Z_scores)+'MyMethod.txt', 'a', encoding="utf-8") as f1:
+                                 with open(args.PathDataset+'MyMethod.txt', 'a', encoding="utf-8") as f1:
                                     f1.write((index).__str__())
                                     f1.write('\t')
                                     f1.write(x1[0]+'\t'+x1[1]+'\t'+x1[2])

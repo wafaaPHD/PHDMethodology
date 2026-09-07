@@ -82,7 +82,12 @@ class EnhancedTwoHeadedLoss(nn.Module):
         lm_loss = self.LM_criterion(lm_logits, lm_labels) if lm_logits.numel() > 0 else torch.tensor(0.0)
         
         # Blank matching loss
-        all_logits = torch.cat([pos_logits, neg_logits], dim=0) if pos_logits.numel() > 0 or neg_logits.numel() > 0 else torch.FloatTensor([])
+        # Then ensure tensors are created on the correct device
+        pos_logits = pos_logits.cuda() if pos_logits.numel() > 0 else pos_logits.cuda()
+        neg_logits = neg_logits.cuda() if neg_logits.numel() > 0 else neg_logits.cuda()
+
+        all_logits = torch.cat([pos_logits, neg_logits], dim=0) if pos_logits.numel() > 0 or neg_logits.numel() > 0 else torch.FloatTensor([]).cuda()
+        #all_logits = torch.cat([pos_logits, neg_logits], dim=0) if pos_logits.numel() > 0 or neg_logits.numel() > 0 else torch.FloatTensor([])
         if all_logits.numel() > 0 and blank_labels_.numel() > 0:
             blank_loss = self.BCE_criterion(all_logits, blank_labels_)
         else:
